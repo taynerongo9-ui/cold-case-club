@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Case Opened — Cold Case Club</title>
+  <meta name="robots" content="noindex">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .success-page {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 4rem 2rem;
+    }
+    .success-box {
+      max-width: 540px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 3.5rem 3rem;
+      box-shadow: var(--shadow);
+    }
+    .success-icon {
+      font-size: 3rem;
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    .success-box h1 {
+      font-size: 2rem;
+      margin-bottom: .8rem;
+    }
+    .success-box p {
+      color: var(--text-muted);
+      margin-bottom: 1.5rem;
+      line-height: 1.7;
+    }
+    .success-steps {
+      text-align: left;
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin: 2rem 0;
+    }
+    .success-steps li {
+      display: flex;
+      gap: .8rem;
+      padding: .6rem 0;
+      font-size: .9rem;
+      color: var(--text-muted);
+    }
+    .success-steps li strong { color: var(--text); }
+    .step-num {
+      width: 24px; height: 24px;
+      min-width: 24px;
+      background: rgba(201,168,76,.15);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: .7rem;
+      font-weight: 700;
+      color: var(--gold);
+    }
+  </style>
+</head>
+<body>
+
+<div class="success-page">
+  <div class="success-box">
+    <span class="success-icon">&#128270;</span>
+    <h1>Case File <span class="text-gold">Opened</span></h1>
+    <p>You're officially an investigator. Your first evidence packet is being prepared right now.</p>
+
+    <div class="success-steps">
+      <ul>
+        <li>
+          <span class="step-num">1</span>
+          <span><strong>Check your email</strong> &mdash; a confirmation with your case details is on its way.</span>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <span><strong>Watch your mailbox</strong> &mdash; your first evidence packet ships within 3 business days.</span>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <span><strong>Clear your desk</strong> &mdash; you're going to need space to spread out the evidence.</span>
+        </li>
+      </ul>
+    </div>
+
+    <p style="font-size:.9rem;">Have questions? Email us at <a href="mailto:hello@coldcaseclub.com">hello@coldcaseclub.com</a></p>
+
+    <!-- Referral program hook -->
+    <div style="margin-top:1.5rem;padding:1.2rem;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;">
+      <p style="font-size:.85rem;color:#e2e2e8;margin-bottom:.3rem;"><strong>Know another detective?</strong></p>
+      <p style="font-size:.8rem;color:#7a7a8e;">Share Cold Case Club with a friend. If they sign up, you both get a bonus evidence packet — a clue that's not in the main case.</p>
+    </div>
+
+    <a href="/" class="btn btn-outline" style="margin-top:1rem;">Back to Home</a>
+  </div>
+</div>
+
+</body>
+</html>
