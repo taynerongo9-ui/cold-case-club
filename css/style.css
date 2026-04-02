@@ -906,6 +906,49 @@ h3 { font-size: 1.3rem; }
   margin: 0 .4rem;
 }
 
+/* Breadcrumbs */
+.breadcrumb {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  letter-spacing: .08em;
+  color: var(--text-dim);
+  margin-bottom: 1.5rem;
+}
+.breadcrumb a {
+  color: var(--text-muted);
+}
+.breadcrumb a:hover {
+  color: var(--gold);
+}
+.breadcrumb span {
+  margin: 0 .4rem;
+  color: var(--text-dim);
+}
+
+/* Related posts */
+.related-posts {
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--border);
+}
+.related-posts h3 {
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+.related-posts ul {
+  margin: 0;
+}
+.related-posts li {
+  list-style: none;
+  padding: .5rem 0;
+  border-bottom: 1px solid rgba(42,42,58,.3);
+}
+.related-posts li:last-child { border-bottom: none; }
+.related-posts a {
+  font-size: .9rem;
+  font-weight: 500;
+}
+
 /* Blog index grid */
 .blog-grid {
   display: grid;

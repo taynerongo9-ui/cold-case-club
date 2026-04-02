@@ -26,6 +26,9 @@
     }
   ],
   "redirects": [
-    { "source": "/home", "destination": "/", "statusCode": 301 }
+    { "source": "/home", "destination": "/", "statusCode": 301 },
+    { "source": "/mothers-day-gift", "destination": "/mothers-day", "statusCode": 301 },
+    { "source": "/mother-day", "destination": "/mothers-day", "statusCode": 301 },
+    { "source": "/mothersday", "destination": "/mothers-day", "statusCode": 301 }
   ]
 }
