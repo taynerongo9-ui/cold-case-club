@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /success
 
-Sitemap: https://coldcaseclub.com/sitemap.xml
+Sitemap: https://coldcaseclub.au/sitemap.xml

@@ -8,9 +8,9 @@
 // -------------------------------------------
 const CONFIG = {
   // Create these in Stripe Dashboard → Payment Links, paste URLs here
-  stripeMonthly: 'https://buy.stripe.com/YOUR_MONTHLY_LINK',
-  stripePrepaid: 'https://buy.stripe.com/YOUR_PREPAID_LINK',
-  stripeGift:    'https://buy.stripe.com/YOUR_GIFT_LINK',
+  stripeMonthly: 'https://buy.stripe.com/bJefZhgEg6ep8J5790eME00',
+  stripePrepaid: 'https://buy.stripe.com/6oU6oHafSbyJ0cz8d4eME01',
+  stripeGift:    'https://buy.stripe.com/bJe8wPew86epe3p790eME02',
 
   // Self-hosted email collection API (Vercel serverless function)
   emailEndpoint: '/api/subscribe',

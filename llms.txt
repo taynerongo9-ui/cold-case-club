@@ -31,5 +31,5 @@ Cold Case Club is a physical mail subscription service. Subscribers receive evid
 
 ## Contact
 
-- Website: https://coldcaseclub.com
-- Email: hello@coldcaseclub.com
+- Website: https://coldcaseclub.au
+- Email: hello@coldcaseclub.au
