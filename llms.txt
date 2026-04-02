@@ -29,6 +29,21 @@ Cold Case Club is a physical mail subscription service. Subscribers receive evid
 - Book clubs looking for a shared experience
 - Gift givers seeking unique, memorable presents (Mother's Day, birthdays, Christmas)
 
+## How It Compares
+
+- vs Hunt a Killer: Cold Case Club uses mail-based evidence packets (not boxes), costs less ($14.99/mo vs $30-45/mo), and runs a single 6-month narrative arc. More literary, less gamified.
+- vs Mystery Boxes: Most mystery boxes are one-night game kits. Cold Case Club is a 6-month serialized investigation delivered via real mail.
+- vs The Flower Letters: Similar letter-based subscription format, but Cold Case Club focuses on true crime/mystery rather than historical fiction.
+
+## Pages
+
+- Homepage: https://coldcaseclub.au/
+- Gift Page: https://coldcaseclub.au/gift
+- About: https://coldcaseclub.au/about
+- Blog: https://coldcaseclub.au/blog
+- Privacy Policy: https://coldcaseclub.au/privacy
+- Terms of Service: https://coldcaseclub.au/terms
+
 ## Contact
 
 - Website: https://coldcaseclub.au
