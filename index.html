@@ -16,7 +16,7 @@
   <meta property="og:url" content="https://coldcaseclub.com/">
   <meta property="og:title" content="Cold Case Club — A Mystery In Your Mailbox">
   <meta property="og:description" content="12 evidence packets. 6 months. 1 cold case to solve. Real mail for mystery lovers. From $12.50/mo.">
-  <meta property="og:image" content="https://coldcaseclub.com/images/og-image.jpg">
+  <meta property="og:image" content="https://coldcaseclub.com/images/og-image.svg">
   <meta property="og:image:width" content="1200">
   <meta property="og:image:height" content="630">
   <meta property="og:site_name" content="Cold Case Club">
@@ -26,11 +26,10 @@
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Cold Case Club — A Mystery In Your Mailbox">
   <meta name="twitter:description" content="12 evidence packets. 6 months. 1 cold case to solve. Real mail for mystery lovers.">
-  <meta name="twitter:image" content="https://coldcaseclub.com/images/og-image.jpg">
+  <meta name="twitter:image" content="https://coldcaseclub.com/images/og-image.svg">
 
   <!-- Favicon (replace with real files after branding) -->
   <link rel="icon" type="image/svg+xml" href="/favicon.svg">
-  <link rel="apple-touch-icon" href="/apple-touch-icon.png">
   <meta name="theme-color" content="#0a0a0f">
 
   <!-- Fonts -->
@@ -47,10 +46,9 @@
     "@type": "Organization",
     "name": "Cold Case Club",
     "url": "https://coldcaseclub.com",
-    "logo": "https://coldcaseclub.com/images/logo.png",
+    "logo": "https://coldcaseclub.com/favicon.svg",
     "description": "A mystery subscription experience. Receive evidence packets by mail and solve a cold case over 6 months.",
-    "email": "hello@coldcaseclub.com",
-    "sameAs": []
+    "email": "hello@coldcaseclub.com"
   }
   </script>
 
@@ -197,7 +195,7 @@
       <span class="urgency-countdown" id="countdown"></span>
       <a href="#pricing" class="urgency-link">Grab Her Case &rarr;</a>
     </p>
-    <button class="urgency-close" aria-label="Dismiss" onclick="document.getElementById('urgency-bar').style.display='none'">&times;</button>
+    <button class="urgency-close" aria-label="Dismiss" onclick="document.getElementById('urgency-bar').style.display='none';localStorage.setItem('urgencyDismissed','1')">&times;</button>
   </div>
 </div>
 

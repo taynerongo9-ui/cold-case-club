@@ -13,7 +13,8 @@
   <meta property="og:url" content="https://coldcaseclub.com/gift">
   <meta property="og:title" content="Gift a Mystery — Cold Case Club">
   <meta property="og:description" content="6 months of mystery mail. $74.99. The most memorable gift you'll give this year.">
-  <meta property="og:image" content="https://coldcaseclub.com/images/og-gift.jpg">
+  <meta property="og:image" content="https://coldcaseclub.com/images/og-image.svg">
+  <meta name="twitter:image" content="https://coldcaseclub.com/images/og-image.svg">
   <meta property="og:site_name" content="Cold Case Club">
 
   <!-- Twitter -->
@@ -138,6 +139,17 @@
 </head>
 <body>
 
+<!-- Urgency Bar (matches index.html) -->
+<div class="urgency-bar" id="urgency-bar">
+  <div class="container">
+    <p>
+      <strong>Mother's Day Ships Free</strong> &mdash; Order by May 5th to guarantee delivery.
+      <span class="urgency-countdown" id="countdown"></span>
+    </p>
+    <button class="urgency-close" aria-label="Dismiss" onclick="document.getElementById('urgency-bar').style.display='none';localStorage.setItem('urgencyDismissed','1')">&times;</button>
+  </div>
+</div>
+
 <!-- Nav -->
 <nav class="nav">
   <div class="nav-inner">
@@ -242,8 +254,52 @@
         <span class="occasion-tag">Retirement</span>
       </div>
     </div>
+
+    <!-- Testimonials -->
+    <div style="margin-top:4rem;">
+      <h3 class="text-center" style="margin-bottom:2rem;">Gift Givers <span class="text-gold">Love This</span></h3>
+      <div class="testimonial-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;">
+        <div class="testimonial-card" style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;">
+          <div class="testimonial-stars" style="color:var(--gold);margin-bottom:.8rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p style="font-size:.9rem;color:var(--text-muted);font-style:italic;line-height:1.7;margin-bottom:1rem;">"I bought this for my mom on a whim. She called me after the second packet &mdash; she's got a suspect board pinned to her office wall."</p>
+          <div style="font-size:.85rem;font-weight:600;">Sarah K.</div>
+          <div style="font-size:.75rem;color:var(--text-dim);">Gifted to her mother</div>
+        </div>
+        <div class="testimonial-card" style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius);padding:1.5rem;">
+          <div class="testimonial-stars" style="color:var(--gold);margin-bottom:.8rem;">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+          <p style="font-size:.9rem;color:var(--text-muted);font-style:italic;line-height:1.7;margin-bottom:1rem;">"My book club switched from novels to this. We meet every two weeks to go through the evidence together."</p>
+          <div style="font-size:.85rem;font-weight:600;">Diana M.</div>
+          <div style="font-size:.75rem;color:var(--text-dim);">Book club of 8 subscribers</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Guarantee -->
+    <div class="guarantee-section" style="padding:3rem 0;">
+      <div class="guarantee-box" style="max-width:600px;margin:0 auto;background:var(--bg-card);border:1px solid var(--gold-dim);border-radius:var(--radius);padding:2rem;text-align:center;">
+        <div style="font-size:2rem;margin-bottom:.8rem;">&#128737;</div>
+        <h3>The Cold Case <span class="text-gold">Guarantee</span></h3>
+        <p style="color:var(--text-muted);font-size:.9rem;line-height:1.7;margin-top:.6rem;">If the recipient isn't hooked after the first evidence packet, we'll refund every penny. No questions asked. 30 days.</p>
+      </div>
+    </div>
+
+    <!-- Email fallback CTA (for gift page pre-launch) -->
+    <div class="cta-section" id="cta" style="padding:3rem 0;text-align:center;">
+      <h3>Not Ready to Gift Yet?</h3>
+      <p style="color:var(--text-muted);font-size:.9rem;margin:.8rem 0 1.5rem;">Get a free evidence preview sent to your inbox.</p>
+      <form class="email-form" id="gift-email-form" style="max-width:420px;margin:0 auto;">
+        <input type="email" placeholder="detective@youremail.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Send Preview</button>
+      </form>
+      <p class="email-note" style="margin-top:.5rem;">Free. No spam. Just clues.</p>
+    </div>
   </div>
 </section>
+
+<!-- Sticky Mobile CTA (gift page) -->
+<div class="mobile-cta" id="mobile-cta">
+  <button class="btn btn-primary btn-block" data-checkout="gift">Gift a Case &mdash; $74.99</button>
+</div>
 
 <footer class="footer">
   <div class="container">

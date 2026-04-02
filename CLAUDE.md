@@ -91,14 +91,16 @@ cold-case-club/
 
 ## Conversion Stack
 
-- Urgency bar with Mother's Day countdown timer (deadline: May 5, 2026)
+- Urgency bar with Mother's Day countdown timer (deadline: May 5, 2026) — dismissal persisted to localStorage
 - Price anchoring: ~~$89.94~~ $74.99 strikethrough on prepaid
 - "2 months free" framing (instead of "save $15")
-- 30-day money-back guarantee section
-- Exit-intent popup with free evidence preview lead magnet
-- Sticky mobile CTA bar (appears when hero scrolls away)
-- Meta Pixel events: Lead, InitiateCheckout (Purchase fires on success page)
+- 30-day money-back guarantee section (on BOTH index and gift pages)
+- Exit-intent popup with free evidence preview lead magnet — desktop (mouseleave) + mobile (45s timer)
+- Sticky mobile CTA bar on BOTH index and gift pages
+- Meta Pixel events: Lead, InitiateCheckout, Purchase (with plan-specific value: $14.99 monthly, $74.99 prepaid/gift)
 - Referral hook on success page
+- Success page differentiates gift vs subscriber experience via ?type= query param
+- Gift page has urgency bar, testimonials, guarantee, email capture fallback CTA
 
 ## Conventions
 
@@ -107,6 +109,9 @@ cold-case-club/
 - CSS uses custom properties (tokens) defined in `:root`
 - JS CONFIG object at top of main.js holds all configurable values
 - Email forms use universal `handleEmailForm()` handler with source tracking
+- FAQ buttons have `aria-expanded` toggled by JS
+- Evidence stack hero visual has `aria-hidden="true"` (decorative)
+- Email API has rate limiting (KV-backed when available), dedup, source sanitization, origin validation
 - No frameworks. No build step. Deploy = push to Vercel.
 
 ## What's NOT Done Yet

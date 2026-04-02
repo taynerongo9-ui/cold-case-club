@@ -4,14 +4,19 @@
  * Run once to create all products, prices, and payment links:
  *   STRIPE_SECRET_KEY=sk_live_xxx node setup/create-stripe-products.js
  *
+ * Optional: set SITE_URL to your domain (defaults to Vercel URL if no domain yet):
+ *   STRIPE_SECRET_KEY=sk_live_xxx SITE_URL=https://coldcaseclub.com node setup/create-stripe-products.js
+ *
  * It will output the 3 payment link URLs to paste into js/main.js
  */
 
 const stripe = require('stripe')(process.env.STRIPE_SECRET_KEY);
+const SITE_URL = process.env.SITE_URL || 'https://cold-case-club.vercel.app';
 
 if (!process.env.STRIPE_SECRET_KEY) {
   console.error('\n  ERROR: Set your Stripe secret key first:\n');
   console.error('  STRIPE_SECRET_KEY=sk_live_xxx node setup/create-stripe-products.js\n');
+  console.error('  Optional: SITE_URL=https://coldcaseclub.com (defaults to Vercel URL)\n');
   process.exit(1);
 }
 
@@ -71,7 +76,7 @@ async function setup() {
     line_items: [{ price: monthlyPrice.id, quantity: 1 }],
     after_completion: {
       type: 'redirect',
-      redirect: { url: 'https://coldcaseclub.com/success' },
+      redirect: { url: `${SITE_URL}/success?type=monthly` },
     },
     shipping_address_collection: {
       allowed_countries: ['US'],
@@ -85,7 +90,7 @@ async function setup() {
     line_items: [{ price: prepaidPrice.id, quantity: 1 }],
     after_completion: {
       type: 'redirect',
-      redirect: { url: 'https://coldcaseclub.com/success' },
+      redirect: { url: `${SITE_URL}/success?type=prepaid` },
     },
     shipping_address_collection: {
       allowed_countries: ['US'],
@@ -99,7 +104,7 @@ async function setup() {
     line_items: [{ price: giftPrice.id, quantity: 1 }],
     after_completion: {
       type: 'redirect',
-      redirect: { url: 'https://coldcaseclub.com/success?type=gift' },
+      redirect: { url: `${SITE_URL}/success?type=gift` },
     },
     // No shipping — gift purchaser enters their OWN email, recipient enters address later
     phone_number_collection: { enabled: false },

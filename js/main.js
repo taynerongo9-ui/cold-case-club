@@ -1,14 +1,12 @@
 /* ============================================
    COLD CASE CLUB — Main JS
-   Wolf of Wall Street Edition: Every pixel sells.
+   Commercially Ready Edition
    ============================================ */
 
 // -------------------------------------------
 // CONFIG
 // -------------------------------------------
 const CONFIG = {
-  stripePublishableKey: 'pk_live_51THFD2GsNBzVX9j8k97GMVcvFUAzo6lRJL0pQMdfVfFBDKP1E4WFmCxyeQpz4LWfeIkzUpDetROWNV6Wt6LqHvQj00XHD9ljmq',
-
   // Create these in Stripe Dashboard → Payment Links, paste URLs here
   stripeMonthly: 'https://buy.stripe.com/YOUR_MONTHLY_LINK',
   stripePrepaid: 'https://buy.stripe.com/YOUR_PREPAID_LINK',
@@ -22,13 +20,22 @@ const CONFIG = {
 };
 
 // -------------------------------------------
+// Urgency bar — hide if previously dismissed
+// -------------------------------------------
+const urgencyBar = document.getElementById('urgency-bar');
+if (urgencyBar && localStorage.getItem('urgencyDismissed')) {
+  urgencyBar.style.display = 'none';
+}
+
+// -------------------------------------------
 // Sticky Nav — shrink on scroll
 // -------------------------------------------
 const nav = document.querySelector('.nav');
-
-window.addEventListener('scroll', () => {
-  nav.classList.toggle('scrolled', window.scrollY > 50);
-}, { passive: true });
+if (nav) {
+  window.addEventListener('scroll', () => {
+    nav.classList.toggle('scrolled', window.scrollY > 50);
+  }, { passive: true });
+}
 
 // -------------------------------------------
 // Mobile Nav Toggle
@@ -38,26 +45,39 @@ const navOverlay = document.querySelector('.nav-overlay');
 
 if (navToggle && navOverlay) {
   navToggle.addEventListener('click', () => {
-    navOverlay.classList.toggle('open');
-    navToggle.textContent = navOverlay.classList.contains('open') ? '\u2715' : '\u2630';
+    const isOpen = navOverlay.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+    navToggle.textContent = isOpen ? '\u2715' : '\u2630';
   });
   navOverlay.querySelectorAll('a').forEach(link => {
     link.addEventListener('click', () => {
       navOverlay.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
       navToggle.textContent = '\u2630';
     });
   });
 }
 
 // -------------------------------------------
-// FAQ Accordion
+// FAQ Accordion (with aria-expanded)
 // -------------------------------------------
 document.querySelectorAll('.faq-question').forEach(btn => {
+  btn.setAttribute('aria-expanded', 'false');
   btn.addEventListener('click', () => {
     const item = btn.parentElement;
     const wasOpen = item.classList.contains('open');
-    document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-    if (!wasOpen) item.classList.add('open');
+
+    // Close all
+    document.querySelectorAll('.faq-item').forEach(i => {
+      i.classList.remove('open');
+      i.querySelector('.faq-question')?.setAttribute('aria-expanded', 'false');
+    });
+
+    // Toggle clicked
+    if (!wasOpen) {
+      item.classList.add('open');
+      btn.setAttribute('aria-expanded', 'true');
+    }
   });
 });
 
@@ -125,9 +145,10 @@ function handleEmailForm(form) {
   });
 }
 
-// Attach to all email forms
+// Attach to all email forms (index + gift page)
 handleEmailForm(document.getElementById('email-form'));
 handleEmailForm(document.getElementById('exit-email-form'));
+handleEmailForm(document.getElementById('gift-email-form'));
 
 // -------------------------------------------
 // Checkout Redirects
@@ -143,8 +164,14 @@ document.querySelectorAll('[data-checkout]').forEach(btn => {
       if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
       window.location.href = url;
     } else {
-      // Pre-launch: redirect to email capture instead of dead alert
-      document.getElementById('cta')?.scrollIntoView({ behavior: 'smooth' });
+      // Pre-launch: scroll to email capture on current page
+      const cta = document.getElementById('cta') || document.getElementById('gift-email-form');
+      if (cta) {
+        cta.scrollIntoView({ behavior: 'smooth' });
+      } else {
+        // Fallback: go to homepage email capture
+        window.location.href = '/#cta';
+      }
     }
   });
 });
@@ -154,7 +181,9 @@ document.querySelectorAll('[data-checkout]').forEach(btn => {
 // -------------------------------------------
 document.querySelectorAll('a[href^="#"]').forEach(link => {
   link.addEventListener('click', (e) => {
-    const target = document.querySelector(link.getAttribute('href'));
+    const href = link.getAttribute('href');
+    if (href === '#') return;
+    const target = document.querySelector(href);
     if (target) {
       e.preventDefault();
       target.scrollIntoView({ behavior: 'smooth', block: 'start' });
@@ -192,15 +221,14 @@ updateCountdown();
 setInterval(updateCountdown, 60000);
 
 // -------------------------------------------
-// STICKY MOBILE CTA — show after scrolling past hero
+// STICKY MOBILE CTA — show after scrolling past hero or gift-hero
 // -------------------------------------------
 const mobileCta = document.getElementById('mobile-cta');
-const heroSection = document.querySelector('.hero');
+const heroSection = document.querySelector('.hero') || document.querySelector('.gift-hero');
 
 if (mobileCta && heroSection) {
   const mobileObserver = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
-      // Show sticky CTA when hero is NOT visible (user scrolled past)
       mobileCta.classList.toggle('visible', !entry.isIntersecting);
     });
   }, { threshold: 0 });
@@ -208,26 +236,36 @@ if (mobileCta && heroSection) {
 }
 
 // -------------------------------------------
-// EXIT INTENT POPUP — fires once on desktop
+// EXIT INTENT POPUP — desktop + mobile
 // -------------------------------------------
 const exitPopup = document.getElementById('exit-popup');
 let exitPopupShown = false;
 
+function showExitPopup() {
+  if (exitPopupShown || sessionStorage.getItem('exitShown') || !exitPopup) return;
+  exitPopup.classList.add('show');
+  exitPopupShown = true;
+  sessionStorage.setItem('exitShown', '1');
+}
+
 if (exitPopup) {
   // Desktop: mouse leaves viewport through top
   document.addEventListener('mouseleave', (e) => {
-    if (e.clientY < 10 && !exitPopupShown && !sessionStorage.getItem('exitShown')) {
-      exitPopup.classList.add('show');
-      exitPopupShown = true;
-      sessionStorage.setItem('exitShown', '1');
-    }
+    if (e.clientY < 10) showExitPopup();
   });
 
-  // Close on overlay click (outside popup box)
+  // Mobile: fire after 45 seconds if user hasn't interacted with email form
+  if (window.innerWidth < 900) {
+    setTimeout(() => {
+      const emailForm = document.getElementById('email-form') || document.getElementById('gift-email-form');
+      const alreadySubmitted = emailForm?.querySelector('button')?.disabled;
+      if (!alreadySubmitted) showExitPopup();
+    }, 45000);
+  }
+
+  // Close on overlay click
   exitPopup.addEventListener('click', (e) => {
-    if (e.target === exitPopup) {
-      exitPopup.classList.remove('show');
-    }
+    if (e.target === exitPopup) exitPopup.classList.remove('show');
   });
 
   // Close on Escape
@@ -235,3 +273,9 @@ if (exitPopup) {
     if (e.key === 'Escape') exitPopup.classList.remove('show');
   });
 }
+
+// -------------------------------------------
+// Hero evidence cards — aria-hidden for screen readers
+// -------------------------------------------
+const evidenceStack = document.querySelector('.evidence-stack');
+if (evidenceStack) evidenceStack.setAttribute('aria-hidden', 'true');

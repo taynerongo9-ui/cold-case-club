@@ -73,7 +73,8 @@
 </head>
 <body>
 
-<div class="success-page">
+<!-- Subscriber success (default) -->
+<div class="success-page" id="success-subscriber">
   <div class="success-box">
     <span class="success-icon">&#128270;</span>
     <h1>Case File <span class="text-gold">Opened</span></h1>
@@ -101,12 +102,72 @@
     <!-- Referral program hook -->
     <div style="margin-top:1.5rem;padding:1.2rem;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;">
       <p style="font-size:.85rem;color:#e2e2e8;margin-bottom:.3rem;"><strong>Know another detective?</strong></p>
-      <p style="font-size:.8rem;color:#7a7a8e;">Share Cold Case Club with a friend. If they sign up, you both get a bonus evidence packet — a clue that's not in the main case.</p>
+      <p style="font-size:.8rem;color:var(--text-muted);">Share Cold Case Club with a friend. If they sign up, you both get a bonus evidence packet &mdash; a clue that's not in the main case.</p>
     </div>
 
     <a href="/" class="btn btn-outline" style="margin-top:1rem;">Back to Home</a>
   </div>
 </div>
+
+<!-- Gift success (shown when ?type=gift) -->
+<div class="success-page" id="success-gift" style="display:none;">
+  <div class="success-box">
+    <span class="success-icon">&#127873;</span>
+    <h1>Gift <span class="text-gold">Purchased</span></h1>
+    <p>You just gave someone 6 months of mystery. They're going to love this.</p>
+
+    <div class="success-steps">
+      <ul>
+        <li>
+          <span class="step-num">1</span>
+          <span><strong>Check your email</strong> &mdash; your printable gift card and redemption code are on the way.</span>
+        </li>
+        <li>
+          <span class="step-num">2</span>
+          <span><strong>Give the gift</strong> &mdash; print the card or forward the email. Include the redemption code.</span>
+        </li>
+        <li>
+          <span class="step-num">3</span>
+          <span><strong>They redeem it</strong> &mdash; the recipient enters their address and chooses when to start.</span>
+        </li>
+      </ul>
+    </div>
+
+    <p style="font-size:.9rem;">Have questions? Email us at <a href="mailto:hello@coldcaseclub.com">hello@coldcaseclub.com</a></p>
+
+    <!-- Gift referral hook -->
+    <div style="margin-top:1.5rem;padding:1.2rem;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;">
+      <p style="font-size:.85rem;color:#e2e2e8;margin-bottom:.3rem;"><strong>Know more mystery lovers?</strong></p>
+      <p style="font-size:.8rem;color:var(--text-muted);">Gift another case and you'll both receive a bonus evidence packet &mdash; an exclusive clue that's not in the main case.</p>
+    </div>
+
+    <a href="/gift" class="btn btn-primary" style="margin-top:1rem;">Gift Another Case</a>
+    <a href="/" class="btn btn-outline" style="margin-top:.5rem;">Back to Home</a>
+  </div>
+</div>
+
+<script>
+// Detect plan type from ?type= query param
+// Stripe Payment Links redirect to: /success?type=monthly, /success?type=prepaid, /success?type=gift
+const params = new URLSearchParams(window.location.search);
+const planType = params.get('type') || 'prepaid';
+const isGift = planType === 'gift';
+
+if (isGift) {
+  document.getElementById('success-subscriber').style.display = 'none';
+  document.getElementById('success-gift').style.display = 'flex';
+}
+
+// Fire Meta Pixel Purchase event with correct value per plan
+const planValues = { monthly: 14.99, prepaid: 74.99, gift: 74.99 };
+if (typeof fbq === 'function') {
+  fbq('track', 'Purchase', {
+    value: planValues[planType] || 74.99,
+    currency: 'USD',
+    content_name: planType,
+  });
+}
+</script>
 
 </body>
 </html>
