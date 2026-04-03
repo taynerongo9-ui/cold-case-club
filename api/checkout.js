@@ -73,7 +73,7 @@ module.exports = async function handler(req, res) {
 
   try {
     const sessionConfig = {
-      ui_mode: 'embedded',
+      ui_mode: 'embedded_page',
       return_url: `${siteUrl}/success?session_id={CHECKOUT_SESSION_ID}&type=${plan}`,
       automatic_tax: { enabled: false },
     };

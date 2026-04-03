@@ -8,7 +8,7 @@
 // -------------------------------------------
 const CONFIG = {
   // Stripe Publishable Key (safe to expose in frontend)
-  stripePublishableKey: 'pk_live_51QWkuFBqMJOjhNMU5SgPClhsfBa7E8WlVGAxcnvqNoLwI0ZVbW6LGVyNPnJvyRd64x8tlqWd4rRpMk2e6OFBMvGj00WycD7AUY',
+  stripePublishableKey: 'pk_live_51THFD2GsNBzVX9j8k97GMVcvFUAzo6lRJL0pQMdfVfFBDKP1E4WFmCxyeQpz4LWfeIkzUpDetROWNV6Wt6LqHvQj00XHD9ljmq',
 
   // Fallback: Payment Links (used if embedded checkout fails)
   stripeMonthly: 'https://buy.stripe.com/5kQbJ1afS1Y96AX50SeME03',
@@ -519,8 +519,8 @@ async function openEmbeddedCheckout(plan) {
 
     loading.classList.add('hidden');
 
-    checkoutInstance = await stripe.initEmbeddedCheckout({
-      clientSecret: data.clientSecret,
+    checkoutInstance = await stripe.createEmbeddedCheckoutPage({
+      fetchClientSecret: () => Promise.resolve(data.clientSecret),
     });
 
     checkoutInstance.mount('#checkout-container');
