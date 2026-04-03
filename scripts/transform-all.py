@@ -5,7 +5,10 @@ Anti-slop: specify real camera types, film grain, imperfections, mixed quality s
 """
 import json, base64, urllib.request, os, time
 
-API_KEY = 'AIzaSyDlvzI8RUCYqnlBcfMFAuRn4o8OxlpKLxQ'
+API_KEY = os.environ.get('GEMINI_API_KEY', '')
+if not API_KEY:
+    print('ERROR: Set GEMINI_API_KEY environment variable')
+    exit(1)
 URL = f'https://generativelanguage.googleapis.com/v1beta/models/nano-banana-pro-preview:generateContent?key={API_KEY}'
 RAW = 'images/raw'
 OUT = 'images/evidence'
