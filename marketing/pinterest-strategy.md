@@ -9,7 +9,7 @@
 - **Username:** @coldcaseclub
 - **Display name:** Cold Case Club — Mystery Mail Subscription
 - **Bio:** Real evidence. Real mail. Real mystery. Solve a cold case in 6 months with evidence packets delivered to your door. From $12.50/mo. True crime meets snail mail.
-- **Website:** coldcaseclub.au
+- **Website:** coldcaseclub.store
 - **Claim website** in Pinterest business settings for rich pins
 
 ## Boards to Create
@@ -36,37 +36,37 @@ Mood board — noir photography, magnifying glasses, old newspapers, mystery nov
 ### Pin 1: Product Hero
 **Title:** Cold Case Club — A Mystery Subscription for True Crime Fans
 **Description:** Receive real evidence packets in the mail every 2 weeks. Detective notes, witness statements, coded messages, crime scene photos. Solve a cold case over 6 months. From $12.50/month. The perfect gift for anyone who loves true crime, podcasts, or mystery novels. #mysterysubscription #truecrime #giftideas #subscriptionbox
-**Link:** https://coldcaseclub.au/
+**Link:** https://coldcaseclub.store/
 **Image:** Dark background, evidence packets fanned out, gold text overlay
 
 ### Pin 2: Mother's Day Gift
 **Title:** Mother's Day Gift She Actually Wants — Cold Case Club
 **Description:** Skip the flowers. Give her a mystery to solve. Cold Case Club delivers evidence packets to her mailbox every 2 weeks for 6 months. Detective notes, coded messages, witness statements. $74.99 prepaid with a printable gift card. Order by May 5 for guaranteed delivery. #mothersdaygift #giftformom #truecrimegift #uniquegift
-**Link:** https://coldcaseclub.au/mothers-day
+**Link:** https://coldcaseclub.store/mothers-day
 **Image:** Gift card mockup on dark background, "This Year, Give Her a Mystery"
 
 ### Pin 3: Gift Guide
 **Title:** 15 Best Gifts for True Crime Fans in 2026
 **Description:** The ultimate gift guide for true crime obsessives. Mystery subscriptions, detective kits, podcast merch, crime scene candles, and more. Curated by Cold Case Club. #truecrimegifts #giftguide #mysterygift #truecrimefan
-**Link:** https://coldcaseclub.au/blog/gifts-for-true-crime-fans
+**Link:** https://coldcaseclub.store/blog/gifts-for-true-crime-fans
 **Image:** Collage-style pin with gift items, dark background
 
 ### Pin 4: Comparison
 **Title:** Mystery Subscription Box vs Escape Room — Which Is Better?
 **Description:** Both are immersive mystery experiences, but they work very differently. We compare price, convenience, story depth, and replayability. Find out which is right for you. #escaperoom #mysterybox #datenight #funathome
-**Link:** https://coldcaseclub.au/blog/mystery-subscription-vs-escape-room
+**Link:** https://coldcaseclub.store/blog/mystery-subscription-vs-escape-room
 **Image:** Split-image: escape room door vs evidence envelope
 
 ### Pin 5: How-To
 **Title:** How to Host the Perfect Murder Mystery Night at Home
 **Description:** Everything you need to plan an unforgettable mystery evening. Guest list, mystery format, food & drinks, atmosphere, and running the night. Step-by-step guide. #murdermystery #partyideas #gamenight #hostingtips
-**Link:** https://coldcaseclub.au/blog/how-to-host-a-murder-mystery-night
+**Link:** https://coldcaseclub.store/blog/how-to-host-a-murder-mystery-night
 **Image:** Moody dinner table setup with candles and evidence props
 
 ### Pin 6: Best Mystery Boxes
 **Title:** 7 Best Mystery Subscription Boxes in 2026 — Ranked
 **Description:** We tested and compared the top mystery subscription boxes. From immersive cold case investigations to puzzle boxes to murder mystery kits. Find the best one for your budget and style. #subscriptionbox #mysterybox #truecrime #bestof2026
-**Link:** https://coldcaseclub.au/blog/best-mystery-subscription-boxes
+**Link:** https://coldcaseclub.store/blog/best-mystery-subscription-boxes
 **Image:** Ranked list graphic with box/envelope imagery
 
 ---

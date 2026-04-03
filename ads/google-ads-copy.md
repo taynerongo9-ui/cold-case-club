@@ -1,6 +1,6 @@
 # Cold Case Club — Google Ads Copy Library
 
-> **Domain:** coldcaseclub.au
+> **Domain:** coldcaseclub.store
 > **Pricing:** $14.99/mo (monthly) | $74.99 (prepaid full case) | $74.99 (gift)
 > **Character limits:** Headlines = 30 chars max | Descriptions = 90 chars max
 > **All ads use Responsive Search Ad (RSA) format**
@@ -9,10 +9,10 @@
 
 ## CAMPAIGN 1: BRAND SEARCH
 
-**Keywords:** "cold case club", "coldcaseclub", "cold case club au", "coldcaseclub.au"
+**Keywords:** "cold case club", "coldcaseclub", "cold case club au", "coldcaseclub.store"
 **Match type:** Exact + Phrase
 **Bid strategy:** Target Impression Share (top of page, 95%+)
-**Landing page:** https://coldcaseclub.au
+**Landing page:** https://coldcaseclub.store
 
 ---
 
@@ -120,7 +120,7 @@
 **Keywords:** "mystery subscription box", "true crime subscription", "mystery subscription", "mystery mail subscription", "crime subscription box", "detective subscription box", "murder mystery subscription", "true crime box australia"
 **Match type:** Phrase + Broad Match Modified
 **Bid strategy:** Maximise Conversions (tCPA $40-50 once data allows)
-**Landing page:** https://coldcaseclub.au
+**Landing page:** https://coldcaseclub.store
 
 ---
 
@@ -228,7 +228,7 @@
 **Keywords:** "hunt a killer alternative", "unsolved case files alternative", "hunt a killer australia", "mystery box like hunt a killer", "better than hunt a killer", "unsolved case files review", "hunt a killer review"
 **Match type:** Phrase + Broad Match Modified
 **Bid strategy:** Maximise Conversions (tCPA $45-55)
-**Landing page:** https://coldcaseclub.au/blog/hunt-a-killer-vs-cold-case-club
+**Landing page:** https://coldcaseclub.store/blog/hunt-a-killer-vs-cold-case-club
 
 ---
 
@@ -336,7 +336,7 @@
 **Keywords:** "mystery gift", "gifts for true crime fans", "mother's day mystery gift", "unique gift for mum", "gift subscription box australia", "gift for crime lover", "true crime gift", "mystery subscription gift", "unique gift for her", "detective gift"
 **Match type:** Phrase + Broad Match Modified
 **Bid strategy:** Maximise Conversions (tCPA $40-50, increase budget 3 weeks before Mother's Day)
-**Landing page:** https://coldcaseclub.au/gift
+**Landing page:** https://coldcaseclub.store/gift
 
 ---
 
@@ -444,7 +444,7 @@
 **Keywords:** "bored of netflix", "unique date night ideas", "book club ideas", "something different to do at home", "fun things to do at home", "unique hobby for adults", "screen-free activities", "alternatives to watching tv", "couple activities at home"
 **Match type:** Broad Match (with tight negative keyword list)
 **Bid strategy:** Maximise Conversions (tCPA $50-60 — broader audience, expect higher CPA)
-**Landing page:** https://coldcaseclub.au
+**Landing page:** https://coldcaseclub.store
 
 ---
 
@@ -552,7 +552,7 @@
 **Keywords:** "solve a mystery by mail", "detective experience at home", "evidence packet subscription", "mystery letters subscription", "cold case subscription box", "murder mystery by mail", "true crime activity at home", "solve a cold case at home", "mystery evidence by post"
 **Match type:** Phrase + Exact
 **Bid strategy:** Maximise Conversions (tCPA $35-45 — high intent, lower CPA)
-**Landing page:** https://coldcaseclub.au
+**Landing page:** https://coldcaseclub.store
 
 ---
 

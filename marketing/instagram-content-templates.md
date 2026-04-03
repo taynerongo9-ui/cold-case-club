@@ -1,7 +1,7 @@
 # Cold Case Club — Instagram Content Templates
 
 > **Handle:** @coldcaseclub
-> **Domain:** coldcaseclub.au
+> **Domain:** coldcaseclub.store
 > **Voice:** Mysterious, intriguing, slightly dramatic. True crime podcast energy meets literary sophistication.
 > **Visual style:** Dark, moody, noir. Gold accents. Warm lamp lighting. Typewriter fonts. Aged paper textures.
 > **Core hashtag set:** #coldcaseclub #mysterysubscription #truecrime #truecrimecommunity #mysterybox #coldcase #snailmail #mysterylovers #truecrimeobsessed #mailmystery #solvethemystery #evidencepacket #truecrimefan #detectivelife #mysterymail
@@ -53,7 +53,7 @@ The widow said she wasn't surprised.
 
 12 evidence packets. 6 months. 1 case you won't stop thinking about.
 
-Starting at $14.99/mo — coldcaseclub.au
+Starting at $14.99/mo — coldcaseclub.store
 
 #coldcaseclub #mysterysubscription #truecrime #coldcase #mysterymail #truecrimecommunity #mysterylovers #snailmail #truecrimeobsessed #detectivelife #solvethemystery #evidencepacket #lighthouse #missingpersons #paperclues
 ```
@@ -125,7 +125,7 @@ This is why evidence matters. Not hunches. Not confessions. Evidence.
 
 Cold Case Club sends you the evidence. You find the lie.
 
-12 packets. 6 months. 1 cold case. coldcaseclub.au
+12 packets. 6 months. 1 cold case. coldcaseclub.store
 
 #coldcaseclub #truecrime #didyouknow #coldcase #truecrimecommunity #truecrimefacts #detective #forensics #mysterysubscription #evidencepacket #snailmail #solvethemystery #crimefacts #mysterylovers #truecrimeobsessed
 ```
@@ -153,7 +153,7 @@ Cold Case Club sends you the evidence. You find the lie.
 
 **Slide 6:** Close-up of a crime scene photo (illustrated, noir-style). Caption on slide: "CRIME SCENE PHOTOGRAPH — Study the details. Something here doesn't belong."
 
-**Slide 7 (CTA):** Dark background, gold text: "12 PACKETS. 6 MONTHS. 1 COLD CASE." Below: "Starting at $14.99/mo — coldcaseclub.au"
+**Slide 7 (CTA):** Dark background, gold text: "12 PACKETS. 6 MONTHS. 1 COLD CASE." Below: "Starting at $14.99/mo — coldcaseclub.store"
 
 **Caption:**
 ```
@@ -187,7 +187,7 @@ Link in bio to start your investigation.
 
 **Slide 5:** Side-by-side comparison table: Case, Era, Difficulty, Evidence Types, Best For.
 
-**Slide 6 (CTA):** "START YOUR CASE — coldcaseclub.au" with the three case folders and pricing.
+**Slide 6 (CTA):** "START YOUR CASE — coldcaseclub.store" with the three case folders and pricing.
 
 **Caption:**
 ```
@@ -223,7 +223,7 @@ Which one are you starting with? Tell us in the comments.
 
 **Slide 6:** Step 5 — "ADD EACH NEW PACKET" Photo of a board with multiple layers of evidence. "Every 2 weeks, new evidence arrives. Pin it. Connect it. Watch the picture emerge."
 
-**Slide 7 (CTA):** Finished board photo. "YOUR INVESTIGATION STARTS AT coldcaseclub.au — From $14.99/mo"
+**Slide 7 (CTA):** Finished board photo. "YOUR INVESTIGATION STARTS AT coldcaseclub.store — From $14.99/mo"
 
 **Caption:**
 ```
@@ -269,7 +269,7 @@ Just paper evidence in your mailbox. The way a real cold case file would arrive.
 
 5 reasons the letter format wins — swipe through.
 
-coldcaseclub.au — Starting at $14.99/mo. 30-day money-back guarantee.
+coldcaseclub.store — Starting at $14.99/mo. 30-day money-back guarantee.
 
 #coldcaseclub #mysterysubscription #truecrime #mysterybox #lettersvsboxes #snailmail #coldcase #truecrimecommunity #mysterylovers #subscriptionbox #comparison #papermystery #ecofriendly #evidencepacket #betterformat
 ```
@@ -293,7 +293,7 @@ coldcaseclub.au — Starting at $14.99/mo. 30-day money-back guarantee.
 
 **Slide 6:** "MONTHS 2-6 — THE CASE DEEPENS" — "10 more packets. New suspects. Red herrings. Evidence that changes everything. By month 6, you solve it."
 
-**Slide 7 (CTA):** "START YOUR FIRST MONTH — coldcaseclub.au — From $14.99/mo — 30-Day Money-Back Guarantee"
+**Slide 7 (CTA):** "START YOUR FIRST MONTH — coldcaseclub.store — From $14.99/mo — 30-Day Money-Back Guarantee"
 
 **Caption:**
 ```
@@ -331,7 +331,7 @@ Start your investigation — link in bio.
   - Left: "MARTIN COLE, 44 — Husband. Said he was watching the game. No one can confirm."
   - Right: "DIANE WEBB, 38 — Best friend. Last person to see her alive. Changed her statement twice."
 - Poll sticker: "Who do you suspect?" — Option A: "The Husband" | Option B: "The Best Friend"
-- Small text at bottom: "coldcaseclub.au"
+- Small text at bottom: "coldcaseclub.store"
 
 **CTA:** Vote in poll (drives engagement, algorithm boost)
 **Posting time:** Any evening between 7-9 PM AEST (Stories engagement peaks post-dinner)
@@ -358,7 +358,7 @@ Start your investigation — link in bio.
 
 **Slide 3 (Reveal):**
 - Text: "THE BRIDGE AT MIDNIGHT — But who wrote it? And why was it hidden in the suspect's coat pocket?"
-- CTA: "Solve the full case — coldcaseclub.au"
+- CTA: "Solve the full case — coldcaseclub.store"
 
 **CTA:** Quiz interaction + swipe up / link sticker
 **Posting time:** Tuesday or Thursday 8:00 PM AEST (quiz Stories get highest tap-through rates midweek evenings)
@@ -377,7 +377,7 @@ Start your investigation — link in bio.
 
 **Slide 2 (Post-countdown):**
 - Text on dark background: "Packet #7 just dropped. If you haven't started your case yet, you're 7 packets behind."
-- CTA button/link: "Start from Packet #1 — coldcaseclub.au"
+- CTA button/link: "Start from Packet #1 — coldcaseclub.store"
 
 **CTA:** Set reminder via countdown sticker (builds anticipation, re-engagement)
 **Posting time:** 48 hours before each evidence packet release date
@@ -408,7 +408,7 @@ Start your investigation — link in bio.
 **Slide 5 (CTA):**
 - "However you investigate, Cold Case Club has a case for you."
 - "12 evidence packets. 6 months. From $14.99/mo."
-- Link sticker: coldcaseclub.au
+- Link sticker: coldcaseclub.store
 
 **CTA:** Poll engagement on each slide (4x interaction = strong algorithm signal)
 **Posting time:** Saturday 11:00 AM AEST (casual engagement content performs well weekend mornings)
@@ -438,7 +438,7 @@ Start your investigation — link in bio.
 
 **Slide 5:**
 - Dark background, gold text: "Want to see what's inside?"
-- Link sticker: coldcaseclub.au
+- Link sticker: coldcaseclub.store
 - Text: "Your first packet ships in 3 days"
 
 **CTA:** Link sticker to homepage
@@ -454,7 +454,7 @@ Start your investigation — link in bio.
 
 ### Reel 1: "The Contradiction"
 
-A person reads two witness statements side by side, and their expression shifts as they find the detail that doesn't match. No dialogue — just ASMR paper sounds and a dramatic zoom on the contradicting line. Text overlay reveals the contradiction. End card: "Cold Case Club — coldcaseclub.au." (See Script 2 in tiktok-reels-scripts.md for the full "Reaction" script this builds on.)
+A person reads two witness statements side by side, and their expression shifts as they find the detail that doesn't match. No dialogue — just ASMR paper sounds and a dramatic zoom on the contradicting line. Text overlay reveals the contradiction. End card: "Cold Case Club — coldcaseclub.store." (See Script 2 in tiktok-reels-scripts.md for the full "Reaction" script this builds on.)
 
 **Posting time:** Thursday 7:00 PM AEST
 **Hashtags:** #coldcaseclub #truecrime #mysterysubscription #detective #contradiction #fyp
@@ -463,7 +463,7 @@ A person reads two witness statements side by side, and their expression shifts 
 
 ### Reel 2: "POV: Your Investigation Board After Month 4"
 
-Camera starts on a clean, empty corkboard. Time-lapse over 15 seconds as evidence gets pinned, string gets connected, notes get added, photos go up. By the end it looks like a detective's wall from a crime drama. Final text: "This could be your wall. coldcaseclub.au — from $14.99/mo." (Adapts the visual approach from Script 5 in tiktok-reels-scripts.md.)
+Camera starts on a clean, empty corkboard. Time-lapse over 15 seconds as evidence gets pinned, string gets connected, notes get added, photos go up. By the end it looks like a detective's wall from a crime drama. Final text: "This could be your wall. coldcaseclub.store — from $14.99/mo." (Adapts the visual approach from Script 5 in tiktok-reels-scripts.md.)
 
 **Posting time:** Saturday 6:00 PM AEST
 **Hashtags:** #coldcaseclub #investigationboard #truecrime #pov #timelapse #mysterysubscription #redstring
@@ -490,7 +490,7 @@ Simple, satisfying concept: person walks to their mailbox, pulls out a Cold Case
 
 ### Reel 5: "When You Realise the Detective Missed Something"
 
-Storytime-style Reel. Person flipping through evidence, pauses, goes back two pages, holds up two documents next to each other. Whispered voiceover: "Wait... the detective wrote 'no fingerprints on the window.' But on page 3, the forensic report says the window was never dusted." Dramatic zoom. Text: "The case is yours now. coldcaseclub.au." (Extends the narrative tension from Script 2 in tiktok-reels-scripts.md.)
+Storytime-style Reel. Person flipping through evidence, pauses, goes back two pages, holds up two documents next to each other. Whispered voiceover: "Wait... the detective wrote 'no fingerprints on the window.' But on page 3, the forensic report says the window was never dusted." Dramatic zoom. Text: "The case is yours now. coldcaseclub.store." (Extends the narrative tension from Script 2 in tiktok-reels-scripts.md.)
 
 **Posting time:** Friday 8:00 PM AEST
 **Hashtags:** #coldcaseclub #truecrime #detective #mystery #plottwist #coldcase #fyp #mysterysubscription

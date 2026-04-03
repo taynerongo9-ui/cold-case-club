@@ -37,7 +37,7 @@ Cold Case Club is live. Link in bio.
 This is one line from one witness from one case.
 You'll get 12 full evidence packets.
 
-coldcaseclub.au
+coldcaseclub.store
 ```
 
 ### Post 3: How It Works
@@ -93,7 +93,7 @@ This is what Cold Case Club is about — the details that change everything.
 
 Real investigators. Real reactions. Real cases.
 
-Join 2,400+ investigators at coldcaseclub.au
+Join 2,400+ investigators at coldcaseclub.store
 ```
 
 ### Template D: Behind the Scenes
@@ -120,7 +120,7 @@ Cold Case Club: 6 months. 12 packets. An actual investigation.
 
 Both are fun. Only one will keep you up at night.
 
-coldcaseclub.au
+coldcaseclub.store
 ```
 
 ---
@@ -150,7 +150,7 @@ Link in bio.
 
 Mother's Day is May 11th.
 Order by May 5th.
-coldcaseclub.au/gift
+coldcaseclub.store/gift
 
 #mothersdaygift #coldcaseclub
 ```
@@ -231,7 +231,7 @@ Slide 3: Poll — "Who do you think is lying?"
   Option A: The bartender
   Option B: The theatre manager
   Option C: The husband
-Slide 4: "Find out at coldcaseclub.au" + link sticker
+Slide 4: "Find out at coldcaseclub.store" + link sticker
 ```
 
 ### Story 2: This or That
@@ -247,7 +247,7 @@ Monthly plan 💳 or Full case prepaid 🔐
 ```
 "Mother's Day shipping cutoff: [countdown sticker to May 5]"
 "She wants evidence, not flowers."
-"coldcaseclub.au/gift"
+"coldcaseclub.store/gift"
 ```
 
 ---
@@ -267,8 +267,8 @@ Monthly plan 💳 or Full case prepaid 🔐
 ## NOTES FOR CK
 
 - **Before posting:** Set up @coldcaseclub on Instagram and TikTok. Use the same handle everywhere.
-- **Bio template:** "Real evidence. Real mail. Real mystery. 🔍 Solve a cold case in 6 months. ✉️ From $12.50/mo. 👇 Start your investigation" + link to coldcaseclub.au
-- **Link in bio:** Use a simple link page (Linktree or direct to coldcaseclub.au). Include: Main site, Gift page, Blog, Free evidence preview signup.
+- **Bio template:** "Real evidence. Real mail. Real mystery. 🔍 Solve a cold case in 6 months. ✉️ From $12.50/mo. 👇 Start your investigation" + link to coldcaseclub.store
+- **Link in bio:** Use a simple link page (Linktree or direct to coldcaseclub.store). Include: Main site, Gift page, Blog, Free evidence preview signup.
 - **UGC strategy:** Once customers receive packets, encourage them to share with #coldcaseclub. Repost everything.
 - **Engagement:** Reply to every comment in character. "Good eye, Detective." / "That detail matters more than you think." / "You're on the right track."
 - **Content creation:** Photograph evidence packets on dark surfaces (black wood, dark fabric). Use warm side lighting. Gold/amber tones match the brand.

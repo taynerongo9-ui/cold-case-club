@@ -39,7 +39,7 @@ It's $14.99/month or $74.99 prepaid for the full case. There's also a gift optio
 
 Would love feedback from this community — you all have the best eye for subscription products. What would make or break this for you?
 
-Website: coldcaseclub.au
+Website: coldcaseclub.store
 ```
 
 ### r/truecrime — Discussion Post
@@ -58,7 +58,7 @@ I'm a true crime fan and I always wished there was something more immersive than
 
 Before I go all-in on marketing this — would this interest you? What would make you skeptical? What would make you excited?
 
-(If you're curious: coldcaseclub.au)
+(If you're curious: coldcaseclub.store)
 ```
 
 ### r/GiftIdeas or r/MothersDay — Gift Recommendation
@@ -75,7 +75,7 @@ It's $74.99 for the full thing and they send you a printable gift card. The reci
 
 Just thought I'd share since I know a lot of people here are looking for unique gifts for the person who "has everything."
 
-coldcaseclub.au/gift
+coldcaseclub.store/gift
 ```
 
 ### r/Entrepreneur — Founder Story
@@ -115,7 +115,7 @@ I'm building Cold Case Club — same model, but for true crime fans. Subscribers
 
 Happy to share more details. What questions do you have?
 
-coldcaseclub.au
+coldcaseclub.store
 ```
 
 ---
@@ -123,7 +123,7 @@ coldcaseclub.au
 ## Comment Templates
 
 ### When someone asks "what's this?"
-> It's a mystery subscription — every 2 weeks you get a physical evidence packet in the mail (detective notes, witness statements, coded messages). Over 6 months you solve a cold case. Think of it as a true crime podcast you can hold in your hands. coldcaseclub.au
+> It's a mystery subscription — every 2 weeks you get a physical evidence packet in the mail (detective notes, witness statements, coded messages). Over 6 months you solve a cold case. Think of it as a true crime podcast you can hold in your hands. coldcaseclub.store
 
 ### When someone asks about price
 > $14.99/month or $74.99 prepaid for the whole 6-month case. The prepaid includes an exclusive case tin and works out to about $6.25 per evidence packet — less than a coffee.

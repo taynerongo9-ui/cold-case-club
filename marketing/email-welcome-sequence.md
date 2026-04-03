@@ -38,13 +38,13 @@ Can you crack it? (Hint: Caesar would know.)
 
 This is a taste. The full investigation includes 12 evidence packets delivered to your door over 6 months. Detective notes. Photographs. Artifacts. Everything you need to solve the case.
 
-**[View Your Full Evidence Sample → coldcaseclub.au/sample]**
+**[View Your Full Evidence Sample → coldcaseclub.store/sample]**
 
 Ready to go deeper? Choose from 3 active cases:
 
-**[Browse All Cases → coldcaseclub.au/cases]**
+**[Browse All Cases → coldcaseclub.store/cases]**
 
-**[Start Your Investigation → coldcaseclub.au/#pricing]**
+**[Start Your Investigation → coldcaseclub.store/#pricing]**
 
 — The Cold Case Club Team
 
@@ -79,7 +79,7 @@ By month six, you'll have everything you need to name the person responsible.
 
 The question is: are you paying attention to the right details?
 
-**[Open the Case File → coldcaseclub.au/#pricing]**
+**[Open the Case File → coldcaseclub.store/#pricing]**
 
 — CCC
 
@@ -120,7 +120,7 @@ We have a 30-day money-back guarantee. If your first evidence packet doesn't hoo
 **"Is $14.99/mo actually worth it?"**
 A movie is $15 for 2 hours. This is $14.99 for a month of investigation. The math checks out.
 
-**[Join 2,400+ Investigators → coldcaseclub.au/#pricing]**
+**[Join 2,400+ Investigators → coldcaseclub.store/#pricing]**
 
 ---
 
@@ -152,7 +152,7 @@ Here's how gifting works:
 
 They get a 6-month investigation. You get "best gift ever" status. Everyone wins.
 
-**[Gift a Case → coldcaseclub.au/gift]**
+**[Gift a Case → coldcaseclub.store/gift]**
 
 ---
 
@@ -187,7 +187,7 @@ Both include all 12 evidence packets, all physical artifacts, and access to our 
 
 **30-day money-back guarantee.** If you're not hooked, we'll refund you. No questions.
 
-**[Start Your Case → coldcaseclub.au/#pricing]**
+**[Start Your Case → coldcaseclub.store/#pricing]**
 
 The evidence is waiting, Detective. Don't let this one go cold.
 

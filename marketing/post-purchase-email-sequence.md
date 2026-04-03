@@ -97,7 +97,7 @@ Most investigators form a theory after Packet #1 — and most of them change it 
 If you know someone who would love this — a true crime fan, a puzzle lover, a friend who's always saying "I knew it was the husband" — we'd love for you to tell them about us.
 
 You can share your experience directly, or send them to our gift page:
-**[coldcaseclub.au/gift](https://coldcaseclub.au/gift)**
+**[coldcaseclub.store/gift](https://coldcaseclub.store/gift)**
 
 **A small ask:**
 

@@ -45,35 +45,35 @@ Cold Case Club is a physical mail subscription service. Subscribers receive evid
 
 ## Pages
 
-- Homepage: https://coldcaseclub.au/
-- Our Cases: https://coldcaseclub.au/cases
-- Gift Page: https://coldcaseclub.au/gift
-- Free Evidence Sample: https://coldcaseclub.au/sample
-- About: https://coldcaseclub.au/about
-- Mother's Day: https://coldcaseclub.au/mothers-day
+- Homepage: https://coldcaseclub.store/
+- Our Cases: https://coldcaseclub.store/cases
+- Gift Page: https://coldcaseclub.store/gift
+- Free Evidence Sample: https://coldcaseclub.store/sample
+- About: https://coldcaseclub.store/about
+- Mother's Day: https://coldcaseclub.store/mothers-day
 
 ### Use Cases
-- Book Clubs: https://coldcaseclub.au/book-clubs
-- Date Night: https://coldcaseclub.au/date-night
-- Team Building: https://coldcaseclub.au/team-building
+- Book Clubs: https://coldcaseclub.store/book-clubs
+- Date Night: https://coldcaseclub.store/date-night
+- Team Building: https://coldcaseclub.store/team-building
 
 ### Blog
-- Blog Index: https://coldcaseclub.au/blog
-- Best Mystery Subscription Boxes in 2026: https://coldcaseclub.au/blog/best-mystery-subscription-boxes
-- Hunt a Killer vs Cold Case Club: https://coldcaseclub.au/blog/hunt-a-killer-vs-cold-case-club
-- 15 Best Gifts for True Crime Fans: https://coldcaseclub.au/blog/gifts-for-true-crime-fans
-- What Is a Mystery Subscription Box?: https://coldcaseclub.au/blog/what-is-a-mystery-subscription-box
-- Mystery Subscription vs Escape Room: https://coldcaseclub.au/blog/mystery-subscription-vs-escape-room
-- How to Host a Murder Mystery Night: https://coldcaseclub.au/blog/how-to-host-a-murder-mystery-night
-- 12 True Crime Date Night Ideas: https://coldcaseclub.au/blog/true-crime-date-night-ideas
-- 21 Best Gifts for Mystery Lovers: https://coldcaseclub.au/blog/best-gifts-for-mystery-lovers
-- How to Solve a Mystery by Mail: https://coldcaseclub.au/blog/solve-a-mystery-by-mail
+- Blog Index: https://coldcaseclub.store/blog
+- Best Mystery Subscription Boxes in 2026: https://coldcaseclub.store/blog/best-mystery-subscription-boxes
+- Hunt a Killer vs Cold Case Club: https://coldcaseclub.store/blog/hunt-a-killer-vs-cold-case-club
+- 15 Best Gifts for True Crime Fans: https://coldcaseclub.store/blog/gifts-for-true-crime-fans
+- What Is a Mystery Subscription Box?: https://coldcaseclub.store/blog/what-is-a-mystery-subscription-box
+- Mystery Subscription vs Escape Room: https://coldcaseclub.store/blog/mystery-subscription-vs-escape-room
+- How to Host a Murder Mystery Night: https://coldcaseclub.store/blog/how-to-host-a-murder-mystery-night
+- 12 True Crime Date Night Ideas: https://coldcaseclub.store/blog/true-crime-date-night-ideas
+- 21 Best Gifts for Mystery Lovers: https://coldcaseclub.store/blog/best-gifts-for-mystery-lovers
+- How to Solve a Mystery by Mail: https://coldcaseclub.store/blog/solve-a-mystery-by-mail
 
 ### Legal
-- Privacy Policy: https://coldcaseclub.au/privacy
-- Terms of Service: https://coldcaseclub.au/terms
+- Privacy Policy: https://coldcaseclub.store/privacy
+- Terms of Service: https://coldcaseclub.store/terms
 
 ## Contact
 
-- Website: https://coldcaseclub.au
-- Email: hello@coldcaseclub.au
+- Website: https://coldcaseclub.store
+- Email: hello@coldcaseclub.store

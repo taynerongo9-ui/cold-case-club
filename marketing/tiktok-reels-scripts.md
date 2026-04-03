@@ -38,7 +38,7 @@
 - Quick cut to their investigation board — photos, string, notes everywhere
 - Whispered voiceover: "Wait... the coat. The coat on the bridge wasn't hers."
 
-**CTA (20-30s):** Text overlay: "coldcaseclub.au — Real evidence. Real mystery. Real mail." + "Starting at $12.50/mo"
+**CTA (20-30s):** Text overlay: "coldcaseclub.store — Real evidence. Real mystery. Real mail." + "Starting at $12.50/mo"
 
 **Caption:** "When you catch the detail that changes EVERYTHING 🔍 Month 3 hit different. #truecrime #coldcase #detective #fyp"
 
@@ -81,7 +81,7 @@
 - Camera slowly pulls back to show investigation board with Richard's photo circled in red
 - Dramatic music hit
 
-**CTA (20-30s):** Text overlay: "Can you solve it before the final packet? coldcaseclub.au"
+**CTA (20-30s):** Text overlay: "Can you solve it before the final packet? coldcaseclub.store"
 
 **Caption:** "When the code cracked and I literally gasped 😱 This changes EVERYTHING about who I suspected. #cipher #codebreaking #truecrime #coldcaseclub"
 
@@ -101,7 +101,7 @@
 - Her laughing/pointing at suspects, wine glass in hand
 - Close-up of her texting: "I KNOW WHO DID IT"
 
-**CTA (20-30s):** Text overlay: "6 months later she still hasn't shut up about it. Best $75 I ever spent." + "coldcaseclub.au/gift"
+**CTA (20-30s):** Text overlay: "6 months later she still hasn't shut up about it. Best $75 I ever spent." + "coldcaseclub.store/gift"
 
 **Caption:** "She went from 'what is this' to full detective mode in 48 hours 😂 Best gift I've ever given. #mothersday #giftidea #truecrime #coldcaseclub"
 

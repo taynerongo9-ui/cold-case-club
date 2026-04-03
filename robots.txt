@@ -4,4 +4,4 @@ Disallow: /success
 Disallow: /verified
 Disallow: /api/
 
-Sitemap: https://coldcaseclub.au/sitemap.xml
+Sitemap: https://coldcaseclub.store/sitemap.xml

@@ -18,8 +18,8 @@
  *   KV_REST_API_URL    — Vercel KV connection URL (optional)
  *   KV_REST_API_TOKEN  — Vercel KV auth token (optional)
  *   RESEND_API_KEY     — Resend.com API key for sending verification emails (optional)
- *   FROM_EMAIL         — Sender email address (default: hello@coldcaseclub.au)
- *   SITE_URL           — Base URL for verification links (default: https://coldcaseclub.au)
+ *   FROM_EMAIL         — Sender email address (default: hello@coldcaseclub.store)
+ *   SITE_URL           — Base URL for verification links (default: https://coldcaseclub.store)
  *   WEBHOOK_URL        — Discord/Slack webhook for notifications (optional)
  *   ADMIN_KEY          — Secret key to access GET /api/subscribe?key=xxx (optional)
  *   ALLOWED_ORIGINS    — Comma-separated allowed origins (optional, defaults to *)
@@ -263,8 +263,8 @@ async function storeVerificationToken(token, subscriber) {
 
 async function sendVerificationEmail(email, token) {
   const resendKey = process.env.RESEND_API_KEY;
-  const siteUrl = process.env.SITE_URL || 'https://coldcaseclub.au';
-  const fromEmail = process.env.FROM_EMAIL || 'Cold Case Club <hello@coldcaseclub.au>';
+  const siteUrl = process.env.SITE_URL || 'https://coldcaseclub.store';
+  const fromEmail = process.env.FROM_EMAIL || 'Cold Case Club <hello@coldcaseclub.store>';
 
   const verifyUrl = `${siteUrl}/api/verify?token=${encodeURIComponent(token)}`;
 
