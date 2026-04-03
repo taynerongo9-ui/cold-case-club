@@ -112,8 +112,8 @@ module.exports = async function handler(req, res) {
     params.append('custom_fields[1][label][custom]', 'Gift message (optional)');
     params.append('custom_fields[1][type]', 'text');
     params.append('custom_fields[1][optional]', 'true');
-  } else {
-    // Monthly & Prepaid — collect shipping address + show shipping options
+  } else if (plan === 'prepaid') {
+    // Prepaid — collect shipping address + show shipping options (payment mode only)
     params.append('shipping_address_collection[allowed_countries][0]', 'AU');
     params.append('shipping_address_collection[allowed_countries][1]', 'US');
     params.append('shipping_address_collection[allowed_countries][2]', 'GB');
@@ -138,6 +138,13 @@ module.exports = async function handler(req, res) {
         params.append(`shipping_options[${i}][shipping_rate_data][delivery_estimate][maximum][value]`, opt.delivery_estimate.maximum.value);
       }
     });
+  } else if (plan === 'monthly') {
+    // Monthly (subscription mode) — shipping_options not supported
+    // Collect address via custom fields instead
+    params.append('custom_fields[0][key]', 'shipping_address');
+    params.append('custom_fields[0][label][type]', 'custom');
+    params.append('custom_fields[0][label][custom]', 'Full shipping address');
+    params.append('custom_fields[0][type]', 'text');
   }
 
   // Metadata for fulfillment
