@@ -86,7 +86,10 @@ module.exports = async function handler(req, res) {
   params.append('return_url', `${siteUrl}/success?session_id={CHECKOUT_SESSION_ID}&type=${plan}`);
 
   // Collect customer email (required for fulfillment)
-  params.append('customer_creation', 'always');
+  // customer_creation only valid in payment mode, not subscription
+  if (plan !== 'monthly') {
+    params.append('customer_creation', 'always');
+  }
 
   // Shipping — collect address for monthly/prepaid, digital for gift
   if (plan === 'gift') {

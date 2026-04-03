@@ -116,20 +116,22 @@ function renderOrders(orders) {
     return;
   }
 
+  function esc(s) { const d = document.createElement('div'); d.textContent = s || ''; return d.innerHTML; }
+
   document.getElementById('order-rows').innerHTML = orders.map(o => {
     const date = new Date(o.created).toLocaleDateString();
-    const addr = o.shipping ? `${o.shipping.address?.city || ''}, ${o.shipping.address?.country || ''}` : 'No address';
+    const addr = o.shipping ? `${esc(o.shipping.address?.city || '')}, ${esc(o.shipping.address?.country || '')}` : 'No address';
     const statusBadge = o.status === 'shipped'
       ? '<span class="badge badge-shipped">Shipped</span>'
       : '<span class="badge badge-unfulfilled">To Ship</span>';
     const foundingBadge = o.founding_investigator ? ' <span class="badge badge-founding">Founding</span>' : '';
 
     return `<tr>
-      <td>${date}</td>
-      <td>${o.name}${foundingBadge}</td>
-      <td>${o.email}</td>
-      <td>${o.plan}</td>
-      <td>$${o.amount}</td>
+      <td>${esc(date)}</td>
+      <td>${esc(o.name)}${foundingBadge}</td>
+      <td>${esc(o.email)}</td>
+      <td>${esc(o.plan)}</td>
+      <td>$${Number(o.amount).toFixed(2)}</td>
       <td class="address">${addr}</td>
       <td>${statusBadge}</td>
     </tr>`;

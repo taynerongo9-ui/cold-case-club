@@ -115,7 +115,7 @@ module.exports = async function handler(req, res) {
     const ip = req.headers['x-forwarded-for']?.split(',')[0]?.trim() || req.headers['x-real-ip'] || 'unknown';
 
     // Rate limit check
-    if (isRateLimited(ip)) {
+    if (await isRateLimited(ip)) {
       res.writeHead(429, { ...CORS_HEADERS, 'Content-Type': 'application/json' });
       return res.end(JSON.stringify({ error: 'Too many requests. Try again in a minute.' }));
     }
