@@ -20,27 +20,16 @@
       padding: 4rem 2rem;
     }
     .success-box {
-      max-width: 540px;
+      max-width: 560px;
       background: var(--bg-card);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       padding: 3.5rem 3rem;
       box-shadow: var(--shadow);
     }
-    .success-icon {
-      font-size: 3rem;
-      margin-bottom: 1.5rem;
-      display: block;
-    }
-    .success-box h1 {
-      font-size: 2rem;
-      margin-bottom: .8rem;
-    }
-    .success-box p {
-      color: var(--text-muted);
-      margin-bottom: 1.5rem;
-      line-height: 1.7;
-    }
+    .success-icon { font-size: 3rem; margin-bottom: 1.5rem; display: block; }
+    .success-box h1 { font-size: 2rem; margin-bottom: .8rem; }
+    .success-box p { color: var(--text-muted); margin-bottom: 1.5rem; line-height: 1.7; }
     .success-steps {
       text-align: left;
       background: var(--bg);
@@ -58,17 +47,79 @@
     }
     .success-steps li strong { color: var(--text); }
     .step-num {
-      width: 24px; height: 24px;
-      min-width: 24px;
+      width: 24px; height: 24px; min-width: 24px;
       background: rgba(201,168,76,.15);
       border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: .7rem;
-      font-weight: 700;
-      color: var(--gold);
+      display: flex; align-items: center; justify-content: center;
+      font-size: .7rem; font-weight: 700; color: var(--gold);
     }
+    .founding-badge {
+      display: inline-block;
+      background: rgba(201,168,76,.1);
+      border: 1px solid rgba(201,168,76,.3);
+      color: var(--gold);
+      font-family: var(--font-mono);
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      padding: .4rem 1rem;
+      border-radius: 2px;
+      margin-bottom: 1.5rem;
+    }
+    .share-card {
+      background: var(--bg);
+      border: 1px solid var(--gold-dim);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin: 2rem 0;
+      text-align: center;
+    }
+    .share-card h3 { font-size: 1rem; margin-bottom: .5rem; }
+    .share-card p { font-size: .8rem; color: var(--text-muted); margin-bottom: 1rem; }
+    .share-buttons {
+      display: flex;
+      gap: .8rem;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+    .share-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: .4rem;
+      padding: .6rem 1.2rem;
+      border-radius: var(--radius);
+      font-size: .8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: transform .2s, opacity .2s;
+    }
+    .share-btn:hover { transform: translateY(-2px); opacity: .9; }
+    .share-btn-x { background: #000; color: #fff; border: 1px solid #333; }
+    .share-btn-fb { background: #1877f2; color: #fff; }
+    .share-btn-copy { background: var(--bg-card); color: var(--text); border: 1px solid var(--border); cursor: pointer; }
+    .timeline {
+      text-align: left;
+      margin: 2rem 0;
+      padding: 0;
+    }
+    .timeline-item {
+      display: flex;
+      gap: 1rem;
+      padding: .8rem 0;
+      border-bottom: 1px solid rgba(42,42,58,.3);
+    }
+    .timeline-item:last-child { border-bottom: none; }
+    .timeline-date {
+      font-family: var(--font-mono);
+      font-size: .7rem;
+      color: var(--gold);
+      min-width: 80px;
+      text-transform: uppercase;
+      letter-spacing: .05em;
+      padding-top: .1rem;
+    }
+    .timeline-text { font-size: .85rem; color: var(--text-muted); }
+    .timeline-text strong { color: var(--text); }
   </style>
 </head>
 <body>
@@ -76,19 +127,20 @@
 <!-- Subscriber success (default) -->
 <div class="success-page" id="success-subscriber">
   <div class="success-box">
+    <span class="founding-badge">Founding Investigator</span>
     <span class="success-icon">&#128270;</span>
-    <h1>Case File <span class="text-gold">Opened</span></h1>
-    <p>You're officially an investigator. Your first evidence packet is being prepared right now.</p>
+    <h1>Welcome, <span class="text-gold">Detective.</span></h1>
+    <p>You're officially a Founding Investigator of Cold Case Club. Your case file is being prepared for the first batch.</p>
 
     <div class="success-steps">
       <ul>
         <li>
           <span class="step-num">1</span>
-          <span><strong>Check your email</strong> &mdash; a confirmation with your case details is on its way.</span>
+          <span><strong>Check your email</strong> &mdash; your order confirmation and Founding Investigator number are on the way.</span>
         </li>
         <li>
           <span class="step-num">2</span>
-          <span><strong>Watch your mailbox</strong> &mdash; your first evidence packet ships within 3 business days.</span>
+          <span><strong>First batch ships May 2026</strong> &mdash; you're in the founding run. Your packet ships before anyone else's.</span>
         </li>
         <li>
           <span class="step-num">3</span>
@@ -97,21 +149,46 @@
       </ul>
     </div>
 
-    <p style="font-size:.9rem;">Have questions? Email us at <a href="mailto:hello@coldcaseclub.store">hello@coldcaseclub.store</a></p>
-
-    <!-- Referral program hook -->
-    <div style="margin-top:1.5rem;padding:1.2rem;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;">
-      <p style="font-size:.85rem;color:#e2e2e8;margin-bottom:.3rem;"><strong>Know another detective?</strong></p>
-      <p style="font-size:.8rem;color:var(--text-muted);">Share Cold Case Club with a friend. If they sign up, you both get a bonus evidence packet &mdash; a clue that's not in the main case.</p>
+    <h3 style="font-size:1rem;margin-bottom:.8rem;">What Happens <span class="text-gold">Next</span></h3>
+    <div class="timeline">
+      <div class="timeline-item">
+        <span class="timeline-date">Now</span>
+        <span class="timeline-text"><strong>Order confirmed.</strong> You'll receive an email with your Founding Investigator number.</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">May 2026</span>
+        <span class="timeline-text"><strong>Packet 1 ships.</strong> Your first evidence packet is mailed to your address.</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Every 2 wks</span>
+        <span class="timeline-text"><strong>New evidence arrives.</strong> 12 packets over 6 months. The case builds with each delivery.</span>
+      </div>
+      <div class="timeline-item">
+        <span class="timeline-date">Month 6</span>
+        <span class="timeline-text"><strong>The final packet.</strong> The truth is revealed. Did you solve it?</span>
+      </div>
     </div>
 
+    <!-- Share card -->
+    <div class="share-card">
+      <h3>Tell Your <span class="text-gold">Suspects</span></h3>
+      <p>Share that you've joined the investigation. Every detective needs backup.</p>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text=I%20just%20became%20a%20Founding%20Investigator%20at%20Cold%20Case%20Club.%20%F0%9F%94%8D%20Evidence%20packets%20arriving%20by%20mail.%206%20months%20to%20solve%20a%20cold%20case.%20coldcaseclub.store&url=https://coldcaseclub.store" target="_blank" rel="noopener" class="share-btn share-btn-x">Post on X</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://coldcaseclub.store" target="_blank" rel="noopener" class="share-btn share-btn-fb">Share on Facebook</a>
+        <button class="share-btn share-btn-copy" onclick="navigator.clipboard.writeText('I just became a Founding Investigator at Cold Case Club. Evidence packets arriving by mail. 6 months to solve a cold case. coldcaseclub.store');this.textContent='Copied!';">Copy Link</button>
+      </div>
+    </div>
+
+    <p style="font-size:.9rem;">Questions? Email us at <a href="mailto:hello@coldcaseclub.store">hello@coldcaseclub.store</a></p>
     <a href="/" class="btn btn-outline" style="margin-top:1rem;">Back to Home</a>
   </div>
 </div>
 
-<!-- Gift success (shown when ?type=gift) -->
+<!-- Gift success -->
 <div class="success-page" id="success-gift" style="display:none;">
   <div class="success-box">
+    <span class="founding-badge">Founding Investigator — Gift</span>
     <span class="success-icon">&#127873;</span>
     <h1>Gift <span class="text-gold">Purchased</span></h1>
     <p>You just gave someone 6 months of mystery. They're going to love this.</p>
@@ -128,27 +205,29 @@
         </li>
         <li>
           <span class="step-num">3</span>
-          <span><strong>They redeem it</strong> &mdash; the recipient enters their address and chooses when to start.</span>
+          <span><strong>They redeem it</strong> &mdash; the recipient enters their shipping address and their investigation begins.</span>
         </li>
       </ul>
     </div>
 
-    <p style="font-size:.9rem;">Have questions? Email us at <a href="mailto:hello@coldcaseclub.store">hello@coldcaseclub.store</a></p>
-
-    <!-- Gift referral hook -->
-    <div style="margin-top:1.5rem;padding:1.2rem;background:rgba(201,168,76,.08);border:1px solid rgba(201,168,76,.2);border-radius:8px;">
-      <p style="font-size:.85rem;color:#e2e2e8;margin-bottom:.3rem;"><strong>Know more mystery lovers?</strong></p>
-      <p style="font-size:.8rem;color:var(--text-muted);">Gift another case and you'll both receive a bonus evidence packet &mdash; an exclusive clue that's not in the main case.</p>
+    <!-- Share card -->
+    <div class="share-card">
+      <h3>The Perfect <span class="text-gold">Gift</span></h3>
+      <p>Know more mystery lovers? Share the gift that keeps arriving for 6 months.</p>
+      <div class="share-buttons">
+        <a href="https://twitter.com/intent/tweet?text=Just%20gifted%20someone%20a%20Cold%20Case%20Club%20subscription.%20%F0%9F%94%8D%20Evidence%20packets%20in%20the%20mail%20for%206%20months.%20Best%20gift%20ever.%20coldcaseclub.store%2Fgift&url=https://coldcaseclub.store/gift" target="_blank" rel="noopener" class="share-btn share-btn-x">Post on X</a>
+        <a href="https://www.facebook.com/sharer/sharer.php?u=https://coldcaseclub.store/gift" target="_blank" rel="noopener" class="share-btn share-btn-fb">Share on Facebook</a>
+        <button class="share-btn share-btn-copy" onclick="navigator.clipboard.writeText('Just gifted someone a Cold Case Club subscription. Evidence packets in the mail for 6 months. Best gift ever. coldcaseclub.store/gift');this.textContent='Copied!';">Copy Link</button>
+      </div>
     </div>
 
+    <p style="font-size:.9rem;">Questions? Email us at <a href="mailto:hello@coldcaseclub.store">hello@coldcaseclub.store</a></p>
     <a href="/gift" class="btn btn-primary" style="margin-top:1rem;">Gift Another Case</a>
     <a href="/" class="btn btn-outline" style="margin-top:.5rem;">Back to Home</a>
   </div>
 </div>
 
 <script>
-// Detect plan type from ?type= query param
-// Stripe Payment Links redirect to: /success?type=monthly, /success?type=prepaid, /success?type=gift
 const params = new URLSearchParams(window.location.search);
 const planType = params.get('type') || 'prepaid';
 const isGift = planType === 'gift';
@@ -158,7 +237,7 @@ if (isGift) {
   document.getElementById('success-gift').style.display = 'flex';
 }
 
-// Fire Meta Pixel Purchase event with correct value per plan
+// Fire Meta Pixel Purchase event
 const planValues = { monthly: 14.99, prepaid: 74.99, gift: 74.99 };
 if (typeof fbq === 'function') {
   fbq('track', 'Purchase', {
@@ -168,6 +247,5 @@ if (typeof fbq === 'function') {
   });
 }
 </script>
-
 </body>
 </html>
