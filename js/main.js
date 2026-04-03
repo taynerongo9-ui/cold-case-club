@@ -82,9 +82,10 @@ document.querySelectorAll('.faq-question').forEach(btn => {
 });
 
 // -------------------------------------------
-// Scroll Fade-In (Intersection Observer)
+// Scroll Fade-In (Enhanced Intersection Observer)
+// Supports: .fade-in, .slide-left, .slide-right, .scale-in, .section-divider
 // -------------------------------------------
-const fadeEls = document.querySelectorAll('.fade-in');
+const animatedEls = document.querySelectorAll('.fade-in, .slide-left, .slide-right, .scale-in, .section-divider');
 
 if ('IntersectionObserver' in window) {
   const observer = new IntersectionObserver((entries) => {
@@ -94,11 +95,314 @@ if ('IntersectionObserver' in window) {
         observer.unobserve(entry.target);
       }
     });
-  }, { threshold: 0.15 });
-  fadeEls.forEach(el => observer.observe(el));
+  }, { threshold: 0.12 });
+  animatedEls.forEach(el => observer.observe(el));
 } else {
-  fadeEls.forEach(el => el.classList.add('visible'));
+  animatedEls.forEach(el => el.classList.add('visible'));
 }
+
+// -------------------------------------------
+// SCROLL PROGRESS BAR
+// -------------------------------------------
+(function initScrollProgress() {
+  const bar = document.createElement('div');
+  bar.className = 'scroll-progress';
+  document.body.prepend(bar);
+  window.addEventListener('scroll', () => {
+    const h = document.documentElement.scrollHeight - window.innerHeight;
+    if (h > 0) bar.style.transform = `scaleX(${window.scrollY / h})`;
+  }, { passive: true });
+})();
+
+// -------------------------------------------
+// FILM GRAIN OVERLAY
+// -------------------------------------------
+(function initGrain() {
+  const grain = document.createElement('div');
+  grain.className = 'grain-overlay';
+  document.body.appendChild(grain);
+})();
+
+// -------------------------------------------
+// TYPEWRITER HERO EFFECT
+// -------------------------------------------
+(function initTypewriter() {
+  const heroH1 = document.querySelector('.hero h1');
+  if (!heroH1 || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const line1 = 'Someone Got Away With It.';
+  const line2 = 'Can You Prove It?';
+
+  heroH1.innerHTML = '';
+  heroH1.style.visibility = 'visible';
+
+  const span1 = document.createElement('span');
+  span1.className = 'typewriter-line';
+  const span2 = document.createElement('span');
+  span2.className = 'typewriter-line';
+  const em = document.createElement('em');
+  em.style.fontStyle = 'normal';
+  em.style.color = 'var(--gold)';
+
+  const cursor = document.createElement('span');
+  cursor.className = 'typewriter-cursor';
+  cursor.innerHTML = '&nbsp;';
+
+  heroH1.appendChild(span1);
+  heroH1.appendChild(document.createElement('br'));
+  heroH1.appendChild(em);
+  em.appendChild(span2);
+
+  let i = 0;
+  let phase = 1; // 1 = line1, 2 = pause, 3 = line2
+
+  function type() {
+    if (phase === 1) {
+      if (i < line1.length) {
+        span1.textContent = line1.slice(0, i + 1);
+        i++;
+        setTimeout(type, 45 + Math.random() * 35);
+      } else {
+        span1.appendChild(cursor);
+        phase = 2;
+        i = 0;
+        setTimeout(type, 600);
+      }
+    } else if (phase === 2) {
+      cursor.remove();
+      phase = 3;
+      type();
+    } else if (phase === 3) {
+      if (i < line2.length) {
+        span2.textContent = line2.slice(0, i + 1);
+        i++;
+        setTimeout(type, 45 + Math.random() * 35);
+      } else {
+        span2.appendChild(cursor);
+      }
+    }
+  }
+
+  setTimeout(type, 400);
+})();
+
+// -------------------------------------------
+// COUNT-UP ANIMATION — Proof Bar Numbers
+// -------------------------------------------
+(function initCountUp() {
+  const proofValues = document.querySelectorAll('.proof-value');
+  if (!proofValues.length) return;
+
+  const countObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      const el = entry.target;
+      const text = el.textContent.trim();
+      countObserver.unobserve(el);
+
+      // Parse the target value
+      const match = text.match(/^([\d,]+\.?\d*)/);
+      if (!match) return;
+
+      const suffix = text.replace(match[0], ''); // e.g., "+", "/5", "%"
+      const hasComma = match[0].includes(',');
+      const target = parseFloat(match[0].replace(/,/g, ''));
+      const isDecimal = match[0].includes('.');
+      const duration = 2000;
+      const startTime = performance.now();
+
+      el.classList.add('counting');
+
+      function animate(now) {
+        const elapsed = now - startTime;
+        const progress = Math.min(elapsed / duration, 1);
+        // Ease out cubic
+        const eased = 1 - Math.pow(1 - progress, 3);
+        const current = eased * target;
+
+        if (isDecimal) {
+          el.textContent = current.toFixed(1) + suffix;
+        } else if (hasComma) {
+          el.textContent = Math.floor(current).toLocaleString() + suffix;
+        } else {
+          el.textContent = Math.floor(current) + suffix;
+        }
+
+        if (progress < 1) {
+          requestAnimationFrame(animate);
+        } else {
+          // Restore original text exactly
+          el.textContent = text;
+          el.classList.remove('counting');
+        }
+      }
+
+      requestAnimationFrame(animate);
+    });
+  }, { threshold: 0.5 });
+
+  proofValues.forEach(el => countObserver.observe(el));
+})();
+
+// -------------------------------------------
+// 3D TILT ON EVIDENCE CARDS — Mouse parallax
+// -------------------------------------------
+(function initCardTilt() {
+  const heroVisual = document.querySelector('.hero-visual');
+  if (!heroVisual || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const cards = heroVisual.querySelectorAll('.evidence-card');
+
+  heroVisual.addEventListener('mousemove', (e) => {
+    const rect = heroVisual.getBoundingClientRect();
+    const x = (e.clientX - rect.left) / rect.width - 0.5;  // -0.5 to 0.5
+    const y = (e.clientY - rect.top) / rect.height - 0.5;
+
+    cards.forEach((card, i) => {
+      const intensity = (i + 1) * 3;
+      const rotateX = -y * intensity;
+      const rotateY = x * intensity;
+      const translateZ = (i + 1) * 5;
+      card.style.transform = `rotate(${[-3, 2, -1][i] || 0}deg) perspective(800px) rotateX(${rotateX}deg) rotateY(${rotateY}deg) translateZ(${translateZ}px)`;
+    });
+  });
+
+  heroVisual.addEventListener('mouseleave', () => {
+    cards.forEach((card, i) => {
+      card.style.transform = '';
+    });
+  });
+})();
+
+// -------------------------------------------
+// FLOATING PARTICLES — Dust motes / paper fibers
+// -------------------------------------------
+(function initParticles() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+  if (window.innerWidth < 768) return; // Skip on mobile for performance
+
+  const canvas = document.createElement('canvas');
+  canvas.className = 'particles-canvas';
+  document.body.prepend(canvas);
+  const ctx = canvas.getContext('2d');
+
+  let w, h;
+  function resize() {
+    w = canvas.width = window.innerWidth;
+    h = canvas.height = window.innerHeight;
+  }
+  resize();
+  window.addEventListener('resize', resize, { passive: true });
+
+  const particles = [];
+  const count = 40;
+
+  for (let i = 0; i < count; i++) {
+    particles.push({
+      x: Math.random() * w,
+      y: Math.random() * h,
+      size: Math.random() * 2 + 0.5,
+      speedX: (Math.random() - 0.5) * 0.3,
+      speedY: Math.random() * 0.2 + 0.05,
+      opacity: Math.random() * 0.3 + 0.05,
+      drift: Math.random() * Math.PI * 2,
+    });
+  }
+
+  function draw() {
+    ctx.clearRect(0, 0, w, h);
+    particles.forEach(p => {
+      p.x += p.speedX + Math.sin(p.drift) * 0.1;
+      p.y += p.speedY;
+      p.drift += 0.005;
+
+      if (p.y > h + 10) { p.y = -10; p.x = Math.random() * w; }
+      if (p.x > w + 10) p.x = -10;
+      if (p.x < -10) p.x = w + 10;
+
+      ctx.beginPath();
+      ctx.arc(p.x, p.y, p.size, 0, Math.PI * 2);
+      ctx.fillStyle = `rgba(201, 168, 76, ${p.opacity})`;
+      ctx.fill();
+    });
+    requestAnimationFrame(draw);
+  }
+  draw();
+})();
+
+// -------------------------------------------
+// PARALLAX BACKGROUND — Subtle depth on scroll
+// -------------------------------------------
+(function initParallax() {
+  const hero = document.querySelector('.hero');
+  if (!hero || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  window.addEventListener('scroll', () => {
+    const y = window.scrollY;
+    if (y > window.innerHeight) return; // Don't compute past hero
+    hero.style.setProperty('--parallax-y', `${y * 0.3}px`);
+  }, { passive: true });
+})();
+
+// -------------------------------------------
+// MAGNETIC BUTTONS — Subtle pull toward cursor
+// -------------------------------------------
+(function initMagneticButtons() {
+  if (window.innerWidth < 900) return;
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  document.querySelectorAll('.btn-primary.btn-large').forEach(btn => {
+    btn.addEventListener('mousemove', (e) => {
+      const rect = btn.getBoundingClientRect();
+      const x = e.clientX - rect.left - rect.width / 2;
+      const y = e.clientY - rect.top - rect.height / 2;
+      btn.style.transform = `translate(${x * 0.15}px, ${y * 0.15}px) translateY(-1px)`;
+    });
+    btn.addEventListener('mouseleave', () => {
+      btn.style.transform = '';
+    });
+  });
+})();
+
+// -------------------------------------------
+// TEXT SCRAMBLE — Section labels on scroll
+// -------------------------------------------
+(function initTextScramble() {
+  if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789#@$%';
+  const labels = document.querySelectorAll('.section-label');
+
+  const scrambleObserver = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (!entry.isIntersecting) return;
+      scrambleObserver.unobserve(entry.target);
+
+      const el = entry.target;
+      const original = el.textContent;
+      let iteration = 0;
+
+      const interval = setInterval(() => {
+        el.textContent = original
+          .split('')
+          .map((char, i) => {
+            if (char === ' ') return ' ';
+            if (i < iteration) return original[i];
+            return chars[Math.floor(Math.random() * chars.length)];
+          })
+          .join('');
+
+        iteration += 1 / 2;
+        if (iteration >= original.length) {
+          el.textContent = original;
+          clearInterval(interval);
+        }
+      }, 40);
+    });
+  }, { threshold: 0.5 });
+
+  labels.forEach(el => scrambleObserver.observe(el));
+})();
 
 // -------------------------------------------
 // Universal Email Form Handler

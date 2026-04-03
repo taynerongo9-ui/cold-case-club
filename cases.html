@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Our Cases — Cold Case Club Mystery Subscriptions</title>
+  <meta name="description" content="Choose your cold case. Three immersive mystery subscriptions — each a 6-month investigation with 12 evidence packets delivered to your door. From a small-town disappearance to a coastal cliff mystery.">
+  <meta name="keywords" content="mystery subscription cases, cold case investigation, true crime subscription box, mystery mail subscription, detective experience, solve a cold case">
+  <meta name="author" content="Cold Case Club">
+  <link rel="canonical" href="https://coldcaseclub.au/cases">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coldcaseclub.au/cases">
+  <meta property="og:title" content="Our Cases — Choose Your Investigation">
+  <meta property="og:description" content="Three cold cases. Three different eras. Twelve evidence packets each. Pick your mystery and start investigating.">
+  <meta property="og:image" content="https://coldcaseclub.au/images/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Cold Case Club">
+  <meta property="og:locale" content="en_AU">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Our Cases — Choose Your Investigation">
+  <meta name="twitter:description" content="Three cold cases. Three different eras. Twelve evidence packets each. Pick your mystery.">
+  <meta name="twitter:image" content="https://coldcaseclub.au/images/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- JSON-LD: ItemList for Cases -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Cold Case Club Investigations",
+    "description": "Choose from our active cold case files. Each investigation is a 6-month mystery subscription with 12 evidence packets.",
+    "numberOfItems": 3,
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@type": "Product",
+          "name": "Case #1: The Hargrove Disappearance",
+          "description": "Ashford, Oregon, 1987. Eleanor Hargrove vanished after attending the Monarch Theatre. Her coat was found on the bridge. No body was ever recovered. Police called it suicide. Her mother called it murder.",
+          "offers": {
+            "@type": "Offer",
+            "price": "74.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "item": {
+          "@type": "Product",
+          "name": "Case #2: The Belmont Hotel Fire",
+          "description": "Charleston, South Carolina, 1993. Hotel owner Marcus Webb was found dead in Room 416 after a fire. They said he fell asleep with a lit cigarette. But Marcus Webb didn't smoke.",
+          "offers": {
+            "@type": "Offer",
+            "price": "74.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      },
+      {
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@type": "Product",
+          "name": "Case #3: The Lighthouse Keeper's Wife",
+          "description": "Crestfall, Maine, 1962. Catherine Marsh was found at the base of the cliffs below Dunmore Point Lighthouse. They said she stumbled in the fog. But the fog had cleared hours earlier.",
+          "offers": {
+            "@type": "Offer",
+            "price": "74.99",
+            "priceCurrency": "USD",
+            "availability": "https://schema.org/InStock"
+          }
+        }
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- ========== URGENCY BAR ========== -->
+<div class="urgency-bar" id="urgency-bar">
+  <div class="container">
+    <p>
+      <strong>Mother's Day Ships Free</strong> &mdash; Order by May 5th to guarantee delivery.
+      <span class="urgency-countdown" id="countdown"></span>
+      <a href="/mothers-day" class="urgency-link">Grab Her Case &rarr;</a>
+    </p>
+    <button class="urgency-close" aria-label="Dismiss" onclick="document.getElementById('urgency-bar').style.display='none';localStorage.setItem('urgencyDismissed','1')">&times;</button>
+  </div>
+</div>
+
+<!-- ========== NAV ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Cold Case <span>Club</span></a>
+    <div class="nav-links">
+      <a href="/#how">How It Works</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/blog">Blog</a>
+      <a href="/#pricing" class="btn btn-primary btn-nav-cta nav-cta">Start Your Case</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div class="nav-overlay">
+  <a href="/#how">How It Works</a>
+  <a href="/cases">Our Cases</a>
+  <a href="/#pricing">Pricing</a>
+  <a href="/blog">Blog</a>
+  <a href="/#pricing" class="btn btn-primary">Start Your Case</a>
+</div>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="blog-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/">Home</a> <span>&rsaquo;</span> Our Cases
+    </div>
+    <span class="section-label">Active Case Files</span>
+    <h1>Choose Your <span class="text-gold">Investigation</span></h1>
+    <p class="text-muted" style="max-width:600px;margin:1rem auto 0;">Three cold cases. Three different eras. Each one is a 6-month mystery delivered to your door &mdash; 12 evidence packets filled with detective notes, witness statements, coded messages, and buried secrets. Pick your case. Start investigating.</p>
+  </div>
+</section>
+
+<!-- ========== CASE #1 ========== -->
+<section class="cases-section">
+  <div class="container">
+    <div class="case-card case-card-featured fade-in">
+      <div class="case-card-badge">Most Popular</div>
+      <div class="case-card-grid">
+        <div class="case-card-evidence">
+          <div class="case-file-tab">
+            <span class="case-file-number">Case #1</span>
+            <span class="case-file-status">Active</span>
+          </div>
+          <div class="case-card-stack">
+            <div class="evidence-card" style="position:relative;transform:rotate(-2deg);">
+              <span class="evidence-stamp">Classified</span>
+              <div class="evidence-card-label">Detective's Notes &mdash; Jan 14, 1987</div>
+              <div class="evidence-card-title">The Hargrove Disappearance</div>
+              <div class="evidence-card-text">
+                Victim last seen at 11:42 PM exiting<br>
+                the Monarch Theatre. Coat found on<br>
+                the bridge. No body recovered...<br>
+                <br>
+                Three witnesses. Three different stories.
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="case-card-info">
+          <h2>The Hargrove <span class="text-gold">Disappearance</span></h2>
+          <div class="case-meta-row">
+            <span class="case-meta-tag">Ashford, Oregon</span>
+            <span class="case-meta-tag">Winter 1987</span>
+            <span class="case-meta-tag">Missing Person</span>
+          </div>
+          <p class="case-synopsis">Eleanor Hargrove, 34, was last seen leaving the Monarch Theatre on a January night. Her coat was found draped over the railing of Morrison Creek Bridge. Her car sat alone in the theatre parking lot. No body was ever recovered.</p>
+          <p class="case-synopsis">Police called it a probable suicide. The case was closed in six weeks. But Eleanor's mother never believed it. Neither did the bartender who served her that night. Neither did the detective who retired with this file on his desk.</p>
+          <p class="case-synopsis"><strong>Three witnesses. Three different stories. One of them is lying.</strong></p>
+          <div class="case-details">
+            <div class="case-detail">
+              <span class="case-detail-label">Difficulty</span>
+              <span class="case-detail-value">&#9733;&#9733;&#9733;&#9734;&#9734; Intermediate</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Duration</span>
+              <span class="case-detail-value">6 months &middot; 12 packets</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Themes</span>
+              <span class="case-detail-value">Deception, family secrets, small-town politics</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Best For</span>
+              <span class="case-detail-value">First-time investigators &amp; book clubs</span>
+            </div>
+          </div>
+          <div class="case-card-actions">
+            <a href="/#pricing" class="btn btn-primary btn-large" data-checkout="prepaid">Investigate This Case &mdash; $74.99</a>
+            <a href="/gift" class="btn btn-outline">Gift This Case</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== CASE #2 ========== -->
+    <div class="case-card fade-in">
+      <div class="case-card-grid case-card-grid-reverse">
+        <div class="case-card-info">
+          <h2>The Belmont Hotel <span class="text-gold">Fire</span></h2>
+          <div class="case-meta-row">
+            <span class="case-meta-tag">Charleston, SC</span>
+            <span class="case-meta-tag">October 1993</span>
+            <span class="case-meta-tag">Arson &amp; Murder</span>
+          </div>
+          <p class="case-synopsis">Marcus Webb, 58, was found dead in Room 416 of the Belmont Hotel after a fire tore through the fourth floor. The official report said he fell asleep with a lit cigarette.</p>
+          <p class="case-synopsis">There's just one problem: <strong>Marcus Webb didn't smoke.</strong></p>
+          <p class="case-synopsis">A decorated hotelier. A lucrative insurance policy. A business partner with old-money connections and a 45-minute gap in his alibi. The fire destroyed nearly everything in that room &mdash; but not the truth.</p>
+          <div class="case-details">
+            <div class="case-detail">
+              <span class="case-detail-label">Difficulty</span>
+              <span class="case-detail-value">&#9733;&#9733;&#9733;&#9733;&#9734; Advanced</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Duration</span>
+              <span class="case-detail-value">6 months &middot; 12 packets</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Themes</span>
+              <span class="case-detail-value">Financial fraud, high society, arson investigation</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Best For</span>
+              <span class="case-detail-value">Detail-oriented investigators &amp; couples</span>
+            </div>
+          </div>
+          <div class="case-card-actions">
+            <a href="/#pricing" class="btn btn-primary btn-large" data-checkout="prepaid">Investigate This Case &mdash; $74.99</a>
+            <a href="/gift" class="btn btn-outline">Gift This Case</a>
+          </div>
+        </div>
+        <div class="case-card-evidence">
+          <div class="case-file-tab">
+            <span class="case-file-number">Case #2</span>
+            <span class="case-file-status">Active</span>
+          </div>
+          <div class="case-card-stack">
+            <div class="evidence-card" style="position:relative;transform:rotate(1.5deg);">
+              <span class="evidence-stamp">Sealed</span>
+              <div class="evidence-card-label">Charleston Fire Dept &mdash; Oct 17, 1993</div>
+              <div class="evidence-card-title">Incident Report #93-4172</div>
+              <div class="evidence-card-text">
+                Structure fire, 4th floor, Belmont Hotel.<br>
+                One fatality: Webb, Marcus A. (DOB 03/14/35)<br>
+                Cause of death: smoke inhalation.<br>
+                <br>
+                Origin point: Room 416. Probable cause:<br>
+                unattended smoking materials.<br>
+                <br>
+                <em style="color:var(--red-bright);">Note: Two separate origin points identified.</em>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== CASE #3 ========== -->
+    <div class="case-card fade-in">
+      <div class="case-card-grid">
+        <div class="case-card-evidence">
+          <div class="case-file-tab">
+            <span class="case-file-number">Case #3</span>
+            <span class="case-file-status">Active</span>
+          </div>
+          <div class="case-card-stack">
+            <div class="evidence-card" style="position:relative;transform:rotate(-1deg);">
+              <span class="evidence-stamp">Cold Case</span>
+              <div class="evidence-card-label">Constable's Report &mdash; Mar 9, 1962</div>
+              <div class="evidence-card-title">Death at Dunmore Point</div>
+              <div class="evidence-card-text">
+                Body of Catherine Marsh, 29, found at<br>
+                base of cliffs, 06:40 AM. Lighthouse<br>
+                keeper (husband) reported wife missing<br>
+                at 05:15 AM.<br>
+                <br>
+                Probable cause: accidental fall in fog.<br>
+                <br>
+                <em style="color:var(--red-bright);">Lighthouse log: fog horn secured at 20:00.<br>
+                Visibility clear from 20:00 onward.</em>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="case-card-info">
+          <h2>The Lighthouse Keeper's <span class="text-gold">Wife</span></h2>
+          <div class="case-meta-row">
+            <span class="case-meta-tag">Crestfall, Maine</span>
+            <span class="case-meta-tag">March 1962</span>
+            <span class="case-meta-tag">Suspicious Death</span>
+          </div>
+          <p class="case-synopsis">Catherine Marsh was found at the base of the cliffs below Dunmore Point Lighthouse on a cold March morning. The constable wrote "accidental fall in dense fog" and closed the case the same week.</p>
+          <p class="case-synopsis">But the lighthouse log tells a different story. <strong>The fog had cleared hours before Catherine fell.</strong> The night was clear. The path was familiar. She'd walked it a thousand times.</p>
+          <p class="case-synopsis">A hidden diary. A sister-in-law with a borrowed name. A shipping fortune hanging in the balance. The sea keeps its secrets &mdash; but the lighthouse keeper's wife left hers in the walls.</p>
+          <div class="case-details">
+            <div class="case-detail">
+              <span class="case-detail-label">Difficulty</span>
+              <span class="case-detail-value">&#9733;&#9733;&#9733;&#9733;&#9733; Expert</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Duration</span>
+              <span class="case-detail-value">6 months &middot; 12 packets</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Themes</span>
+              <span class="case-detail-value">Identity theft, inheritance, isolation, the sea</span>
+            </div>
+            <div class="case-detail">
+              <span class="case-detail-label">Best For</span>
+              <span class="case-detail-value">Experienced investigators &amp; literary mystery fans</span>
+            </div>
+          </div>
+          <div class="case-card-actions">
+            <a href="/#pricing" class="btn btn-primary btn-large" data-checkout="prepaid">Investigate This Case &mdash; $74.99</a>
+            <a href="/gift" class="btn btn-outline">Gift This Case</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS MINI ========== -->
+<section class="how-it-works">
+  <div class="container text-center">
+    <span class="section-label">How It Works</span>
+    <h2>Every Case Follows <span class="text-gold">the Same Format</span></h2>
+    <div class="steps-grid">
+      <div class="step-card fade-in">
+        <span class="step-number">01</span>
+        <div class="step-icon">&#128230;</div>
+        <h3>12 Evidence Packets</h3>
+        <p>Delivered every 2 weeks for 6 months. Detective notes, witness statements, newspaper clippings, coded messages, photographs, and surprise artifacts.</p>
+      </div>
+      <div class="step-card fade-in">
+        <span class="step-number">02</span>
+        <div class="step-icon">&#128270;</div>
+        <h3>Build Your Theory</h3>
+        <p>Each packet reveals new information. Some clues are obvious. Some are hidden. Connect the dots, question the witnesses, and build your case.</p>
+      </div>
+      <div class="step-card fade-in">
+        <span class="step-number">03</span>
+        <div class="step-icon">&#9878;</div>
+        <h3>Solve It</h3>
+        <p>The final packet reveals the truth. How much did you get right? Compare your theory with what actually happened. Then pick your next case.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== COMPARISON ========== -->
+<section class="evidence-section">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Compare Cases</span>
+      <h2>Find Your Perfect <span class="text-gold">Investigation</span></h2>
+    </div>
+    <div style="max-width:800px;margin:2rem auto 0;overflow-x:auto;">
+      <table class="comparison-table">
+        <thead>
+          <tr>
+            <th></th>
+            <th>Case #1</th>
+            <th>Case #2</th>
+            <th>Case #3</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Name</strong></td>
+            <td>The Hargrove Disappearance</td>
+            <td>The Belmont Hotel Fire</td>
+            <td>The Lighthouse Keeper's Wife</td>
+          </tr>
+          <tr>
+            <td><strong>Era</strong></td>
+            <td>1987</td>
+            <td>1993</td>
+            <td>1962</td>
+          </tr>
+          <tr>
+            <td><strong>Setting</strong></td>
+            <td>Small-town Oregon</td>
+            <td>Charleston high society</td>
+            <td>Coastal Maine lighthouse</td>
+          </tr>
+          <tr>
+            <td><strong>Crime Type</strong></td>
+            <td>Disappearance</td>
+            <td>Arson &amp; murder</td>
+            <td>Suspicious death</td>
+          </tr>
+          <tr>
+            <td><strong>Difficulty</strong></td>
+            <td class="winner">&#9733;&#9733;&#9733; Intermediate</td>
+            <td>&#9733;&#9733;&#9733;&#9733; Advanced</td>
+            <td>&#9733;&#9733;&#9733;&#9733;&#9733; Expert</td>
+          </tr>
+          <tr>
+            <td><strong>Best For</strong></td>
+            <td class="winner">First-timers &amp; book clubs</td>
+            <td>Detail-oriented pairs</td>
+            <td>Literary mystery fans</td>
+          </tr>
+          <tr>
+            <td><strong>Key Evidence</strong></td>
+            <td>Witness statements, financial records</td>
+            <td>Fire reports, toxicology, hotel ledgers</td>
+            <td>Hidden diary, identity documents</td>
+          </tr>
+          <tr>
+            <td><strong>Puzzles</strong></td>
+            <td>Caesar cipher, timeline analysis</td>
+            <td>Encoded ledger, alibi mapping</td>
+            <td>Diary ciphers, genealogy</td>
+          </tr>
+          <tr>
+            <td><strong>Duration</strong></td>
+            <td>6 months &middot; 12 packets</td>
+            <td>6 months &middot; 12 packets</td>
+            <td>6 months &middot; 12 packets</td>
+          </tr>
+          <tr>
+            <td><strong>Price</strong></td>
+            <td><strong>$74.99</strong></td>
+            <td><strong>$74.99</strong></td>
+            <td><strong>$74.99</strong></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="text-center" style="margin-top:2rem;">
+      <p class="text-muted" style="margin-bottom:1rem;">Not sure which to pick? <strong>Start with Case #1.</strong> It's our most popular case and the best introduction to Cold Case Club.</p>
+      <a href="/#pricing" class="btn btn-primary btn-large" data-checkout="prepaid">Start Case #1 &mdash; $74.99</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GUARANTEE ========== -->
+<section class="guarantee-section">
+  <div class="container text-center">
+    <div class="guarantee-box">
+      <div class="guarantee-icon">&#128737;</div>
+      <h3>The Cold Case <span class="text-gold">Guarantee</span></h3>
+      <p>If your first evidence packet doesn't hook you, we'll refund every penny. No interrogation. No hoops. Just email us within 30 days of your first delivery and we'll make it right. We're that confident you'll be obsessed.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== FINAL CTA ========== -->
+<section class="cta-section">
+  <div class="container">
+    <div class="cta-content">
+      <span class="section-label">Free Evidence Preview</span>
+      <h2>Not Ready to Commit? <span class="text-gold">Try a Sample.</span></h2>
+      <p>Enter your email and we'll send you a real evidence sample from Case #1 &mdash; a witness statement, a newspaper clipping, and your first coded clue. No purchase necessary.</p>
+      <form class="email-form" id="email-form">
+        <input type="email" placeholder="detective@youremail.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Send Me the Evidence</button>
+      </form>
+      <p class="email-note">Free. No spam. Just clues. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STICKY MOBILE CTA ========== -->
+<div class="mobile-cta" id="mobile-cta">
+  <a href="/#pricing" class="btn btn-primary btn-block">Start Your Case &mdash; From $12.50/mo</a>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">&copy; 2026 Cold Case Club. All rights reserved. All cases are works of fiction.</p>
+    <div class="footer-links">
+      <a href="/about">About</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/blog">Blog</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="mailto:hello@coldcaseclub.au">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

@@ -824,15 +824,408 @@ h3 { font-size: 1.3rem; }
   color: var(--text-muted);
 }
 
-/* --- Animations --- */
+/* ============================================
+   ANIMATION SYSTEM — Dark Detective Noir
+   ============================================ */
+
+/* --- Reduced Motion: respect accessibility --- */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  .particles-canvas { display: none !important; }
+}
+
+/* --- Keyframes --- */
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(30px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-20px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes fadeInLeft {
+  from { opacity: 0; transform: translateX(-40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes fadeInRight {
+  from { opacity: 0; transform: translateX(40px); }
+  to   { opacity: 1; transform: translateX(0); }
+}
+@keyframes slideReveal {
+  from { opacity: 0; transform: translateY(60px) scale(.96); }
+  to   { opacity: 1; transform: translateY(0) scale(1); }
+}
+@keyframes stampSlam {
+  0%   { opacity: 0; transform: rotate(12deg) scale(3); }
+  60%  { opacity: 1; transform: rotate(-2deg) scale(.95); }
+  80%  { transform: rotate(1deg) scale(1.02); }
+  100% { transform: rotate(3deg) scale(1); }
+}
+@keyframes typewriterCursor {
+  0%, 100% { border-color: var(--gold); }
+  50%      { border-color: transparent; }
+}
+@keyframes shimmerGold {
+  0%   { background-position: -200% center; }
+  100% { background-position: 200% center; }
+}
+@keyframes glowPulse {
+  0%, 100% { box-shadow: 0 0 20px rgba(201,168,76,.05); }
+  50%      { box-shadow: 0 0 40px rgba(201,168,76,.15); }
+}
+@keyframes floatUpDown {
+  0%, 100% { transform: translateY(0); }
+  50%      { transform: translateY(-8px); }
+}
+@keyframes evidenceShuffle1 {
+  0%   { transform: rotate(-3deg) translateY(0); }
+  50%  { transform: rotate(-1deg) translateY(-6px); }
+  100% { transform: rotate(-3deg) translateY(0); }
+}
+@keyframes evidenceShuffle2 {
+  0%   { transform: rotate(2deg) translateY(0); }
+  50%  { transform: rotate(3deg) translateY(-4px); }
+  100% { transform: rotate(2deg) translateY(0); }
+}
+@keyframes evidenceShuffle3 {
+  0%   { transform: rotate(-1deg) translateY(0); }
+  50%  { transform: rotate(0deg) translateY(-5px); }
+  100% { transform: rotate(-1deg) translateY(0); }
+}
+@keyframes countFlicker {
+  0%, 100% { opacity: 1; }
+  92%      { opacity: 1; }
+  93%      { opacity: .4; }
+  94%      { opacity: 1; }
+  96%      { opacity: .6; }
+  97%      { opacity: 1; }
+}
+@keyframes scanline {
+  0%   { transform: translateY(-100%); }
+  100% { transform: translateY(100vh); }
+}
+@keyframes borderGlow {
+  0%, 100% { border-color: var(--border); }
+  50%      { border-color: var(--gold-dim); }
+}
+@keyframes revealLine {
+  from { width: 0; }
+  to   { width: 100%; }
+}
+@keyframes grainShift {
+  0%, 100% { transform: translate(0, 0); }
+  10% { transform: translate(-1%, -1%); }
+  30% { transform: translate(1%, 2%); }
+  50% { transform: translate(-2%, 1%); }
+  70% { transform: translate(2%, -1%); }
+  90% { transform: translate(1%, 1%); }
+}
+
+/* --- Scroll Progress Bar --- */
+.scroll-progress {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 2px;
+  background: linear-gradient(90deg, var(--gold-dim), var(--gold), var(--gold-dim));
+  z-index: 9999;
+  transform-origin: left;
+  transform: scaleX(0);
+  transition: transform .1s linear;
+  pointer-events: none;
+}
+
+/* --- Film Grain Overlay --- */
+.grain-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9998;
+  pointer-events: none;
+  opacity: .035;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  background-size: 256px 256px;
+  animation: grainShift 8s steps(10) infinite;
+}
+
+/* --- Particle Canvas --- */
+.particles-canvas {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* --- Core Fade-In (enhanced with stagger support) --- */
 .fade-in {
   opacity: 0;
-  transform: translateY(20px);
-  transition: opacity .6s ease, transform .6s ease;
+  transform: translateY(30px);
+  transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
 }
 .fade-in.visible {
   opacity: 1;
   transform: translateY(0);
+}
+
+/* Staggered delays via CSS custom property */
+.fade-in[data-delay="1"] { transition-delay: .1s; }
+.fade-in[data-delay="2"] { transition-delay: .2s; }
+.fade-in[data-delay="3"] { transition-delay: .3s; }
+.fade-in[data-delay="4"] { transition-delay: .4s; }
+.fade-in[data-delay="5"] { transition-delay: .5s; }
+
+/* Slide-in variants */
+.slide-left {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
+}
+.slide-left.visible { opacity: 1; transform: translateX(0); }
+
+.slide-right {
+  opacity: 0;
+  transform: translateX(50px);
+  transition: opacity .7s cubic-bezier(.22,.61,.36,1), transform .7s cubic-bezier(.22,.61,.36,1);
+}
+.slide-right.visible { opacity: 1; transform: translateX(0); }
+
+/* Scale reveal */
+.scale-in {
+  opacity: 0;
+  transform: scale(.85);
+  transition: opacity .6s ease, transform .6s ease;
+}
+.scale-in.visible { opacity: 1; transform: scale(1); }
+
+/* --- Hero Typewriter Effect --- */
+.hero-typewriter {
+  display: inline;
+}
+.hero-typewriter .typewriter-cursor {
+  display: inline-block;
+  width: 3px;
+  height: 1em;
+  background: var(--gold);
+  margin-left: 4px;
+  vertical-align: text-bottom;
+  animation: typewriterCursor 1s step-end infinite;
+}
+.hero h1 .typewriter-line {
+  display: block;
+  overflow: hidden;
+}
+
+/* --- Shimmer Gold Text --- */
+.shimmer-gold {
+  background: linear-gradient(
+    90deg,
+    var(--gold-dim) 0%,
+    #e6c45a 25%,
+    var(--gold) 50%,
+    #e6c45a 75%,
+    var(--gold-dim) 100%
+  );
+  background-size: 200% auto;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmerGold 4s linear infinite;
+}
+
+/* --- Evidence Card Animations --- */
+.evidence-card {
+  transition: transform .5s cubic-bezier(.22,.61,.36,1), box-shadow .5s ease;
+}
+.evidence-stack .evidence-card:nth-child(1) {
+  animation: evidenceShuffle1 6s ease-in-out infinite;
+}
+.evidence-stack .evidence-card:nth-child(2) {
+  animation: evidenceShuffle2 7s ease-in-out infinite;
+  animation-delay: .5s;
+}
+.evidence-stack .evidence-card:nth-child(3) {
+  animation: evidenceShuffle3 8s ease-in-out infinite;
+  animation-delay: 1s;
+}
+
+/* Evidence stamp slam animation */
+.evidence-stamp {
+  animation: stampSlam .6s cubic-bezier(.22,.61,.36,1) both;
+  animation-delay: 1.2s;
+}
+
+/* --- 3D Card Tilt --- */
+.tilt-card {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+.tilt-card:hover {
+  box-shadow: 0 20px 60px rgba(0,0,0,.4), 0 0 30px rgba(201,168,76,.08);
+}
+
+/* --- Proof Bar Count Animation --- */
+.proof-value {
+  transition: color .3s ease;
+}
+.proof-value.counting {
+  animation: countFlicker 2s ease-in-out;
+}
+
+/* --- Glow Pulse on Featured Card --- */
+.price-card.featured {
+  animation: glowPulse 4s ease-in-out infinite;
+}
+
+/* --- Guarantee Box Glow --- */
+.guarantee-box {
+  transition: box-shadow .4s ease, border-color .4s ease;
+}
+.guarantee-box:hover {
+  box-shadow: 0 0 40px rgba(201,168,76,.1);
+  border-color: var(--gold);
+}
+
+/* --- Nav Link Animated Underline --- */
+.nav-links a:not(.btn) {
+  position: relative;
+}
+.nav-links a:not(.btn)::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: var(--gold);
+  transition: width .3s cubic-bezier(.22,.61,.36,1);
+}
+.nav-links a:not(.btn):hover::after {
+  width: 100%;
+}
+
+/* --- Section Divider Reveal --- */
+.section-divider {
+  display: block;
+  width: 0;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+  margin: 0 auto;
+  transition: width 1.2s cubic-bezier(.22,.61,.36,1);
+}
+.section-divider.visible {
+  width: 120px;
+}
+
+/* --- Step Card Hover Lift --- */
+.step-card {
+  transition: transform .4s cubic-bezier(.22,.61,.36,1), border-color .4s ease, box-shadow .4s ease;
+}
+.step-card:hover {
+  transform: translateY(-8px);
+  border-color: var(--gold-dim);
+  box-shadow: 0 16px 48px rgba(0,0,0,.3), 0 0 20px rgba(201,168,76,.06);
+}
+
+/* --- Step Icon Bounce on Card Hover --- */
+.step-card:hover .step-icon {
+  animation: floatUpDown 1.5s ease-in-out infinite;
+}
+
+/* --- Testimonial Card Subtle Float --- */
+.testimonial-card {
+  transition: transform .4s ease, box-shadow .4s ease;
+}
+.testimonial-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 12px 40px rgba(0,0,0,.3);
+}
+
+/* --- Evidence Item Hover Glow --- */
+.evidence-item {
+  transition: border-color .3s ease, box-shadow .3s ease, transform .3s ease;
+}
+.evidence-item:hover {
+  border-color: var(--gold-dim);
+  box-shadow: 0 8px 30px rgba(0,0,0,.2);
+  transform: translateY(-3px);
+}
+
+/* --- Button Press Effect --- */
+.btn {
+  transition: all .25s cubic-bezier(.22,.61,.36,1);
+  position: relative;
+  overflow: hidden;
+}
+.btn::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at center, rgba(255,255,255,.15) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity .3s;
+}
+.btn:active {
+  transform: translateY(1px) scale(.98);
+}
+.btn:active::after {
+  opacity: 1;
+}
+
+/* --- FAQ Question Hover Arrow --- */
+.faq-question {
+  transition: color .2s ease, padding-left .3s ease;
+}
+.faq-question:hover {
+  padding-left: .5rem;
+}
+
+/* --- Hero Badge Glow Pulse --- */
+.hero-badge {
+  animation: glowPulse 3s ease-in-out infinite;
+  box-shadow: 0 0 20px rgba(198,40,40,.1);
+}
+
+/* --- CTA Section Ambient Glow --- */
+.cta-section::after {
+  content: '';
+  position: absolute;
+  bottom: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 600px;
+  height: 600px;
+  background: radial-gradient(circle, rgba(201,168,76,.04) 0%, transparent 70%);
+  pointer-events: none;
+  animation: floatUpDown 8s ease-in-out infinite;
+}
+
+/* --- Email Input Focus Glow --- */
+.email-form input:focus {
+  border-color: var(--gold);
+  box-shadow: 0 0 20px rgba(201,168,76,.1);
+}
+
+/* --- Blog Card Hover Border Trace --- */
+.blog-card {
+  position: relative;
+  overflow: hidden;
+}
+.blog-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(90deg, transparent, var(--gold), transparent);
+  transition: left .6s ease;
+}
+.blog-card:hover::before {
+  left: 100%;
 }
 
 /* --- Mobile Nav Overlay --- */
@@ -1143,7 +1536,141 @@ h3 { font-size: 1.3rem; }
   margin-bottom: 0;
 }
 
+/* --- Cases Page --- */
+.cases-section {
+  padding: 2rem 0 4rem;
+}
+.case-card {
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 3rem;
+  margin-bottom: 3rem;
+  position: relative;
+  transition: border-color .3s;
+}
+.case-card:hover {
+  border-color: var(--gold-dim);
+}
+.case-card-featured {
+  border-color: var(--gold-dim);
+  box-shadow: 0 0 60px rgba(201,168,76,.06);
+}
+.case-card-badge {
+  position: absolute;
+  top: -12px;
+  left: 3rem;
+  background: var(--gold);
+  color: #0a0a0f;
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  font-weight: 700;
+  letter-spacing: .15em;
+  text-transform: uppercase;
+  padding: .35rem 1rem;
+  border-radius: 2px;
+}
+.case-card-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.4fr;
+  gap: 3rem;
+  align-items: start;
+}
+.case-card-grid-reverse {
+  grid-template-columns: 1.4fr 1fr;
+}
+.case-file-tab {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.2rem;
+}
+.case-file-number {
+  font-family: var(--font-mono);
+  font-size: .7rem;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: var(--text-muted);
+}
+.case-file-status {
+  font-family: var(--font-mono);
+  font-size: .6rem;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: #4caf50;
+  background: rgba(76,175,80,.1);
+  border: 1px solid rgba(76,175,80,.3);
+  padding: .2rem .6rem;
+  border-radius: 2px;
+}
+.case-card-stack {
+  position: relative;
+}
+.case-card-stack .evidence-card {
+  position: relative;
+  width: 100%;
+}
+.case-meta-row {
+  display: flex;
+  gap: .6rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.5rem;
+}
+.case-meta-tag {
+  font-family: var(--font-mono);
+  font-size: .65rem;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  color: var(--text-muted);
+  background: var(--bg);
+  border: 1px solid var(--border);
+  padding: .25rem .7rem;
+  border-radius: 2px;
+}
+.case-synopsis {
+  font-size: .95rem;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin-bottom: .8rem;
+}
+.case-synopsis strong {
+  color: var(--text);
+}
+.case-details {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: .8rem;
+  margin: 1.5rem 0 2rem;
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+}
+.case-detail-label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: .6rem;
+  text-transform: uppercase;
+  letter-spacing: .15em;
+  color: var(--gold);
+  margin-bottom: .2rem;
+}
+.case-detail-value {
+  font-size: .85rem;
+  color: var(--text-muted);
+}
+.case-card-actions {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
 @media (max-width: 900px) {
   .blog-grid { grid-template-columns: 1fr; }
   .about-values { grid-template-columns: 1fr; }
+  .case-card { padding: 2rem 1.5rem; }
+  .case-card-grid,
+  .case-card-grid-reverse { grid-template-columns: 1fr; }
+  .case-details { grid-template-columns: 1fr; }
+  .case-card-actions { flex-direction: column; }
+  .case-card-actions .btn { width: 100%; }
 }
