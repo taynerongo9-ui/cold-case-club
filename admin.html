@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Admin — Cold Case Club Orders</title>
+  <meta name="robots" content="noindex, nofollow">
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: -apple-system, sans-serif; background: #0a0a0f; color: #e2e2e8; padding: 2rem; }
+    h1 { font-size: 1.5rem; margin-bottom: .5rem; }
+    .subtitle { color: #9494a8; font-size: .85rem; margin-bottom: 2rem; }
+    .login { max-width: 400px; margin: 4rem auto; text-align: center; }
+    .login input { width: 100%; padding: .8rem 1rem; background: #12121a; border: 1px solid #2a2a3a; border-radius: 6px; color: #e2e2e8; font-size: 1rem; margin-bottom: 1rem; }
+    .login button { width: 100%; padding: .8rem; background: #c9a84c; color: #0a0a0f; border: none; border-radius: 6px; font-weight: 600; cursor: pointer; }
+    .stats { display: flex; gap: 1.5rem; margin-bottom: 2rem; flex-wrap: wrap; }
+    .stat { background: #12121a; border: 1px solid #2a2a3a; border-radius: 8px; padding: 1.2rem 1.5rem; min-width: 150px; }
+    .stat-value { font-size: 1.8rem; font-weight: 700; color: #c9a84c; }
+    .stat-label { font-size: .75rem; color: #9494a8; text-transform: uppercase; letter-spacing: .1em; }
+    table { width: 100%; border-collapse: collapse; background: #12121a; border-radius: 8px; overflow: hidden; }
+    th { text-align: left; padding: .8rem 1rem; background: #1a1a26; font-size: .7rem; text-transform: uppercase; letter-spacing: .1em; color: #c9a84c; border-bottom: 1px solid #2a2a3a; }
+    td { padding: .8rem 1rem; font-size: .85rem; border-bottom: 1px solid rgba(42,42,58,.3); color: #9494a8; }
+    tr:hover td { background: rgba(201,168,76,.03); }
+    .badge { display: inline-block; padding: .2rem .6rem; border-radius: 3px; font-size: .65rem; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; }
+    .badge-unfulfilled { background: rgba(198,40,40,.15); color: #c62828; border: 1px solid rgba(198,40,40,.3); }
+    .badge-shipped { background: rgba(76,175,80,.15); color: #4caf50; border: 1px solid rgba(76,175,80,.3); }
+    .badge-founding { background: rgba(201,168,76,.15); color: #c9a84c; border: 1px solid rgba(201,168,76,.3); }
+    .empty { text-align: center; padding: 4rem 2rem; color: #4a4a5e; }
+    .refresh { background: none; border: 1px solid #2a2a3a; color: #9494a8; padding: .5rem 1rem; border-radius: 6px; cursor: pointer; font-size: .8rem; margin-bottom: 1rem; }
+    .refresh:hover { border-color: #c9a84c; color: #c9a84c; }
+    .address { font-size: .75rem; max-width: 200px; }
+    @media (max-width: 768px) { body { padding: 1rem; } table { font-size: .75rem; } th, td { padding: .5rem; } }
+  </style>
+</head>
+<body>
+
+<div id="login-view" class="login">
+  <h1>Cold Case Club</h1>
+  <p class="subtitle">Order Management</p>
+  <input type="password" id="admin-key" placeholder="Admin key" autofocus>
+  <button onclick="login()">Access Orders</button>
+</div>
+
+<div id="dashboard" style="display:none;">
+  <h1>Cold Case Club — Orders</h1>
+  <p class="subtitle">Founding Investigator Launch</p>
+  <button class="refresh" onclick="loadOrders()">Refresh Orders</button>
+
+  <div class="stats" id="stats"></div>
+  <table>
+    <thead>
+      <tr>
+        <th>Date</th>
+        <th>Customer</th>
+        <th>Email</th>
+        <th>Plan</th>
+        <th>Amount</th>
+        <th>Shipping</th>
+        <th>Status</th>
+      </tr>
+    </thead>
+    <tbody id="order-rows">
+      <tr><td colspan="7" class="empty">Loading...</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<script>
+let adminKey = localStorage.getItem('ccc_admin_key') || '';
+
+function login() {
+  adminKey = document.getElementById('admin-key').value;
+  localStorage.setItem('ccc_admin_key', adminKey);
+  document.getElementById('login-view').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  loadOrders();
+}
+
+if (adminKey) {
+  document.getElementById('login-view').style.display = 'none';
+  document.getElementById('dashboard').style.display = 'block';
+  loadOrders();
+}
+
+async function loadOrders() {
+  try {
+    const res = await fetch(`/api/orders?key=${encodeURIComponent(adminKey)}`);
+    if (res.status === 401) {
+      localStorage.removeItem('ccc_admin_key');
+      document.getElementById('login-view').style.display = 'block';
+      document.getElementById('dashboard').style.display = 'none';
+      return;
+    }
+    const data = await res.json();
+    renderOrders(data.orders || []);
+  } catch (err) {
+    document.getElementById('order-rows').innerHTML = '<tr><td colspan="7" class="empty">Error loading orders: ' + err.message + '</td></tr>';
+  }
+}
+
+function renderOrders(orders) {
+  const total = orders.length;
+  const revenue = orders.reduce((sum, o) => sum + (o.amount || 0), 0);
+  const unfulfilled = orders.filter(o => o.status === 'unfulfilled').length;
+  const founding = orders.filter(o => o.founding_investigator).length;
+
+  document.getElementById('stats').innerHTML = `
+    <div class="stat"><div class="stat-value">${total}</div><div class="stat-label">Total Orders</div></div>
+    <div class="stat"><div class="stat-value">$${revenue.toFixed(2)}</div><div class="stat-label">Revenue</div></div>
+    <div class="stat"><div class="stat-value">${unfulfilled}</div><div class="stat-label">To Ship</div></div>
+    <div class="stat"><div class="stat-value">${founding}</div><div class="stat-label">Founding Investigators</div></div>
+  `;
+
+  if (orders.length === 0) {
+    document.getElementById('order-rows').innerHTML = '<tr><td colspan="7" class="empty">No orders yet. Go post on Reddit.</td></tr>';
+    return;
+  }
+
+  document.getElementById('order-rows').innerHTML = orders.map(o => {
+    const date = new Date(o.created).toLocaleDateString();
+    const addr = o.shipping ? `${o.shipping.address?.city || ''}, ${o.shipping.address?.country || ''}` : 'No address';
+    const statusBadge = o.status === 'shipped'
+      ? '<span class="badge badge-shipped">Shipped</span>'
+      : '<span class="badge badge-unfulfilled">To Ship</span>';
+    const foundingBadge = o.founding_investigator ? ' <span class="badge badge-founding">Founding</span>' : '';
+
+    return `<tr>
+      <td>${date}</td>
+      <td>${o.name}${foundingBadge}</td>
+      <td>${o.email}</td>
+      <td>${o.plan}</td>
+      <td>$${o.amount}</td>
+      <td class="address">${addr}</td>
+      <td>${statusBadge}</td>
+    </tr>`;
+  }).join('');
+}
+</script>
+</body>
+</html>
