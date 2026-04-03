@@ -478,7 +478,7 @@ async function openEmbeddedCheckout(plan) {
   const container = document.getElementById('checkout-container');
   const loading = document.getElementById('checkout-loading');
 
-  if (!overlay || !container) return fallbackCheckout(plan);
+  if (!overlay || !container) return;
 
   // Show modal with loading state
   overlay.classList.add('show');
@@ -490,56 +490,38 @@ async function openEmbeddedCheckout(plan) {
   if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
 
   try {
-    // Create checkout session via our API
-    const res = await fetch('/api/checkout', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ plan }),
-    });
-    const data = await res.json();
-
-    // If server returns redirect mode (no Stripe secret key configured), fall back
-    if (data.mode === 'redirect' && data.url) {
-      overlay.classList.remove('show');
-      document.body.style.overflow = '';
-      window.location.href = data.url;
-      return;
-    }
-
-    // Mount embedded checkout
     const stripe = getStripe();
-    if (!stripe) {
-      throw new Error('Stripe.js not loaded');
-    }
+    if (!stripe) throw new Error('Stripe.js not loaded');
 
-    // Destroy previous instance if exists
+    // Destroy previous instance
     if (checkoutInstance) {
       checkoutInstance.destroy();
+      checkoutInstance = null;
     }
 
-    loading.classList.add('hidden');
-
+    // Mount embedded checkout — fetchClientSecret is called by Stripe.js
     checkoutInstance = await stripe.createEmbeddedCheckoutPage({
-      fetchClientSecret: () => Promise.resolve(data.clientSecret),
+      fetchClientSecret: async () => {
+        const res = await fetch('/api/checkout', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({ plan }),
+        });
+        const data = await res.json();
+        if (data.error) throw new Error(data.error);
+        return data.clientSecret;
+      },
     });
 
+    loading.classList.add('hidden');
     checkoutInstance.mount('#checkout-container');
   } catch (err) {
     console.error('[CHECKOUT]', err);
+    // On error, close modal and redirect to payment link as last resort
     overlay.classList.remove('show');
     document.body.style.overflow = '';
-    fallbackCheckout(plan);
-  }
-}
-
-function fallbackCheckout(plan) {
-  const url = CONFIG['stripe' + plan.charAt(0).toUpperCase() + plan.slice(1)];
-  if (url && !url.includes('YOUR_') && !url.includes('placeholder')) {
-    window.location.href = url;
-  } else {
-    const cta = document.getElementById('cta') || document.getElementById('gift-email-form');
-    if (cta) cta.scrollIntoView({ behavior: 'smooth' });
-    else window.location.href = '/#cta';
+    const url = CONFIG['stripe' + plan.charAt(0).toUpperCase() + plan.slice(1)];
+    if (url) window.location.href = url;
   }
 }
 
