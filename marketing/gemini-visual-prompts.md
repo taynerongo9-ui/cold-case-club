@@ -176,3 +176,66 @@ Case #3: Replace items with lighthouse photograph, pressed flower diary, old let
 - Generate 4 variations per prompt, select the strongest
 - Request "photorealistic" and "commercial photography quality" in every prompt
 - For consistency across images, include the phrase "dark noir color palette with warm gold accents, deep blacks, and muted warm tones" in every prompt
+
+---
+
+## TIER 6: Case-Specific Social Media Evidence Visuals
+
+These are designed for Instagram feed posts — each image tells a micro-story from one of the three cases. Square format (1:1) unless noted.
+
+### Case #1: The Hargrove Disappearance — Social Evidence
+
+#### 6A. The Missing Person Poster
+```
+Generate a weathered missing person poster tacked to a telephone pole, 1987 style. The poster reads "MISSING" at the top in bold black type. Below: a placeholder for a woman's photograph (use a silhouette, not a real face — just a dark outline of a woman with shoulder-length hair). Below the silhouette: "Eleanor Hargrove, Age 34, Last Seen January 14, 1987, Monarch Theatre, Ashford, Oregon." The poster is yellowed, rain-damaged, with one corner peeling away. The telephone pole is wooden with staples from old flyers visible. The background is blurred — a rainy small-town street. The mood is haunting and melancholy. Square format, dark tones, aged texture. Think true crime documentary still.
+```
+
+#### 6B. The Safe Deposit Box Contents
+```
+Generate a top-down photograph of the contents of a safe deposit box spread on a dark velvet surface. Items visible: a sealed cream envelope stamped "INSURANCE," a small leather-bound diary (closed), a brass key on a ring, a folded newspaper clipping (yellowed), and a piece of paper with handwritten coded text (random letters visible). The items are arranged carefully, as if just removed from the box. Dramatic single-source lighting from upper left. The mood is secretive and revealing — someone was hiding something. Macro-level detail on the paper textures and brass patina. Square format, commercial photography quality. Dark noir color palette with warm gold accents.
+```
+
+### Case #2: The Belmont Hotel Fire — Social Evidence
+
+#### 6C. Room 416 Door — Crime Scene
+```
+Generate a photograph of a hotel room door, number "416" in brass numerals, with yellow crime scene tape crossed over it reading "DO NOT CROSS." The door is charred along the bottom edge. Soot marks streak upward. A forensic evidence marker (white tent with number "1") sits on the carpet in front of the door. The hallway is dimly lit with emergency lighting casting a sickly yellow-green glow. The carpet is 1990s pattern — dark burgundy with gold accents. The mood is ominous, institutional, unsettling. Square format, forensic photography lighting, high detail on the damage texture.
+```
+
+#### 6D. The Waiter's Note
+```
+Generate a close-up photograph of a cocktail napkin from "Charleston Yacht Club" (embossed logo visible) with a hastily written note in blue pen: "Tate - left through kitchen 9:45. Back 10:30. Smelled like smoke." The napkin is slightly crumpled, sitting on a dark bar surface next to a glass of bourbon (amber liquid, two ice cubes). A brass cufflink sits beside the napkin. The lighting is warm bar lighting — low, amber, intimate. The mood is conspiratorial — someone noticed something they weren't supposed to. Square format, shallow depth of field focused on the handwriting.
+```
+
+### Case #3: The Lighthouse Keeper's Wife — Social Evidence
+
+#### 6E. The Cliff Path at Dawn
+```
+Generate a dramatic landscape photograph of a narrow stone path along a cliff edge at dawn, coastal Maine setting. The path winds toward a lighthouse visible in the distance (white tower, red cap). Morning mist lifts from the ocean below — jagged rocks and white foam visible at the cliff base. The path has a wooden railing in one section, broken and missing in another. Wildflowers grow between the stones. A single woman's leather glove lies on the path near the broken railing. The sky transitions from deep purple to soft gold at the horizon. The mood is beautiful, dangerous, and mournful — something terrible happened here. Landscape format (16:9), fine art photography, muted color palette with one warm accent (the golden sky).
+```
+
+#### 6F. The Pressed Flower Diary
+```
+Generate an intimate close-up of an open diary page with a pressed lavender sprig between the pages. The handwriting is elegant, feminine, in dark blue fountain pen ink on cream paper. Visible text fragments: "March 6" and "She is not who she claims to be" and "I must tell Edward." The diary binding is worn brown leather with a small brass clasp. A dried tea ring stain marks the corner of the page. A beam of light falls across the page from above (as if from a lighthouse lens). The background is out-of-focus brass machinery. The mood is intimate, poignant, secretive — a woman's private thoughts preserved in hiding. Square format, warm lighting, macro photography, extreme detail on ink and paper texture.
+```
+
+---
+
+## TIER 7: Website Section-Specific Backgrounds
+
+Subtle atmospheric backgrounds that can be used behind website sections.
+
+#### 7A. Dark Desk Texture — Hero Background
+```
+Generate a photorealistic texture of a dark walnut desk surface, shot from directly above. The wood grain is visible but subtle. There are slight imperfections — a faint coffee ring stain, a tiny scratch, and the ghost of embossed text (barely visible, as if someone wrote on a paper that was on the desk). The overall tone is very dark — near black with warm brown undertones. This will be used as a website background, so it should be subtle and non-distracting. Seamless tile, 2000x2000 pixels, very low contrast.
+```
+
+#### 7B. Aged Paper Texture — Evidence Section Background
+```
+Generate a seamless texture of aged parchment paper, cream-to-light-tan color with subtle variations. Include faint foxing spots (small brown age marks), barely visible fold lines, and a very subtle coffee ring in one corner. The texture should tile seamlessly. Light enough to use as a background without interfering with text readability. The feel should be "document from 1987 that's been sitting in a file cabinet." 2000x2000 pixels, high detail, flat/even lighting.
+```
+
+#### 7C. Noir Fog — Atmospheric Overlay
+```
+Generate a photograph of atmospheric fog or mist against a pure black background. The fog should be wispy and organic, flowing from left to right. It should be light enough to use as a semi-transparent overlay on a dark website (will be applied at 5-10% opacity). Think film noir cigarette smoke or morning fog on a bridge. Grayscale, high contrast, 1920x1080 pixels. The fog should have depth — some wisps closer (brighter, larger) and some further (dimmer, smaller).
+```
