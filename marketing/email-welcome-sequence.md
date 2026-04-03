@@ -38,6 +38,12 @@ Can you crack it? (Hint: Caesar would know.)
 
 This is a taste. The full investigation includes 12 evidence packets delivered to your door over 6 months. Detective notes. Photographs. Artifacts. Everything you need to solve the case.
 
+**[View Your Full Evidence Sample → coldcaseclub.au/sample]**
+
+Ready to go deeper? Choose from 3 active cases:
+
+**[Browse All Cases → coldcaseclub.au/cases]**
+
 **[Start Your Investigation → coldcaseclub.au/#pricing]**
 
 — The Cold Case Club Team

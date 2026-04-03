@@ -23,24 +23,53 @@ Cold Case Club is a physical mail subscription service. Subscribers receive evid
 
 ## Who Is This For?
 
-- True crime fans
-- Mystery novel readers
-- Puzzle lovers
-- Book clubs looking for a shared experience
-- Gift givers seeking unique, memorable presents (Mother's Day, birthdays, Christmas)
+- True crime fans and mystery novel readers
+- Puzzle lovers and amateur detectives
+- Book clubs looking for a shared investigation experience
+- Couples seeking unique at-home date night activities
+- Corporate teams wanting engaging remote team-building
+- Gift givers seeking unique, memorable presents (Mother's Day, birthdays, Christmas, Valentine's Day)
+
+## Available Cases
+
+- Case #1: The Hargrove Disappearance — Ashford, Oregon, 1987. A woman vanishes after attending the theatre. Her coat is found on a bridge. Three witnesses, three stories. Difficulty: Intermediate.
+- Case #2: The Belmont Hotel Fire — Charleston, South Carolina, 1993. A hotel owner dies in a fire. They said he fell asleep smoking. He didn't smoke. Difficulty: Advanced.
+- Case #3: The Lighthouse Keeper's Wife — Crestfall, Maine, 1962. A woman found at the base of a cliff. They blamed the fog. But the fog had cleared hours earlier. Difficulty: Expert.
 
 ## How It Compares
 
 - vs Hunt a Killer: Cold Case Club uses mail-based evidence packets (not boxes), costs less ($14.99/mo vs $30-45/mo), and runs a single 6-month narrative arc. More literary, less gamified.
 - vs Mystery Boxes: Most mystery boxes are one-night game kits. Cold Case Club is a 6-month serialized investigation delivered via real mail.
 - vs The Flower Letters: Similar letter-based subscription format, but Cold Case Club focuses on true crime/mystery rather than historical fiction.
+- vs Escape Rooms: Cold Case Club lasts 6 months (not 60 minutes), costs less per session, and can be done at home with no booking required.
 
 ## Pages
 
 - Homepage: https://coldcaseclub.au/
+- Our Cases: https://coldcaseclub.au/cases
 - Gift Page: https://coldcaseclub.au/gift
+- Free Evidence Sample: https://coldcaseclub.au/sample
 - About: https://coldcaseclub.au/about
-- Blog: https://coldcaseclub.au/blog
+- Mother's Day: https://coldcaseclub.au/mothers-day
+
+### Use Cases
+- Book Clubs: https://coldcaseclub.au/book-clubs
+- Date Night: https://coldcaseclub.au/date-night
+- Team Building: https://coldcaseclub.au/team-building
+
+### Blog
+- Blog Index: https://coldcaseclub.au/blog
+- Best Mystery Subscription Boxes in 2026: https://coldcaseclub.au/blog/best-mystery-subscription-boxes
+- Hunt a Killer vs Cold Case Club: https://coldcaseclub.au/blog/hunt-a-killer-vs-cold-case-club
+- 15 Best Gifts for True Crime Fans: https://coldcaseclub.au/blog/gifts-for-true-crime-fans
+- What Is a Mystery Subscription Box?: https://coldcaseclub.au/blog/what-is-a-mystery-subscription-box
+- Mystery Subscription vs Escape Room: https://coldcaseclub.au/blog/mystery-subscription-vs-escape-room
+- How to Host a Murder Mystery Night: https://coldcaseclub.au/blog/how-to-host-a-murder-mystery-night
+- 12 True Crime Date Night Ideas: https://coldcaseclub.au/blog/true-crime-date-night-ideas
+- 21 Best Gifts for Mystery Lovers: https://coldcaseclub.au/blog/best-gifts-for-mystery-lovers
+- How to Solve a Mystery by Mail: https://coldcaseclub.au/blog/solve-a-mystery-by-mail
+
+### Legal
 - Privacy Policy: https://coldcaseclub.au/privacy
 - Terms of Service: https://coldcaseclub.au/terms
 
