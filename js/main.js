@@ -7,7 +7,10 @@
 // CONFIG
 // -------------------------------------------
 const CONFIG = {
-  // Create these in Stripe Dashboard → Payment Links, paste URLs here
+  // Stripe Publishable Key (safe to expose in frontend)
+  stripePublishableKey: 'pk_live_51QWkuFBqMJOjhNMU5SgPClhsfBa7E8WlVGAxcnvqNoLwI0ZVbW6LGVyNPnJvyRd64x8tlqWd4rRpMk2e6OFBMvGj00WycD7AUY',
+
+  // Fallback: Payment Links (used if embedded checkout fails)
   stripeMonthly: 'https://buy.stripe.com/bJefZhgEg6ep8J5790eME00',
   stripePrepaid: 'https://buy.stripe.com/6oU6oHafSbyJ0cz8d4eME01',
   stripeGift:    'https://buy.stripe.com/bJe8wPew86epe3p790eME02',
@@ -457,28 +460,118 @@ handleEmailForm(document.getElementById('exit-email-form'));
 handleEmailForm(document.getElementById('gift-email-form'));
 
 // -------------------------------------------
-// Checkout Redirects
+// Stripe Embedded Checkout
 // -------------------------------------------
+let stripeInstance = null;
+let checkoutInstance = null;
+
+function getStripe() {
+  if (!stripeInstance && typeof Stripe !== 'undefined') {
+    // Use publishable key — set this to your real pk_live_ key
+    stripeInstance = Stripe(CONFIG.stripePublishableKey || 'pk_live_placeholder');
+  }
+  return stripeInstance;
+}
+
+async function openEmbeddedCheckout(plan) {
+  const overlay = document.getElementById('checkout-overlay');
+  const container = document.getElementById('checkout-container');
+  const loading = document.getElementById('checkout-loading');
+
+  if (!overlay || !container) return fallbackCheckout(plan);
+
+  // Show modal with loading state
+  overlay.classList.add('show');
+  loading.classList.remove('hidden');
+  container.innerHTML = '';
+  document.body.style.overflow = 'hidden';
+
+  // Fire Meta Pixel
+  if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
+
+  try {
+    // Create checkout session via our API
+    const res = await fetch('/api/checkout', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ plan }),
+    });
+    const data = await res.json();
+
+    // If server returns redirect mode (no Stripe secret key configured), fall back
+    if (data.mode === 'redirect' && data.url) {
+      overlay.classList.remove('show');
+      document.body.style.overflow = '';
+      window.location.href = data.url;
+      return;
+    }
+
+    // Mount embedded checkout
+    const stripe = getStripe();
+    if (!stripe) {
+      throw new Error('Stripe.js not loaded');
+    }
+
+    // Destroy previous instance if exists
+    if (checkoutInstance) {
+      checkoutInstance.destroy();
+    }
+
+    loading.classList.add('hidden');
+
+    checkoutInstance = await stripe.initEmbeddedCheckout({
+      clientSecret: data.clientSecret,
+    });
+
+    checkoutInstance.mount('#checkout-container');
+  } catch (err) {
+    console.error('[CHECKOUT]', err);
+    overlay.classList.remove('show');
+    document.body.style.overflow = '';
+    fallbackCheckout(plan);
+  }
+}
+
+function fallbackCheckout(plan) {
+  const url = CONFIG['stripe' + plan.charAt(0).toUpperCase() + plan.slice(1)];
+  if (url && !url.includes('YOUR_') && !url.includes('placeholder')) {
+    window.location.href = url;
+  } else {
+    const cta = document.getElementById('cta') || document.getElementById('gift-email-form');
+    if (cta) cta.scrollIntoView({ behavior: 'smooth' });
+    else window.location.href = '/#cta';
+  }
+}
+
+// Close checkout modal
+(function initCheckoutModal() {
+  const overlay = document.getElementById('checkout-overlay');
+  const closeBtn = document.getElementById('checkout-close');
+
+  function closeCheckout() {
+    if (overlay) overlay.classList.remove('show');
+    document.body.style.overflow = '';
+    if (checkoutInstance) {
+      checkoutInstance.destroy();
+      checkoutInstance = null;
+    }
+  }
+
+  if (closeBtn) closeBtn.addEventListener('click', closeCheckout);
+  if (overlay) overlay.addEventListener('click', (e) => {
+    if (e.target === overlay) closeCheckout();
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && overlay?.classList.contains('show')) closeCheckout();
+  });
+})();
+
+// Attach to all checkout buttons
 document.querySelectorAll('[data-checkout]').forEach(btn => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
     const plan = btn.dataset.checkout;
-    const url = CONFIG['stripe' + plan.charAt(0).toUpperCase() + plan.slice(1)];
-
-    if (url && !url.includes('YOUR_')) {
-      // Fire Meta Pixel checkout event
-      if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
-      window.location.href = url;
-    } else {
-      // Pre-launch: scroll to email capture on current page
-      const cta = document.getElementById('cta') || document.getElementById('gift-email-form');
-      if (cta) {
-        cta.scrollIntoView({ behavior: 'smooth' });
-      } else {
-        // Fallback: go to homepage email capture
-        window.location.href = '/#cta';
-      }
-    }
+    openEmbeddedCheckout(plan);
   });
 });
 

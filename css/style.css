@@ -641,6 +641,85 @@ h3 { font-size: 1.3rem; }
   line-height: 1.7;
 }
 
+/* --- Stripe Embedded Checkout Modal --- */
+.checkout-overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  z-index: 300;
+  background: rgba(0,0,0,.8);
+  backdrop-filter: blur(6px);
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+.checkout-overlay.show { display: flex; }
+.checkout-modal {
+  background: #fff;
+  border-radius: 12px;
+  width: 100%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
+  position: relative;
+  box-shadow: 0 24px 80px rgba(0,0,0,.6);
+}
+.checkout-modal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid #e5e5e5;
+  background: #fafafa;
+  border-radius: 12px 12px 0 0;
+}
+.checkout-modal-title {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 700;
+  color: #0a0a0f;
+}
+.checkout-modal-close {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: #666;
+  cursor: pointer;
+  padding: .2rem .5rem;
+  line-height: 1;
+}
+.checkout-modal-close:hover { color: #000; }
+#checkout-container {
+  min-height: 400px;
+}
+.checkout-loading {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem;
+  gap: 1rem;
+}
+.checkout-loading.hidden { display: none; }
+.checkout-loading p {
+  font-family: var(--font-mono);
+  font-size: .8rem;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+.checkout-spinner {
+  width: 32px;
+  height: 32px;
+  border: 3px solid #e5e5e5;
+  border-top-color: var(--gold);
+  border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
 /* --- Sticky Mobile CTA --- */
 .mobile-cta {
   display: none;

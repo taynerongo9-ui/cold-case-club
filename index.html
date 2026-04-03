@@ -666,6 +666,24 @@
   </div>
 </div>
 
+<!-- ========== STRIPE EMBEDDED CHECKOUT MODAL ========== -->
+<div class="checkout-overlay" id="checkout-overlay">
+  <div class="checkout-modal">
+    <div class="checkout-modal-header">
+      <span class="checkout-modal-title">Secure Checkout</span>
+      <button class="checkout-modal-close" id="checkout-close" aria-label="Close checkout">&times;</button>
+    </div>
+    <div id="checkout-container">
+      <!-- Stripe Embedded Checkout mounts here -->
+    </div>
+    <div class="checkout-loading" id="checkout-loading">
+      <div class="checkout-spinner"></div>
+      <p>Preparing your case file...</p>
+    </div>
+  </div>
+</div>
+
+<script src="https://js.stripe.com/v3/"></script>
 <script src="/js/main.js"></script>
 </body>
 </html>
