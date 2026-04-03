@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Free Evidence Sample — Cold Case Club</title>
+  <meta name="description" content="Get a taste of the Cold Case Club experience. Three pieces of real evidence from Case #1: a witness statement, a newspaper clipping, and a coded message. Free, no purchase required.">
+  <meta name="keywords" content="mystery subscription sample, cold case evidence, free mystery clue, true crime sample, detective experience free trial">
+  <meta name="author" content="Cold Case Club">
+  <link rel="canonical" href="https://coldcaseclub.au/sample">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coldcaseclub.au/sample">
+  <meta property="og:title" content="Free Evidence Sample — Can You Crack This Clue?">
+  <meta property="og:description" content="Three pieces of evidence from a real cold case. A witness who's hiding something. A headline that doesn't add up. A coded message only you can crack.">
+  <meta property="og:image" content="https://coldcaseclub.au/images/og-image.svg">
+  <meta property="og:site_name" content="Cold Case Club">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Free Evidence Sample — Can You Crack This Clue?">
+  <meta name="twitter:description" content="Three pieces of evidence from a real cold case. Free. No purchase required.">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <style>
+    /* Sample page specific styles */
+    .evidence-preview {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 0 0 4rem;
+    }
+    .evidence-piece {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem 2rem;
+      margin-bottom: 2.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+    .evidence-piece::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      height: 3px;
+      background: linear-gradient(90deg, transparent, var(--gold-dim), transparent);
+    }
+    .evidence-piece-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .evidence-piece-type {
+      font-family: var(--font-mono);
+      font-size: .65rem;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      color: var(--red-bright);
+    }
+    .evidence-piece-id {
+      font-family: var(--font-mono);
+      font-size: .6rem;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--text-dim);
+    }
+    .evidence-piece h3 {
+      font-family: var(--font-serif);
+      font-size: 1.3rem;
+      margin-bottom: .8rem;
+    }
+    .evidence-body {
+      font-family: var(--font-mono);
+      font-size: .9rem;
+      color: var(--text-muted);
+      line-height: 1.8;
+    }
+    .evidence-body p {
+      margin-bottom: 1rem;
+    }
+    .evidence-body .redacted {
+      background: var(--text-dim);
+      color: var(--text-dim);
+      padding: 0 .5rem;
+      border-radius: 2px;
+      user-select: none;
+      cursor: not-allowed;
+    }
+    .evidence-body .handwritten {
+      font-style: italic;
+      color: var(--gold);
+    }
+    .newspaper-header {
+      text-align: center;
+      margin-bottom: 1.5rem;
+      padding-bottom: 1rem;
+      border-bottom: 2px solid var(--text-dim);
+    }
+    .newspaper-title {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 700;
+      letter-spacing: .1em;
+      text-transform: uppercase;
+      margin-bottom: .2rem;
+    }
+    .newspaper-date {
+      font-family: var(--font-mono);
+      font-size: .7rem;
+      color: var(--text-dim);
+      letter-spacing: .1em;
+    }
+    .newspaper-headline {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 700;
+      text-align: center;
+      margin-bottom: 1rem;
+    }
+    .newspaper-body {
+      font-family: var(--font-body);
+      font-size: .9rem;
+      color: var(--text-muted);
+      line-height: 1.7;
+      column-count: 2;
+      column-gap: 2rem;
+    }
+    @media (max-width: 600px) {
+      .newspaper-body { column-count: 1; }
+    }
+    .coded-message {
+      background: var(--bg);
+      border: 1px dashed var(--gold-dim);
+      padding: 2rem;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: 1.1rem;
+      letter-spacing: .3em;
+      line-height: 2;
+      color: var(--text);
+      margin: 1rem 0;
+      border-radius: var(--radius);
+    }
+    .cipher-hint {
+      font-family: var(--font-mono);
+      font-size: .75rem;
+      color: var(--gold);
+      text-align: center;
+      margin-top: .8rem;
+      font-style: italic;
+    }
+    .sample-cta {
+      background: var(--bg-card);
+      border: 2px solid var(--gold);
+      border-radius: var(--radius);
+      padding: 3rem 2rem;
+      text-align: center;
+      margin: 3rem 0;
+      position: relative;
+      overflow: hidden;
+    }
+    .sample-cta::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at center, rgba(201,168,76,.06) 0%, transparent 70%);
+      pointer-events: none;
+    }
+    .sample-lock {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: .5rem;
+      font-family: var(--font-mono);
+      font-size: .75rem;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      color: var(--text-dim);
+      margin-top: 2rem;
+    }
+    .sample-lock::before {
+      content: '🔒';
+    }
+    .evidence-count {
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin: 2rem 0;
+      padding: 1.5rem 0;
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+    .evidence-count-item {
+      text-align: center;
+    }
+    .evidence-count-value {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--gold);
+      display: block;
+    }
+    .evidence-count-label {
+      font-size: .7rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== NAV ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Cold Case <span>Club</span></a>
+    <div class="nav-links">
+      <a href="/#how">How It Works</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/blog">Blog</a>
+      <a href="/#pricing" class="btn btn-primary btn-nav-cta nav-cta">Start Your Case</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
+
+<div class="nav-overlay">
+  <a href="/#how">How It Works</a>
+  <a href="/cases">Our Cases</a>
+  <a href="/#pricing">Pricing</a>
+  <a href="/blog">Blog</a>
+  <a href="/#pricing" class="btn btn-primary">Start Your Case</a>
+</div>
+
+<!-- ========== PAGE HERO ========== -->
+<section class="blog-hero">
+  <div class="container">
+    <div class="breadcrumb">
+      <a href="/">Home</a> <span>&rsaquo;</span> Free Evidence Sample
+    </div>
+    <span class="section-label">Declassified Preview</span>
+    <h1>Your First <span class="text-gold shimmer-gold">Evidence</span></h1>
+    <p class="text-muted" style="max-width:600px;margin:1rem auto 0;">Three pieces of evidence from Case #1: The Hargrove Disappearance. A witness statement. A newspaper clipping. A coded message. This is what lands in your mailbox &mdash; except on real paper, in a sealed envelope, with a wax stamp.</p>
+    <div class="evidence-count">
+      <div class="evidence-count-item">
+        <span class="evidence-count-value">3</span>
+        <span class="evidence-count-label">Sample Pieces</span>
+      </div>
+      <div class="evidence-count-item">
+        <span class="evidence-count-value">12</span>
+        <span class="evidence-count-label">In Full Case</span>
+      </div>
+      <div class="evidence-count-item">
+        <span class="evidence-count-value">6</span>
+        <span class="evidence-count-label">Month Journey</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EVIDENCE PIECES ========== -->
+<section class="evidence-preview">
+  <div class="container">
+
+    <!-- PIECE 1: Witness Statement -->
+    <div class="evidence-piece fade-in">
+      <div class="evidence-piece-header">
+        <span class="evidence-piece-type">Witness Statement</span>
+        <span class="evidence-piece-id">Exhibit B-003</span>
+      </div>
+      <h3>Margaret Ellis &mdash; Bartender, The Stagecoach Tavern</h3>
+      <div class="evidence-body">
+        <p><strong>Date of Interview:</strong> January 16, 1987<br>
+        <strong>Interviewing Officer:</strong> Det. Frank Callahan, Ashford PD<br>
+        <strong>Location:</strong> The Stagecoach Tavern, 44 Main Street, Ashford, OR</p>
+
+        <p><em>[Transcript begins 2:15 PM]</em></p>
+
+        <p><strong>CALLAHAN:</strong> Ms. Ellis, can you walk me through the evening of January 14th? Start from when you first saw Mrs. Hargrove.</p>
+
+        <p><strong>ELLIS:</strong> She came in around quarter past ten. I remember because we'd just had the kitchen rush from the theatre crowd and things were settling down. She sat at the far end of the bar, the stool near the window. She was alone.</p>
+
+        <p><strong>CALLAHAN:</strong> Had you served her before?</p>
+
+        <p><strong>ELLIS:</strong> A few times. She wasn't a regular. But I knew who she was &mdash; everyone does. The Hargroves are... well, you know. She ordered a gin and tonic, no ice. I remember because she kept looking at the door like she was waiting for someone who never showed up.</p>
+
+        <p><strong>CALLAHAN:</strong> Did she seem upset? Nervous?</p>
+
+        <p><strong>ELLIS:</strong> Not nervous. More like... <em>determined</em>. She had a folder with her. Manila, thick. She kept her hand on it the whole time, like she didn't want anyone seeing what was inside. At one point she pulled out a single page, read it, and put it back. Her jaw tightened when she read it.</p>
+
+        <p><strong>CALLAHAN:</strong> Did anyone approach her?</p>
+
+        <p><strong>ELLIS:</strong> A man came in around 10:45. I'd never seen him before. Tall, dark coat, <span class="redacted">████████████</span>. He sat two stools down from her. They didn't speak, but she noticed him. She finished her drink faster after that.</p>
+
+        <p><strong>CALLAHAN:</strong> When did she leave?</p>
+
+        <p><strong>ELLIS:</strong> Around 11:15. She left a twenty on the bar &mdash; drink was six dollars. Didn't wait for change. She walked out and turned left toward <span class="redacted">████████</span>. That's the last I saw of her.</p>
+
+        <p><span class="handwritten">[Callahan's margin note: "Who was she meeting? Check phone records. The folder — where is it now?"]</span></p>
+      </div>
+    </div>
+
+    <!-- PIECE 2: Newspaper Clipping -->
+    <div class="evidence-piece fade-in">
+      <div class="evidence-piece-header">
+        <span class="evidence-piece-type">Newspaper Clipping</span>
+        <span class="evidence-piece-id">Exhibit A-001</span>
+      </div>
+      <div class="newspaper-header">
+        <div class="newspaper-title">The Ashford Daily Herald</div>
+        <div class="newspaper-date">Thursday, January 16, 1987 &middot; Ashford, Oregon &middot; 35&cent;</div>
+      </div>
+      <div class="newspaper-headline">LOCAL WOMAN MISSING AFTER THEATRE VISIT;<br>HUSBAND ISSUES PUBLIC PLEA</div>
+      <div class="newspaper-body">
+        <p>Ashford police are searching for Eleanor Hargrove, 34, who was last seen leaving the Monarch Theatre at approximately 11:42 PM on Wednesday evening. Mrs. Hargrove's navy peacoat was discovered on the railing of Morrison Creek Bridge early Thursday morning by a jogger.</p>
+
+        <p>Her vehicle, a 1984 silver Volvo sedan, was found in the theatre's rear parking lot with the doors unlocked and her purse on the passenger seat. Her wallet and identification were inside. Her house keys were missing.</p>
+
+        <p>Mrs. Hargrove's husband, Richard Hargrove, 42, a prominent real estate developer, made an emotional statement outside the family home Thursday afternoon. "Eleanor is the love of my life," Mr. Hargrove told reporters. "I'm begging anyone with information to come forward. This isn't like her. She wouldn't just disappear."</p>
+
+        <p>Mr. Hargrove told the Herald he last spoke with his wife by telephone at approximately 7:30 PM, before she left for the Monarch Theatre's opening night performance of <em>The Glass Menagerie</em>. He said he was at home the entire evening working on plans for a new residential development.</p>
+
+        <p>Police have not yet classified Mrs. Hargrove as endangered missing, though a source within the department told the Herald that "the coat on the bridge is concerning." The Ashford Volunteer Fire Department conducted a search of Morrison Creek on Thursday but found <span class="redacted">████████████████████</span>.</p>
+
+        <p>Anyone with information is asked to contact Ashford Police at <span class="redacted">███-████</span>.</p>
+      </div>
+    </div>
+
+    <!-- PIECE 3: Coded Message -->
+    <div class="evidence-piece fade-in">
+      <div class="evidence-piece-header">
+        <span class="evidence-piece-type">Coded Message</span>
+        <span class="evidence-piece-id">Exhibit D-007</span>
+      </div>
+      <h3>Found in Eleanor Hargrove's Safe Deposit Box</h3>
+      <div class="evidence-body">
+        <p><em>The following message was found written on a torn piece of stationery, folded inside a sealed envelope marked "INSURANCE." The envelope was inside Eleanor Hargrove's safe deposit box at First National Bank of Ashford, box #1142. The box had not been accessed since December 22, 1986.</em></p>
+
+        <div class="coded-message">
+          YPJOHYK RUVDZ<br>
+          P MVBUK AOL<br>
+          HJJVBUAZ
+        </div>
+
+        <p class="cipher-hint">Hint: Julius Caesar used a cipher like this one. The key is a number between 1 and 25. Sometimes the simplest methods hide the darkest secrets.</p>
+
+        <p><em>This coded note has never been officially decrypted by Ashford PD. Can you crack it?</em></p>
+
+        <p><span class="handwritten">[Callahan's note: "Bank manager confirmed Eleanor visited alone on Dec 22. She seemed 'agitated but focused.' Need to check if Richard knew about this box."]</span></p>
+      </div>
+    </div>
+
+    <!-- ========== WHAT'S REDACTED CTA ========== -->
+    <div class="sample-cta scale-in">
+      <h2>This Is Just the <span class="text-gold shimmer-gold">Beginning</span></h2>
+      <p class="text-muted" style="max-width:500px;margin:.5rem auto 1.5rem;">You've seen 3 evidence pieces. The full case has <strong>50+ pieces across 12 packets</strong> &mdash; witness statements, financial records, phone logs, forensic reports, and the coded diary that changes everything.</p>
+      <p style="margin-bottom:1.5rem;"><strong>The redacted sections?</strong> Those are revealed in later packets. The full picture only comes together at the end.</p>
+      <a href="/#pricing" class="btn btn-primary btn-large" data-checkout="prepaid">Start the Full Investigation &mdash; $74.99</a>
+      <br>
+      <a href="/cases" class="btn btn-outline" style="margin-top:1rem;">View All 3 Cases</a>
+      <div class="sample-lock">9 more packets of evidence await</div>
+    </div>
+
+    <!-- ========== DID YOU CRACK IT? ========== -->
+    <div class="evidence-piece fade-in">
+      <div class="evidence-piece-header">
+        <span class="evidence-piece-type">Cipher Check</span>
+        <span class="evidence-piece-id">For Your Eyes Only</span>
+      </div>
+      <h3>Did You Crack the Code?</h3>
+      <div class="evidence-body">
+        <p>The coded message uses a Caesar cipher &mdash; each letter is shifted by a fixed number. If you solved it, you already know something the police never figured out.</p>
+        <p>If you didn't solve it yet, here's another hint: <strong>count 7 letters back from each character.</strong></p>
+        <p>The answer reveals the most important question in this entire case: <em>What did Eleanor find?</em></p>
+        <p>The full investigation picks up exactly where this sample leaves off. Packet 1 arrives within a week of your order.</p>
+        <p style="margin-top:1.5rem;"><a href="/#pricing" class="btn btn-primary" data-checkout="prepaid" style="display:inline-flex;">I'm Ready &mdash; Open the Case File</a></p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">&copy; 2026 Cold Case Club. All rights reserved. All cases are works of fiction.</p>
+    <div class="footer-links">
+      <a href="/about">About</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/blog">Blog</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="mailto:hello@coldcaseclub.au">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

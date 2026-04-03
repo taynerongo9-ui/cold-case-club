@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Primary SEO -->
+  <title>Cold Case Club for Book Clubs — A Mystery Your Group Will Obsess Over</title>
+  <meta name="description" content="Your book club's next obsession. One Cold Case Club subscription serves the whole group. Evidence spreads across a table. Bi-weekly meetings built in. Discussion guide included. From $12.50/mo.">
+  <meta name="keywords" content="book club activity, book club mystery, mystery book club, true crime book club, book club subscription, group mystery activity, cold case book club, mystery subscription for groups">
+  <meta name="author" content="Cold Case Club">
+  <link rel="canonical" href="https://coldcaseclub.au/book-clubs">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://coldcaseclub.au/book-clubs">
+  <meta property="og:title" content="Cold Case Club for Book Clubs — A Mystery Your Group Will Obsess Over">
+  <meta property="og:description" content="One subscription. Your whole book club. Evidence on the table. Suspects under debate. Bi-weekly meetings built in.">
+  <meta property="og:image" content="https://coldcaseclub.au/images/og-image.svg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:site_name" content="Cold Case Club">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Twitter / X -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cold Case Club for Book Clubs — A Mystery Your Group Will Obsess Over">
+  <meta name="twitter:description" content="One subscription. Your whole book club. Evidence on the table. Suspects under debate. Bi-weekly meetings built in.">
+  <meta name="twitter:image" content="https://coldcaseclub.au/images/og-image.svg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0a0a0f">
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/css/style.css">
+
+  <!-- JSON-LD: Product -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": "Cold Case Club — Book Club Edition",
+    "description": "A 6-month mystery subscription perfect for book clubs. One subscription serves the entire group. 12 evidence packets with discussion guide included. Bi-weekly meetings built in.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Cold Case Club"
+    },
+    "offers": [
+      {
+        "@type": "Offer",
+        "name": "The Full Case (Prepaid)",
+        "price": "74.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://coldcaseclub.au/#pricing",
+        "priceValidUntil": "2027-12-31"
+      },
+      {
+        "@type": "Offer",
+        "name": "Monthly Subscription",
+        "price": "14.99",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://coldcaseclub.au/#pricing",
+        "priceValidUntil": "2027-12-31"
+      }
+    ],
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "312"
+    }
+  }
+  </script>
+
+  <!-- JSON-LD: BreadcrumbList -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://coldcaseclub.au/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Book Clubs",
+        "item": "https://coldcaseclub.au/book-clubs"
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    .usecase-hero {
+      text-align: center;
+      padding: 8rem 0 4rem;
+    }
+    .usecase-hero h1 {
+      margin-bottom: 1rem;
+    }
+    .usecase-hero .hero-sub {
+      max-width: 660px;
+      margin: 0 auto 2rem;
+      color: var(--text-muted);
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+    .usecase-hero .hero-actions {
+      justify-content: center;
+      margin-bottom: 2.5rem;
+    }
+    .usecase-hero .hero-meta {
+      justify-content: center;
+    }
+    .vs-box {
+      max-width: 700px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 2.5rem;
+      text-align: center;
+    }
+    .vs-box blockquote {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--text);
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      padding-left: 1.5rem;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ========== URGENCY BAR ========== -->
+<div class="urgency-bar" id="urgency-bar">
+  <div class="container">
+    <p>
+      <strong>Mother's Day Ships Free</strong> &mdash; Order by May 5th to guarantee delivery.
+      <span class="urgency-countdown" id="countdown"></span>
+      <a href="/mothers-day" class="urgency-link">Grab Her Case &rarr;</a>
+    </p>
+    <button class="urgency-close" aria-label="Dismiss" onclick="document.getElementById('urgency-bar').style.display='none';localStorage.setItem('urgencyDismissed','1')">&times;</button>
+  </div>
+</div>
+
+<!-- ========== NAV ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Cold Case <span>Club</span></a>
+    <div class="nav-links">
+      <a href="/#how">How It Works</a>
+      <a href="/#evidence">What's Inside</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/#pricing">Pricing</a>
+      <a href="/#faq">FAQ</a>
+      <a href="/blog">Blog</a>
+      <a href="/#pricing" class="btn btn-primary btn-nav-cta nav-cta">Start Your Case</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
+
+<!-- Mobile overlay -->
+<div class="nav-overlay">
+  <a href="/#how">How It Works</a>
+  <a href="/#evidence">What's Inside</a>
+  <a href="/cases">Our Cases</a>
+  <a href="/#pricing">Pricing</a>
+  <a href="/#faq">FAQ</a>
+  <a href="/blog">Blog</a>
+  <a href="/#pricing" class="btn btn-primary">Start Your Case</a>
+</div>
+
+<!-- ========== HERO ========== -->
+<section class="hero usecase-hero">
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span>/</span>Book Clubs
+    </nav>
+    <div class="hero-content">
+      <div class="hero-badge">Perfect for Groups of 4&ndash;12</div>
+      <h1>Your Book Club's Next <span class="text-gold shimmer-gold">Obsession</span></h1>
+      <p class="hero-sub">
+        Your book club finishes a novel in silence. With Cold Case Club, you'll be arguing about suspects over wine. One subscription. Your whole group. Evidence on the table. A case to crack together.
+      </p>
+      <div class="hero-actions">
+        <a href="/#pricing" class="btn btn-primary btn-large">Start Your Group Case &mdash; $74.99</a>
+        <a href="#why-book-clubs" class="btn btn-outline btn-large">See Why It Works</a>
+      </div>
+      <div class="hero-meta">
+        <div class="hero-meta-item">
+          <span class="hero-meta-value">1</span>
+          <span class="hero-meta-label">Subscription for All</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-value">12</span>
+          <span class="hero-meta-label">Bi-Weekly Sessions</span>
+        </div>
+        <div class="hero-meta-item">
+          <span class="hero-meta-value">6</span>
+          <span class="hero-meta-label">Months of Debate</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== WHY BOOK CLUBS ========== -->
+<section id="why-book-clubs" style="padding:4rem 0;">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Why Book Clubs Love It</span>
+      <h2>Novels End. This <span class="text-gold shimmer-gold">Investigation</span> Lasts 6 Months.</h2>
+      <span class="section-divider"></span>
+    </div>
+    <div class="steps-grid">
+      <div class="step-card fade-in tilt-card" data-delay="1">
+        <span class="step-number">01</span>
+        <div class="step-icon">&#128101;</div>
+        <h3>One Sub Serves Everyone</h3>
+        <p>No need for 8 copies. One subscription arrives at the host's address. Spread the evidence across the table and investigate as a group.</p>
+      </div>
+      <div class="step-card fade-in tilt-card" data-delay="2">
+        <span class="step-number">02</span>
+        <div class="step-icon">&#128197;</div>
+        <h3>Meetings Built In</h3>
+        <p>New evidence arrives every 2 weeks. That's 12 meetings with fresh material &mdash; no more scrambling to pick the next book.</p>
+      </div>
+      <div class="step-card fade-in tilt-card" data-delay="3">
+        <span class="step-number">03</span>
+        <div class="step-icon">&#128214;</div>
+        <h3>Discussion Guide Included</h3>
+        <p>Each packet comes with discussion prompts and theory-building questions. No prep needed &mdash; just open the envelope and start debating.</p>
+      </div>
+      <div class="step-card fade-in tilt-card" data-delay="4">
+        <span class="step-number">04</span>
+        <div class="step-icon">&#127863;</div>
+        <h3>Way More Fun Than a Novel</h3>
+        <p>Everyone has a theory. Everyone picks a suspect. Arguments happen. Alliances form. It's interactive in a way books simply aren't.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== THE COMPARISON ========== -->
+<section style="padding:4rem 0;">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">The Difference</span>
+      <h2>Books vs. <span class="text-gold shimmer-gold">Cold Cases</span></h2>
+      <span class="section-divider"></span>
+    </div>
+    <div class="vs-box fade-in" data-delay="1" style="margin-top:2rem;">
+      <blockquote>
+        "Your book club finishes a novel in silence. With Cold Case Club, you'll be arguing about suspects over wine &mdash; for six straight months."
+      </blockquote>
+    </div>
+    <div class="evidence-grid" style="margin-top:3rem;">
+      <div class="evidence-item fade-in" data-delay="1">
+        <div class="evidence-item-icon">&#128218;</div>
+        <div>
+          <h4>Traditional Book Club</h4>
+          <p>Read alone. Meet once. Discuss for 20 minutes. Forget the plot by next week. Repeat.</p>
+        </div>
+      </div>
+      <div class="evidence-item fade-in" data-delay="2">
+        <div class="evidence-item-icon">&#128270;</div>
+        <div>
+          <h4>Cold Case Club</h4>
+          <p>Investigate together. Debate suspects. Build theories. Argue over evidence. Remember it for years.</p>
+        </div>
+      </div>
+      <div class="evidence-item fade-in" data-delay="3">
+        <div class="evidence-item-icon">&#128172;</div>
+        <div>
+          <h4>Real Conversation</h4>
+          <p>No awkward "so what did everyone think?" silence. The evidence sparks debate naturally.</p>
+        </div>
+      </div>
+      <div class="evidence-item fade-in" data-delay="4">
+        <div class="evidence-item-icon">&#127922;</div>
+        <div>
+          <h4>Zero Prep for the Host</h4>
+          <p>No discussion questions to write. No chapters to assign. Open the packet. Pour the wine. Go.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== HOW IT WORKS FOR GROUPS ========== -->
+<section style="padding:4rem 0;">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">Group Setup</span>
+      <h2>How It Works for <span class="text-gold shimmer-gold">Your Group</span></h2>
+      <span class="section-divider"></span>
+    </div>
+    <div class="steps-grid" style="margin-top:2rem;">
+      <div class="step-card fade-in tilt-card" data-delay="1">
+        <span class="step-number">01</span>
+        <div class="step-icon">&#128179;</div>
+        <h3>One Person Subscribes</h3>
+        <p>Choose the prepaid full case ($74.99) or monthly ($14.99/mo). That's less than $1.50 per person per meeting for a group of 8.</p>
+      </div>
+      <div class="step-card fade-in tilt-card" data-delay="2">
+        <span class="step-number">02</span>
+        <div class="step-icon">&#128232;</div>
+        <h3>Evidence Arrives Bi-Weekly</h3>
+        <p>Every 2 weeks, a new packet arrives. Bring it sealed to your meeting for maximum suspense.</p>
+      </div>
+      <div class="step-card fade-in tilt-card" data-delay="3">
+        <span class="step-number">03</span>
+        <div class="step-icon">&#128269;</div>
+        <h3>Open, Spread, Investigate</h3>
+        <p>Lay the evidence on the table. Read statements aloud. Pass around photographs. Argue about who's lying.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== TESTIMONIAL ========== -->
+<section style="padding:4rem 0;">
+  <div class="container">
+    <div class="text-center">
+      <span class="section-label">From a Real Book Club</span>
+      <h2>What Book Clubs <span class="text-gold shimmer-gold">Are Saying</span></h2>
+    </div>
+    <div class="testimonial-grid" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:2rem;">
+      <div class="testimonial-card fade-in" data-delay="1">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"My book club switched from novels to this. We meet every two weeks to go through the evidence together. We've accused each other's favorite suspects more than once. Best decision we ever made."</p>
+        <div class="testimonial-author">Diana M.</div>
+        <div class="testimonial-role">Book club of 8</div>
+      </div>
+      <div class="testimonial-card fade-in" data-delay="2">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"We split the cost 6 ways. That's less than a coffee per person per meeting. The engagement is 10x what we got from novels. Everyone actually shows up now."</p>
+        <div class="testimonial-author">Rachel T.</div>
+        <div class="testimonial-role">Book club organizer</div>
+      </div>
+      <div class="testimonial-card fade-in" data-delay="3">
+        <div class="testimonial-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <p class="testimonial-text">"The coded message in month 3 had us all texting each other theories at midnight. We haven't been this excited about our group in years."</p>
+        <div class="testimonial-author">Karen W.</div>
+        <div class="testimonial-role">Member for 2 cases</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ========== PRICING CTA ========== -->
+<section style="padding:4rem 0;">
+  <div class="container text-center">
+    <span class="section-label">Get Started</span>
+    <h2>Ready to Ditch the <span class="text-gold shimmer-gold">Book List?</span></h2>
+    <p class="text-muted" style="max-width:550px;margin:1rem auto 2rem;">One subscription. Your whole group. 12 meetings of evidence, debate, and investigation. From $12.50/mo.</p>
+    <div class="hero-actions" style="justify-content:center;">
+      <a href="/#pricing" class="btn btn-primary btn-large">See Pricing &amp; Start Your Case</a>
+      <a href="/gift" class="btn btn-outline btn-large">Gift It to Your Group</a>
+    </div>
+  </div>
+</section>
+
+<!-- ========== GUARANTEE ========== -->
+<section class="guarantee-section">
+  <div class="container text-center">
+    <div class="guarantee-box scale-in">
+      <div class="guarantee-icon">&#128737;</div>
+      <h3>The Cold Case <span class="text-gold shimmer-gold">Guarantee</span></h3>
+      <p>If your first evidence packet doesn't hook your group, we'll refund every penny. No interrogation. No hoops. Just email us within 30 days of your first delivery.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== EMAIL CTA ========== -->
+<section class="cta-section" id="cta">
+  <div class="container">
+    <div class="cta-content">
+      <span class="section-label">Free Evidence Preview</span>
+      <h2>Try Before Your <span class="text-gold shimmer-gold">Group Commits</span></h2>
+      <p>Enter your email and we'll send you a real evidence sample &mdash; a witness statement, a newspaper clipping, and your first coded clue. Share it at your next meeting and see if the group bites.</p>
+      <form class="email-form" id="email-form">
+        <input type="email" placeholder="detective@youremail.com" required aria-label="Email address">
+        <button type="submit" class="btn btn-primary">Send Me the Evidence</button>
+      </form>
+      <p class="email-note">Free. No spam. Just clues. Unsubscribe anytime.</p>
+    </div>
+  </div>
+</section>
+
+<!-- ========== STICKY MOBILE CTA ========== -->
+<div class="mobile-cta" id="mobile-cta">
+  <a href="/#pricing" class="btn btn-primary btn-block">Start Your Group Case &mdash; From $12.50/mo</a>
+</div>
+
+<!-- ========== FOOTER ========== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">&copy; 2026 Cold Case Club. All rights reserved. All cases are works of fiction.</p>
+    <div class="footer-links">
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/blog">Blog</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="mailto:hello@coldcaseclub.au">Contact</a>
+      <a href="https://instagram.com/coldcaseclub" target="_blank" rel="noopener">Instagram</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ========== EXIT INTENT POPUP ========== -->
+<div class="exit-popup-overlay" id="exit-popup">
+  <div class="exit-popup">
+    <button class="exit-popup-close" aria-label="Close" onclick="document.getElementById('exit-popup').classList.remove('show')">&times;</button>
+    <h3>Leaving Without <span class="text-gold">Your Clue?</span></h3>
+    <p>We'll send you a free evidence sample from Case #1 &mdash; a witness statement, a newspaper clipping, and a coded message. Share it at your next book club meeting.</p>
+    <form class="email-form" id="exit-email-form" style="max-width:100%;">
+      <input type="email" placeholder="detective@youremail.com" required aria-label="Email address">
+      <button type="submit" class="btn btn-primary">Send My Free Clue</button>
+    </form>
+    <p class="email-note" style="margin-top:.5rem;">Free. One email. We don't spam investigators.</p>
+  </div>
+</div>
+
+<script src="/js/main.js"></script>
+</body>
+</html>
