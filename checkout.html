@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Checkout — Cold Case Club</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+  <style>
+    .checkout-page {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    .checkout-layout {
+      flex: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      max-width: 1100px;
+      width: 92%;
+      margin: 0 auto;
+      padding: 2rem 0 4rem;
+      gap: 3rem;
+      align-items: start;
+    }
+    .checkout-info {
+      padding-top: 1rem;
+    }
+    .checkout-info h1 {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      margin-bottom: .5rem;
+    }
+    .checkout-info .plan-name {
+      font-family: var(--font-mono);
+      font-size: .7rem;
+      text-transform: uppercase;
+      letter-spacing: .15em;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      display: block;
+    }
+    .checkout-summary {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .checkout-summary-row {
+      display: flex;
+      justify-content: space-between;
+      padding: .6rem 0;
+      font-size: .9rem;
+      color: var(--text-muted);
+      border-bottom: 1px solid rgba(42,42,58,.3);
+    }
+    .checkout-summary-row:last-child { border-bottom: none; }
+    .checkout-summary-row strong { color: var(--text); }
+    .checkout-summary-total {
+      display: flex;
+      justify-content: space-between;
+      padding: 1rem 0 0;
+      margin-top: .5rem;
+      border-top: 1px solid var(--border);
+      font-size: 1.1rem;
+      font-weight: 700;
+    }
+    .checkout-summary-total span:last-child {
+      font-family: var(--font-serif);
+      color: var(--gold);
+      font-size: 1.4rem;
+    }
+    .checkout-trust {
+      display: flex;
+      flex-direction: column;
+      gap: .8rem;
+      margin-top: 1.5rem;
+    }
+    .checkout-trust-item {
+      display: flex;
+      align-items: center;
+      gap: .6rem;
+      font-size: .8rem;
+      color: var(--text-muted);
+    }
+    .checkout-trust-icon {
+      width: 20px;
+      text-align: center;
+      color: var(--gold);
+    }
+    .checkout-evidence-preview {
+      margin-top: 2rem;
+    }
+    .checkout-evidence-preview img {
+      width: 100%;
+      border-radius: var(--radius);
+      border: 1px solid var(--border);
+    }
+    .checkout-form-wrapper {
+      background: #fff;
+      border-radius: 12px;
+      overflow: hidden;
+      min-height: 500px;
+      position: relative;
+    }
+    #checkout-mount {
+      min-height: 500px;
+    }
+    .checkout-loading-page {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 500px;
+      gap: 1rem;
+      background: #fff;
+      border-radius: 12px;
+    }
+    .checkout-loading-page.hidden { display: none; }
+    .checkout-loading-page p {
+      font-family: var(--font-mono);
+      font-size: .8rem;
+      color: #666;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+    }
+    .checkout-spinner {
+      width: 32px;
+      height: 32px;
+      border: 3px solid #e5e5e5;
+      border-top-color: var(--gold);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .checkout-error {
+      display: none;
+      text-align: center;
+      padding: 3rem 2rem;
+    }
+    .checkout-error.show { display: block; }
+    .checkout-error p { color: var(--text-muted); margin-bottom: 1rem; }
+    @media (max-width: 900px) {
+      .checkout-layout {
+        grid-template-columns: 1fr;
+        padding-top: 1rem;
+      }
+      .checkout-info { order: 2; }
+      .checkout-form-wrapper { order: 1; }
+      .checkout-evidence-preview { display: none; }
+    }
+  </style>
+</head>
+<body class="checkout-page">
+
+<!-- ========== NAV (minimal) ========== -->
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Cold Case <span>Club</span></a>
+    <div class="nav-links">
+      <a href="/" style="font-size:.85rem;color:var(--text-muted);">&larr; Back to site</a>
+    </div>
+  </div>
+</nav>
+
+<!-- ========== CHECKOUT ========== -->
+<div class="checkout-layout">
+  <!-- LEFT: Order summary -->
+  <div class="checkout-info" id="checkout-info">
+    <span class="plan-name" id="plan-label">The Full Case</span>
+    <h1>Complete Your <span class="text-gold">Investigation</span></h1>
+
+    <div class="checkout-summary" id="checkout-summary">
+      <div class="checkout-summary-row">
+        <span>Cold Case Club — Mystery Subscription</span>
+      </div>
+      <div class="checkout-summary-row">
+        <span>12 evidence packets over 6 months</span>
+      </div>
+      <div class="checkout-summary-row">
+        <span>Detective notes, witness statements, coded messages</span>
+      </div>
+      <div class="checkout-summary-row">
+        <span>Exclusive case storage tin</span>
+      </div>
+      <div class="checkout-summary-row" id="price-row">
+        <span><s style="color:var(--text-dim);">$89.94</s> &nbsp;<strong>Prepaid — save $14.95</strong></span>
+      </div>
+      <div class="checkout-summary-total">
+        <span>Total</span>
+        <span id="total-price">$74.99</span>
+      </div>
+    </div>
+
+    <div class="checkout-trust">
+      <div class="checkout-trust-item">
+        <span class="checkout-trust-icon">&#128737;</span>
+        <span>30-day money-back guarantee — no questions asked</span>
+      </div>
+      <div class="checkout-trust-item">
+        <span class="checkout-trust-icon">&#128274;</span>
+        <span>256-bit SSL encrypted payment via Stripe</span>
+      </div>
+      <div class="checkout-trust-item">
+        <span class="checkout-trust-icon">&#128230;</span>
+        <span>First packet ships within 5 business days</span>
+      </div>
+      <div class="checkout-trust-item">
+        <span class="checkout-trust-icon">&#128172;</span>
+        <span>Lost packets replaced free — no questions asked</span>
+      </div>
+    </div>
+
+    <div class="checkout-evidence-preview">
+      <img src="/images/evidence/c1-p01-case-reopens.jpg" alt="Evidence preview — Case file reopened" loading="lazy">
+    </div>
+  </div>
+
+  <!-- RIGHT: Stripe checkout form -->
+  <div>
+    <div class="checkout-form-wrapper">
+      <div class="checkout-loading-page" id="checkout-loading">
+        <div class="checkout-spinner"></div>
+        <p>Preparing your case file...</p>
+      </div>
+      <div id="checkout-mount"></div>
+    </div>
+    <div class="checkout-error" id="checkout-error">
+      <p>Something went wrong loading checkout. Please try again.</p>
+      <a href="/#pricing" class="btn btn-primary">Return to Pricing</a>
+    </div>
+  </div>
+</div>
+
+<!-- ========== FOOTER (minimal) ========== -->
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">&copy; 2026 Cold Case Club. All rights reserved. All cases are works of fiction.</p>
+    <div class="footer-links">
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+      <a href="mailto:hello@coldcaseclub.store">Contact</a>
+    </div>
+  </div>
+</footer>
+
+<script src="https://js.stripe.com/dahlia/stripe.js"></script>
+<script>
+(function() {
+  const PK = 'pk_live_51THFD2GsNBzVX9j8k97GMVcvFUAzo6lRJL0pQMdfVfFBDKP1E4WFmCxyeQpz4LWfeIkzUpDetROWNV6Wt6LqHvQj00XHD9ljmq';
+  const params = new URLSearchParams(window.location.search);
+  const plan = params.get('plan') || 'prepaid';
+
+  // Update summary based on plan
+  const planConfig = {
+    monthly: { label: 'Monthly Plan', price: '$14.99/mo', priceNote: 'Pay as you investigate — cancel anytime', total: '$14.99', strikethrough: '' },
+    prepaid: { label: 'The Full Case (Prepaid)', price: '$74.99', priceNote: '<s style="color:var(--text-dim);">$89.94</s> &nbsp;<strong>Prepaid — save $14.95</strong>', total: '$74.99', strikethrough: '' },
+    gift:    { label: 'Gift a Case', price: '$74.99', priceNote: '<strong>Gift — includes printable gift card</strong>', total: '$74.99', strikethrough: '' },
+  };
+
+  const config = planConfig[plan] || planConfig.prepaid;
+  document.getElementById('plan-label').textContent = config.label;
+  document.getElementById('total-price').textContent = config.total;
+  document.getElementById('price-row').innerHTML = '<span>' + config.priceNote + '</span>';
+
+  if (plan === 'gift') {
+    document.querySelector('.checkout-info h1').innerHTML = 'Gift a <span class="text-gold">Mystery</span>';
+  } else if (plan === 'monthly') {
+    document.querySelector('.checkout-info h1').innerHTML = 'Start Your <span class="text-gold">Investigation</span>';
+  }
+
+  // Initialize Stripe embedded checkout
+  const stripe = Stripe(PK);
+  const loading = document.getElementById('checkout-loading');
+  const errorEl = document.getElementById('checkout-error');
+
+  async function init() {
+    try {
+      const checkout = await stripe.createEmbeddedCheckoutPage({
+        fetchClientSecret: async () => {
+          const res = await fetch('/api/checkout', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({ plan }),
+          });
+          const data = await res.json();
+          if (data.error) throw new Error(data.error);
+          return data.clientSecret;
+        },
+      });
+
+      loading.classList.add('hidden');
+      checkout.mount('#checkout-mount');
+    } catch (err) {
+      console.error('[CHECKOUT]', err);
+      loading.classList.add('hidden');
+      errorEl.classList.add('show');
+    }
+  }
+
+  init();
+})();
+</script>
+</body>
+</html>

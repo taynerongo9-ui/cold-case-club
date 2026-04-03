@@ -460,100 +460,18 @@ handleEmailForm(document.getElementById('exit-email-form'));
 handleEmailForm(document.getElementById('gift-email-form'));
 
 // -------------------------------------------
-// Stripe Embedded Checkout
+// Checkout — Navigate to /checkout?plan=X
 // -------------------------------------------
-let stripeInstance = null;
-let checkoutInstance = null;
-
-function getStripe() {
-  if (!stripeInstance && typeof Stripe !== 'undefined') {
-    // Use publishable key — set this to your real pk_live_ key
-    stripeInstance = Stripe(CONFIG.stripePublishableKey || 'pk_live_placeholder');
-  }
-  return stripeInstance;
-}
-
-async function openEmbeddedCheckout(plan) {
-  const overlay = document.getElementById('checkout-overlay');
-  const container = document.getElementById('checkout-container');
-  const loading = document.getElementById('checkout-loading');
-
-  if (!overlay || !container) return;
-
-  // Show modal with loading state
-  overlay.classList.add('show');
-  loading.classList.remove('hidden');
-  container.innerHTML = '';
-  document.body.style.overflow = 'hidden';
-
-  // Fire Meta Pixel
-  if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
-
-  try {
-    const stripe = getStripe();
-    if (!stripe) throw new Error('Stripe.js not loaded');
-
-    // Destroy previous instance
-    if (checkoutInstance) {
-      checkoutInstance.destroy();
-      checkoutInstance = null;
-    }
-
-    // Mount embedded checkout — fetchClientSecret is called by Stripe.js
-    checkoutInstance = await stripe.createEmbeddedCheckoutPage({
-      fetchClientSecret: async () => {
-        const res = await fetch('/api/checkout', {
-          method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ plan }),
-        });
-        const data = await res.json();
-        if (data.error) throw new Error(data.error);
-        return data.clientSecret;
-      },
-    });
-
-    loading.classList.add('hidden');
-    checkoutInstance.mount('#checkout-container');
-  } catch (err) {
-    console.error('[CHECKOUT]', err);
-    // On error, close modal and redirect to payment link as last resort
-    overlay.classList.remove('show');
-    document.body.style.overflow = '';
-    const url = CONFIG['stripe' + plan.charAt(0).toUpperCase() + plan.slice(1)];
-    if (url) window.location.href = url;
-  }
-}
-
-// Close checkout modal
-(function initCheckoutModal() {
-  const overlay = document.getElementById('checkout-overlay');
-  const closeBtn = document.getElementById('checkout-close');
-
-  function closeCheckout() {
-    if (overlay) overlay.classList.remove('show');
-    document.body.style.overflow = '';
-    if (checkoutInstance) {
-      checkoutInstance.destroy();
-      checkoutInstance = null;
-    }
-  }
-
-  if (closeBtn) closeBtn.addEventListener('click', closeCheckout);
-  if (overlay) overlay.addEventListener('click', (e) => {
-    if (e.target === overlay) closeCheckout();
-  });
-  document.addEventListener('keydown', (e) => {
-    if (e.key === 'Escape' && overlay?.classList.contains('show')) closeCheckout();
-  });
-})();
-
-// Attach to all checkout buttons
 document.querySelectorAll('[data-checkout]').forEach(btn => {
   btn.addEventListener('click', (e) => {
     e.preventDefault();
     const plan = btn.dataset.checkout;
-    openEmbeddedCheckout(plan);
+
+    // Fire Meta Pixel
+    if (typeof fbq === 'function') fbq('track', 'InitiateCheckout', { content_name: plan });
+
+    // Navigate to dedicated checkout page
+    window.location.href = `/checkout?plan=${plan}`;
   });
 });
 
