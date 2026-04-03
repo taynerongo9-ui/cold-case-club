@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Verified — Cold Case Club</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <meta name="theme-color" content="#0a0a0f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Inter:wght@400;500;600;700&family=Courier+Prime&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/style.css">
+</head>
+<body>
+
+<nav class="nav">
+  <div class="nav-inner">
+    <a href="/" class="nav-logo">Cold Case <span>Club</span></a>
+    <div class="nav-links">
+      <a href="/cases">Our Cases</a>
+      <a href="/blog">Blog</a>
+      <a href="/#pricing" class="btn btn-primary btn-nav-cta nav-cta">Start Your Case</a>
+    </div>
+    <button class="nav-toggle" aria-label="Toggle menu">&#9776;</button>
+  </div>
+</nav>
+
+<div class="nav-overlay">
+  <a href="/cases">Our Cases</a>
+  <a href="/blog">Blog</a>
+  <a href="/#pricing" class="btn btn-primary">Start Your Case</a>
+</div>
+
+<section class="hero" style="min-height:80vh;">
+  <div class="container text-center">
+    <div id="verify-content">
+      <!-- Populated by JS based on ?status= param -->
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <div class="container">
+    <p class="footer-text">&copy; 2026 Cold Case Club. All rights reserved. All cases are works of fiction.</p>
+    <div class="footer-links">
+      <a href="/about">About</a>
+      <a href="/cases">Our Cases</a>
+      <a href="/blog">Blog</a>
+      <a href="/privacy">Privacy</a>
+      <a href="/terms">Terms</a>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function() {
+  const params = new URLSearchParams(window.location.search);
+  const status = params.get('status') || 'ok';
+  const container = document.getElementById('verify-content');
+
+  const states = {
+    ok: {
+      badge: 'Identity Confirmed',
+      icon: '&#128737;',
+      title: 'You\'re In, <span style="color:var(--gold)">Detective.</span>',
+      body: 'Your email has been verified. You\'re now on the Cold Case Club briefing list. Your free evidence sample from Case #1 is on its way to your inbox.',
+      cta: '<a href="/sample" class="btn btn-primary btn-large" style="margin-top:1.5rem;">Preview Your Evidence</a><br><a href="/#pricing" class="btn btn-outline" style="margin-top:1rem;">Start the Full Investigation</a>',
+    },
+    expired: {
+      badge: 'Link Expired',
+      icon: '&#9200;',
+      title: 'This Link Has <span style="color:var(--gold)">Gone Cold.</span>',
+      body: 'Your verification link expired after 48 hours. No worries — sign up again and we\'ll send a fresh one.',
+      cta: '<a href="/#cta" class="btn btn-primary btn-large" style="margin-top:1.5rem;">Sign Up Again</a>',
+    },
+    invalid: {
+      badge: 'Invalid Token',
+      icon: '&#128683;',
+      title: 'Something Doesn\'t <span style="color:var(--gold)">Add Up.</span>',
+      body: 'This verification link appears to be invalid or has already been used. If you\'re having trouble, try signing up again.',
+      cta: '<a href="/#cta" class="btn btn-primary btn-large" style="margin-top:1.5rem;">Try Again</a>',
+    },
+    error: {
+      badge: 'Case File Error',
+      icon: '&#128196;',
+      title: 'Technical <span style="color:var(--gold)">Difficulties.</span>',
+      body: 'Something went wrong on our end. Please try again in a few minutes, or email us at hello@coldcaseclub.au.',
+      cta: '<a href="/" class="btn btn-outline btn-large" style="margin-top:1.5rem;">Return Home</a>',
+    },
+  };
+
+  const state = states[status] || states.ok;
+
+  container.innerHTML = `
+    <div class="hero-badge">${state.badge}</div>
+    <div style="font-size:3rem;margin:1rem 0;">${state.icon}</div>
+    <h1>${state.title}</h1>
+    <p class="hero-sub" style="max-width:500px;margin:1rem auto;">${state.body}</p>
+    ${state.cta}
+  `;
+})();
+</script>
+
+<script src="/js/main.js"></script>
+</body>
+</html>

@@ -428,8 +428,10 @@ function handleEmailForm(form) {
       });
 
       if (res.ok) {
-        btn.textContent = "You're In! Check Your Inbox.";
+        btn.textContent = "Check Your Inbox to Verify!";
+        btn.style.fontSize = '.85rem';
         input.value = '';
+        input.placeholder = 'Verification email sent!';
         // Fire Meta Pixel lead event
         if (typeof fbq === 'function') fbq('track', 'Lead');
         // Close exit popup if this form is inside it

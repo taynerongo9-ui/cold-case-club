@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /success
+Disallow: /verified
 Disallow: /api/
 
 Sitemap: https://coldcaseclub.au/sitemap.xml
