@@ -20,6 +20,7 @@
 
 # A Doll's House
 *by Henrik Ibsen*
+*Translated by Rolf Fjelde*
 
 **Opening Night Performance**
 Tuesday, January 14, 1987
@@ -57,6 +58,12 @@ I dedicate this production to everyone who has ever stayed silent when they shou
 
 ---
 
+**ABOUT THE DIRECTOR**
+
+Daniel Cross (MFA, Yale School of Drama) joins the Monarch Theatre from San Francisco, where he spent thirteen years directing for companies including the Magic Theatre, A.C.T., and Theatre Rhinoceros. His credits include *Hamlet*, *The Cherry Orchard*, *True West*, and the Bay Area premiere of *'night, Mother*. He is the Monarch's first artistic director in twelve years and plans to bring a fresh vision to Ashford's beloved stage. "This theatre is a jewel," he says. "I want to make it shine."
+
+---
+
 **ACKNOWLEDGMENTS**
 
 The Monarch Theatre gratefully acknowledges the generous support of:
@@ -64,12 +71,14 @@ The Monarch Theatre gratefully acknowledges the generous support of:
 - First Pacific Bank — Opening Night Reception Sponsor
 - The Ashford Arts Council
 - Eleanor Hargrove and the Hargrove Gallery — Program Printing
+- Douglas County Cultural Foundation
+- Ashford Rotary Club
 
 **COAT CHECK**
 Complimentary coat check is available in the main lobby. Please retain your numbered stub for retrieval after the performance. Unclaimed items will be held for 90 days.
 
 **INTERMISSION**
-A 15-minute intermission will follow Act II. Refreshments available in the lobby.
+A 15-minute intermission will follow Act II. Refreshments available in the lobby. Wine and sparkling cider provided by Willamette Valley Vineyards.
 
 ---
 
@@ -77,6 +86,9 @@ A 15-minute intermission will follow Act II. Refreshments available in the lobby
 - February 14-28: *The Glass Menagerie* by Tennessee Williams
 - March 15-29: *Crimes of the Heart* by Beth Henley
 - April 12-26: *Amadeus* by Peter Shaffer
+- May 10-24: *Fences* by August Wilson
+
+Season subscriptions available at the box office or by calling (503) 555-0142.
 
 ---
 
@@ -218,7 +230,7 @@ That's all I can remember. I still have my notebook if you need it.
 
 ---
 
-## Evidence Item 5: Detective Callahan's Initial Case Notes
+## Evidence Item 5: Detective Callahan's Case Notes — Day 2
 
 [PRODUCTION NOTES: Yellow legal pad, handwritten in blue ballpoint. More extensive than Packet 1 notes. Numbered observations. Some words underlined for emphasis.]
 
@@ -258,12 +270,15 @@ Gap: 11:42 PM to 6:47 AM (coat discovered). That's seven hours unaccounted for.
 
 6. Weather. January 14 was cold. High of 34, low of 26. At 11:42 PM it would have been around 28 degrees. Eleanor supposedly walked 0.6 miles from the theatre to the bridge in 28-degree weather. If she was wearing her coat to the bridge, how did she walk from the theatre? The Stagecoach to the theatre is only two blocks — manageable. But the theatre to the bridge in that cold, in dress shoes? After a play and two gins?
 
+7. Margaret Ellis mentioned Eleanor's coat. Said it was "tan or camel colored." The coat on the bridge is navy. Different coat? Or is Ellis misremembering? Need to follow up.
+
 **WHAT I NEED:**
 - Richard's phone records for Jan 14
 - Security camera tape from Monarch Theatre (VHS — quality is bad)
 - Canvas of downtown — anyone awake after midnight?
 - Background on the marriage. What were they really like behind closed doors?
 - Follow up on Daniel Cross — who is this guy?
+- Follow up with Yoon on that notebook — coat color could matter
 
 **GUT FEELING:**
 Something is wrong here. I don't know what yet, but this doesn't read like a suicide. It reads like someone wanted it to look like one.
@@ -272,9 +287,132 @@ Something is wrong here. I don't know what yet, but this doesn't read like a sui
 
 ---
 
+## Evidence Item 6: Monarch Theatre Box Office Phone Log
+
+[PRODUCTION NOTES: Typed phone log on Monarch Theatre letterhead — a simple page showing calls made and received at the box office on January 14. This is a mundane document that establishes the theatre's activity that evening and places certain people at certain times.]
+
+---
+
+**MONARCH THEATRE**
+42 Main Street, Ashford, OR 97201
+Box Office Phone Log — January 14, 1987
+
+| Time | Caller / Called | Notes |
+|------|----------------|-------|
+| 9:15 AM | Incoming — Ashford Daily Herald (George Preston) | Confirmed opening night details for events listing |
+| 10:30 AM | Outgoing — Pacific Floral (503-555-0199) | Ordered lobby flowers for reception |
+| 11:45 AM | Incoming — Mrs. Prescott | Reserved 2 tickets, will-call |
+| 12:20 PM | Incoming — Richard Hargrove | Asked if Eleanor had called. She had not. Said he was "just checking." |
+| 2:00 PM | Outgoing — Willamette Valley Vineyards | Confirmed wine delivery for reception |
+| 3:15 PM | Incoming — Eleanor Hargrove | Left message for Daniel Cross: "Tell him I'll find him after the show." |
+| 4:30 PM | Incoming — General inquiry | Student asking about ticket prices |
+| 5:00 PM | Box office closed for pre-show preparation | |
+
+---
+
+**DET. CALLAHAN NOTE (paper-clipped):**
+
+*Two things on this log:*
+
+*1. Richard called the theatre at 12:20 PM asking if Eleanor had called. He said he was "just checking." Why? If your wife is going to the theatre that evening, why call at noon to see if she's been in touch? Unless you're tracking her movements.*
+
+*2. Eleanor left a message for Daniel Cross at 3:15 PM: "Tell him I'll find him after the show." She was planning to see Cross that night. She never found him.*
+
+*Cross says he didn't get the message until the following day. The box office attendant — a high school volunteer named Jenny Marsh (Dorothy Marsh's granddaughter, interestingly) — says she wrote it on a slip of paper and left it in Cross's mailbox in the green room. Cross says the slip was there when he cleaned out his mailbox on the morning of January 15, after he heard the news.*
+
+*— FC*
+
+---
+
+## Evidence Item 7: Eleanor's Theatre Ticket Stub (Reproduction)
+
+[PRODUCTION NOTES: Print as a small ticket stub on heavy card stock. Red printing on white. Torn at the perforation — this is the patron's half. Include as a loose artifact in the envelope.]
+
+---
+
+**MONARCH THEATRE**
+42 Main Street, Ashford, Oregon
+
+**A DOLL'S HOUSE**
+by Henrik Ibsen
+
+Opening Night
+**January 14, 1987**
+Curtain: 8:00 PM
+
+GENERAL ADMISSION
+*Present this stub for coat check retrieval*
+
+No. **0147**
+
+---
+
+**DET. CHEN NOTE (2024):**
+
+*This is a reproduction of the torn ticket stub found in the pocket of the navy coat on Morrison Creek Bridge (Evidence Item #87-0114-002). The stub number — 0147 — is a standard sequential number from the theatre's ticket roll. It does NOT correspond to the coat check stub number (47), though the coincidence was noted.*
+
+*The presence of this ticket stub in the navy coat's pocket is interesting. If the navy coat was planted — taken from the Hargrove residence and placed on the bridge — why does it contain a theatre ticket stub? Possible explanations: (1) Eleanor had an old ticket stub from a previous show in her everyday coat pocket, or (2) Richard placed the stub in the pocket to make the coat look more convincingly like it had been worn to the theatre that night.*
+
+*We believe explanation (2) is more likely. Eleanor's Volvo contained a folded theatre program in her purse — the program from that night's show. She would not have had two ticket stubs. The stub in the coat may have been from a different performance entirely, or Richard may have obtained a blank stub from the theatre (he had a key to the building) and placed it in the pocket.*
+
+*— SC*
+
+---
+
+## Evidence Item 8: Restaurant Receipt — Le Petit Bistro
+
+[PRODUCTION NOTES: A small paper receipt from a restaurant, slightly crumpled, with handwritten items. This establishes Eleanor's movements earlier in the evening before the theatre — she had dinner alone before the show. Print on receipt paper (narrow, thermal-style) or simulate with a small format.]
+
+---
+
+**LE PETIT BISTRO**
+29 Main Street, Ashford, OR
+(503) 555-0176
+
+Server: Annette
+Table: 7
+Date: 01/14/87
+Time: 6:42 PM
+
+---
+
+1 French Onion Soup ........... $4.50
+1 House Salad ................. $3.25
+1 Glass Chardonnay (house) .... $4.00
+1 Coffee, black ............... $1.50
+
+---
+
+Subtotal: $13.25
+Tax: $0.66
+**TOTAL: $13.91**
+
+Paid: Cash — $20.00
+Change: $6.09
+
+*Thank you! Bonne nuit.*
+
+---
+
+**DET. CALLAHAN NOTE:**
+
+*Receipt found in Eleanor's purse (inside wallet pocket, folded). She had dinner alone at Le Petit Bistro at 6:42 PM before walking to the theatre (3 blocks). French onion soup, salad, one glass of wine, coffee. A light meal. Practical. The kind of dinner you have when you're eating because you need to, not because you want to.*
+
+*I talked to the server, Annette Bouchard. She remembers Eleanor: "She sat at the window table. She was reading a book — something small, a paperback. She seemed calm. She didn't linger." Annette says Eleanor paid cash, left a $6 tip (generous for a $14 meal), and left at approximately 7:15 PM.*
+
+*So the evening goes: dinner at 6:42, leaves restaurant at 7:15, arrives at theatre by 7:45 (checks coat at 7:48). A woman moving through her evening with purpose. Not the behavior of someone contemplating suicide.*
+
+*What was the book? Annette didn't see the cover. Small detail. Probably nothing. But I keep thinking about what Eleanor was reading on the last night of her life.*
+
+*— FC*
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 5 items in evidence envelope
+- Include all 8 items in evidence envelope
 - Theatre program should be printed as a separate folded piece, distinct from the police documents
+- Ticket stub should be loose — a physical artifact subscribers can hold
+- Restaurant receipt adds texture and humanity — Eleanor had dinner alone, read a book, tipped well
 - Callahan's notes should feel personal and separate from the official statements
 - Insert card: "Packet 2 of 12 — Three witnesses. Three stories. Who do you believe?"
 - Consider including a small replica of a torn theatre ticket stub as a loose artifact]

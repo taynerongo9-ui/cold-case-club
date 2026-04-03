@@ -73,7 +73,7 @@ Missing Persons Report
 
 **MISSING PERSON INFORMATION**
 
-Full Name: Eleanor Ruth Hargrove (née Addams)
+Full Name: Eleanor Ruth Hargrove (nee Addams)
 Date of Birth: March 22, 1952
 Age: 34
 Sex: Female
@@ -92,7 +92,7 @@ Distinguishing marks: Small scar on left wrist (childhood injury). Emerald ring 
 
 **CIRCUMSTANCES OF DISAPPEARANCE**
 
-On January 15, 1987, at approximately 6:47 AM, civilian Robert Kline (M, 44, 220 Birch Lane) was jogging along the Morrison Creek Trail and observed a woman's navy blue wool coat draped over the east railing of Morrison Creek Bridge. Kline reported the coat appeared deliberately placed, not dropped or blown by wind. He contacted APD at 6:52 AM.
+On January 15, 1987, at approximately 6:47 AM, civilian Robert Kline (M, 44, 220 Birch Lane) was jogging along the Morrison Creek Trail and observed a woman's navy blue wool coat draped over the east railing of Morrison Creek Bridge. Kline reported the coat appeared deliberately placed, not dropped or blown by wind. He contacted APD at 6:52 AM via payphone at Creek Road gas station.
 
 Responding officer (Whitfield) arrived at scene at 7:30 AM. Coat was recovered and tagged as evidence (Item #87-0114-001). No identification found in coat pockets. One tissue, unused. One theater ticket stub, torn. No wallet, no keys.
 
@@ -106,9 +106,11 @@ Vehicle check of surrounding area revealed a 1984 Volvo 240, color silver, Orego
 
 **INITIAL SEARCH EFFORTS**
 
-- Morrison Creek searched by dive team on 01/15/87 and 01/16/87. Creek depth at bridge: 14 feet. Current: moderate. Water temperature: 38°F. No remains or additional personal items recovered.
+- Morrison Creek searched by dive team on 01/15/87 and 01/16/87. Creek depth at bridge: 14 feet. Current: moderate. Water temperature: 38 deg F. No remains or additional personal items recovered.
 - Shoreline search conducted 01/15 through 01/20 along 4-mile stretch downstream. Nothing recovered.
 - K-9 unit deployed 01/16. Dogs tracked scent from theatre parking lot to bridge. No scent trail beyond bridge.
+- Aerial surveillance (Douglas County Sheriff helicopter) on 01/17. Negative results.
+- Volunteer search party (42 volunteers) conducted grid search of Morrison Creek watershed 01/18-01/19. Nothing recovered.
 - Interviews conducted with theatre staff, Stagecoach tavern employees, neighboring residents.
 
 ---
@@ -155,7 +157,7 @@ Eleanor and Richard's home. Two-story Colonial, 4 bedrooms. Guest bedroom on sec
 
 **5. HARGROVE DEVELOPMENT CORP.** — 12 Commerce Street
 Richard's office. He claims he was here until midnight on January 14.
-*Distance to Monarch Theatre: 0.3 miles*
+*Distance to Monarch Theatre: 0.3 miles (4-minute drive)*
 
 **6. HARGROVE GALLERY** — 88 Main Street
 Eleanor and Lillian Chen's art gallery. Currently showing "Hidden in Plain Sight" exhibition.
@@ -170,11 +172,19 @@ Future location of Richard's development project. Construction permits filed Jan
 *Distance to downtown: 2.1 miles*
 
 **9. HARGROVE LAKE PROPERTY** — Route 26, mile marker 14
-Family property, 40 minutes outside Ashford. Lake house and groundskeeper's cottage. Thomas Brewer resides in cottage.
+Family property, 40 minutes outside Ashford. Lake house and groundskeeper's cottage (Thomas Brewer resides in cottage, ~200 yards from main house).
 *Distance to downtown Ashford: approximately 35 miles*
 
 **10. ASHFORD POLICE DEPARTMENT** — 47 Municipal Drive
 *Distance to Morrison Creek Bridge: 0.8 miles*
+
+**11. CREEK ROAD GAS STATION** — Creek Road, east of bridge
+Location of payphone where Robert Kline called police at 6:52 AM.
+*Distance to bridge: 0.25 miles*
+
+**12. THE STAGECOACH PARKING LOT** — Rear of 55 Main Street
+Small lot behind the tavern. Accessible from Pine Street alley.
+*Distance to Monarch Theatre lot: 200 yards*
 
 ---
 
@@ -187,10 +197,12 @@ Family property, 40 minutes outside Ashford. Lake house and groundskeeper's cott
 - "No cameras between theatre and bridge. Blind spot."
 - "Lake house = 40 min drive. Round trip + time at scene = 2.5 hrs minimum. Tight but possible between midnight and 4 AM."
 - "Why were the keys left in the ignition? If you're walking to a bridge to jump, you don't think about your car keys."
+- "1.3 mi from bridge to R.H. house. A man could walk that in 25 min."
+- "WHERE IS THE BODY?"
 
 ---
 
-## Evidence Item 4: Detective Callahan's Introductory Notes
+## Evidence Item 4: Detective Callahan's Introductory Case Notes
 
 [PRODUCTION NOTES: Yellow legal pad paper, handwritten in blue ballpoint pen. Slightly messy but legible. These are personal notes, not official documents — they should feel informal and unguarded.]
 
@@ -224,8 +236,148 @@ I've got interviews starting tomorrow. Theatre staff, the tavern, neighbors. Som
 
 ---
 
+## Evidence Item 5: Evidence Inventory Log — Case #87-0114
+
+[PRODUCTION NOTES: Official APD evidence log form. Typewritten. This is the master list of physical evidence collected in the original investigation. Some items are highlighted or annotated by Det. Chen (2024). Print on white paper with department header and sequential item numbers.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT**
+Evidence Inventory Log
+
+**Case Number:** 87-0114
+**Date Initiated:** January 15, 1987
+**Evidence Custodian:** Sgt. Harold Munoz
+**Updated:** March 2024 by Det. Sarah Chen
+
+---
+
+| Item # | Date Collected | Description | Location Collected | Collected By |
+|--------|---------------|-------------|-------------------|-------------|
+| 87-0114-001 | 01/15/87 | Navy blue wool peacoat, women's size 8, J. Crew brand | Morrison Creek Bridge, east railing | Ofc. Whitfield |
+| 87-0114-002 | 01/15/87 | Theatre ticket stub, torn, Monarch Theatre, Jan 14, 1987 | Left pocket of Item 001 | Ofc. Whitfield |
+| 87-0114-003 | 01/15/87 | Tissue, unused, Kleenex brand | Left pocket of Item 001 | Ofc. Whitfield |
+| 87-0114-004 | 01/15/87 | 1984 Volvo 240, silver, OR plate KFJ-447 | Monarch Theatre parking lot | Ofc. Whitfield |
+| 87-0114-005 | 01/15/87 | Vehicle key set (2 keys, Volvo keyring) | Ignition of Item 004 | Ofc. Whitfield |
+| 87-0114-006 | 01/15/87 | Women's leather purse, brown | Passenger seat of Item 004 | Ofc. Whitfield |
+| 87-0114-007 | 01/15/87 | Wallet containing $43 cash, DL, 2 credit cards | Inside Item 006 | Ofc. Whitfield |
+| 87-0114-008 | 01/15/87 | Lipstick, Revlon "Berry Kiss" | Inside Item 006 | Ofc. Whitfield |
+| 87-0114-009 | 01/15/87 | Compact mirror, silver | Inside Item 006 | Ofc. Whitfield |
+| 87-0114-010 | 01/15/87 | Theatre program, *A Doll's House*, folded | Inside Item 006 | Ofc. Whitfield |
+| 87-0114-011 | 01/15/87 | VHS security tape, Monarch Theatre, Jan 14-15 | Monarch Theatre security office | Det. Callahan |
+| 87-0114-012 | 01/16/87 | Audio cassette, interview tape #87-0114-INT-001 (R. Hargrove) | APD Interview Room 2 | Det. Callahan |
+| 87-0114-013 | 01/17/87 | Audio cassette, interview tape #87-0114-INT-002 (T. Brewer) | Hargrove Lake Property | Det. Callahan |
+| 87-0114-014 | 01/17/87 | Groundskeeper's logbook, pages 44-45 (photocopy) | Brewer's cottage | Det. Callahan |
+| 87-0114-015 | 01/18/87 | Photographs (12), Morrison Creek Bridge scene | APD crime lab | Ofc. Dominguez |
+| 87-0114-016 | 01/19/87 | Love letters (2), found in D. Cross residence | 77 Orchard Lane | Det. Callahan |
+| 87-0114-017 | 01/21/87 | Anonymous threatening letter to Eleanor Hargrove | Hargrove Gallery desk | Det. Callahan |
+| 87-0114-018 | 01/21/87 | Gallery financial ledgers (photocopy, 14 pages) | Hargrove Gallery | Det. Callahan |
+| 87-0114-019 | 01/22/87 | Bank statements, joint savings, Jul-Dec 1986 | First Pacific Bank | Det. Callahan |
+| 87-0114-020 | 01/22/87 | Wire transfer confirmations (8) | First Pacific Bank | Det. Callahan |
+| 87-0114-021 | 01/22/87 | Cascade Holdings LLC filing (photocopy) | OR Secretary of State | Det. Callahan |
+| 87-0114-022 | 01/17/87 | Groundskeeper's logbook, original pages 44-45 | Brewer's cottage | Det. Callahan |
+
+**DET. CHEN NOTE (2024):** *Items 87-0114-001 through 022 remain in APD evidence storage. Items collected in the 2024 reopening are logged separately under case prefix 24-0301. Cross-referenced where applicable.*
+
+---
+
+## Evidence Item 6: Eleanor Hargrove — Driver's License Photocopy
+
+[PRODUCTION NOTES: Photocopy of an Oregon driver's license from the 1980s. The photo should show a woman with dark hair and green eyes — serious expression, not smiling (typical of 80s DL photos). Print on white paper as a photocopy, slightly grainy. Include the address and physical description. This gives subscribers a "face" for the victim.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT — EVIDENCE REFERENCE**
+Photocopy of Driver's License — Missing Person
+Case #87-0114
+
+---
+
+**STATE OF OREGON — DRIVER LICENSE**
+
+[PHOTO PLACEHOLDER: Woman, dark brown shoulder-length hair, green eyes, neutral expression. No glasses. Wearing dark collar.]
+
+**Name:** HARGROVE, ELEANOR RUTH
+**Address:** 14 LAKEVIEW DR, ASHFORD OR 97201
+**DOB:** 03/22/1952
+**Sex:** F
+**Eyes:** GRN
+**Hair:** BRN
+**Height:** 5-06
+**Weight:** 128
+**License No:** OR 5522-8871-4403
+**Class:** C
+**Expires:** 03/22/1988
+**Restrictions:** CORRECTIVE LENSES
+
+---
+
+**CALLAHAN NOTE (paper-clipped):**
+
+*This is the woman we're looking for. Thirty-four years old. Green eyes. Corrective lenses — she wore contacts most of the time, glasses at home. The photo is from 1984 — she looks younger than 34 here. Serious face. Not unhappy, exactly. More like she's thinking about something she can't say out loud.*
+
+*One of the credit cards in her wallet was a Visa with a $2,000 limit. The other was a department store card — Nordstrom. Neither card showed unusual activity in the weeks before her disappearance. No large purchases, no cash advances, no plane tickets. Whatever she was planning, she wasn't planning to run.*
+
+*— FC*
+
+---
+
+## Evidence Item 7: "MISSING" Poster — Eleanor Hargrove
+
+[PRODUCTION NOTES: Printed as a reproduction of a 1987 missing person flyer. Black and white. Large photo at center (same image as driver's license). Bold text. Contact information for APD. Signs of age — slight yellowing, one corner bent. This is the kind of poster that would have been stapled to telephone poles and taped in shop windows throughout downtown Ashford in January 1987.]
+
+---
+
+**M I S S I N G**
+
+---
+
+[PHOTO PLACEHOLDER: Same image as DL photo, enlarged, black and white]
+
+---
+
+**ELEANOR RUTH HARGROVE**
+
+**Last Seen:** January 14, 1987, 11:42 PM
+**Location:** Monarch Theatre, 42 Main Street, Ashford, Oregon
+
+**Age:** 34
+**Height:** 5'6" | **Weight:** 128 lbs
+**Hair:** Dark brown, shoulder length
+**Eyes:** Green
+**Distinguishing Features:** Emerald ring on right hand. Small scar on left wrist.
+
+**Last seen wearing:** Unknown (possibly a wool winter coat). Last known vehicle: 1984 Volvo 240, silver, Oregon plate KFJ-447 (vehicle recovered at Monarch Theatre parking lot).
+
+**Eleanor was last captured on a security camera exiting the Monarch Theatre at 11:42 PM on January 14, 1987. Her coat was found on Morrison Creek Bridge the following morning. She has not been seen or heard from since.**
+
+If you have ANY information regarding Eleanor Hargrove's whereabouts, please contact:
+
+**Ashford Police Department**
+Detective Frank Callahan
+(503) 555-0147
+
+**ALL TIPS CONFIDENTIAL**
+
+*Poster distributed by Ruth Addams, Portland, Oregon*
+
+---
+
+**CALLAHAN NOTE (on back of poster, barely legible):**
+
+*Ruth Addams had 500 of these printed at a Kinko's in Portland and drove them to Ashford herself. She put them up in every shop window, every telephone pole, every community board in a twenty-mile radius. Richard Hargrove's attorney asked the department to have them removed because they were "causing distress." The chief told me to "handle it diplomatically." I told Ruth she might want to focus on the businesses that were willing to keep them up.*
+
+*Three months later, most were gone — rain, wind, time. But the one in the window of Chen Gallery stayed up until 1990, when Lillian replaced it with a small framed photograph of Eleanor on the gallery wall, where it hangs to this day.*
+
+*— FC*
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 4 items in a kraft paper envelope stamped "CONFIDENTIAL — CASE #87-0114"
+- Include all 7 items in a kraft paper envelope stamped "CONFIDENTIAL — CASE #87-0114"
 - Envelope should have a Cold Case Club return address sticker and a wax seal (red, with CC monogram)
-- Insert a small card: "Packet 1 of 12 — Begin your investigation. Trust nothing. Question everything."
-- Map should be folded separately and slightly larger than other documents]
+- Insert card: "Packet 1 of 12 — Begin your investigation. Trust nothing. Question everything."
+- Map should be folded separately and slightly larger than other documents
+- The MISSING poster should be folded once, slightly crumpled at corners — it's a reproduction of something that was posted on a telephone pole
+- The evidence inventory gives subscribers a sense of scope — how much is in this case file
+- The driver's license gives Eleanor a face. This matters. She's not an abstraction anymore.]

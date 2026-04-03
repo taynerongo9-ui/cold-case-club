@@ -7,7 +7,7 @@
 
 ## Evidence Item 1: Crime Scene Report — Morrison Creek Bridge
 
-[PRODUCTION NOTES: Official APD crime scene report format. Typewritten on white paper with department header. Clinical, methodical language. Include a simple hand-drawn diagram of the bridge showing where the coat was found.]
+[PRODUCTION NOTES: Official APD crime scene report format. Typewritten on white paper. Clinical, methodical language. Include a hand-drawn diagram.]
 
 ---
 
@@ -27,7 +27,7 @@ Crime Scene Report
 
 Morrison Creek Bridge is a single-lane wooden bridge spanning Morrison Creek on Creek Road, approximately 0.6 miles southeast of downtown Ashford. The bridge is 84 feet in length, 12 feet in width, with wooden railings on both sides approximately 3.5 feet in height. The bridge accommodates both pedestrian and vehicle traffic.
 
-The creek at this point is approximately 40 feet wide with a depth of 14 feet at center. Water temperature on date of scene processing: 38°F. Current speed: moderate (estimated 2-3 knots), flowing south-southeast.
+The creek at this point is approximately 40 feet wide with a depth of 14 feet at center. Water temperature on date of scene processing: 38 deg F. Current speed: moderate (estimated 2-3 knots), flowing south-southeast.
 
 The bridge has no lighting. The nearest streetlight is approximately 200 yards north on Creek Road. At the time of discovery (6:47 AM), ambient light was minimal (civil twilight).
 
@@ -44,7 +44,7 @@ The bridge has no lighting. The nearest streetlight is approximately 200 yards n
 - Collection: Photographed in situ, then collected by Officer Whitfield, bagged, and logged at 8:15 AM.
 
 **Item #87-0114-002: Theatre ticket stub**
-- Description: Torn stub, white card stock with red printing. "MONARCH THEATRE" header. "A DOLL'S HOUSE — Opening Night — Jan 14, 1987." General admission. Stub is the patron's half; the theatre retains the other half.
+- Description: Torn stub, white card stock with red printing. "MONARCH THEATRE" header. "A DOLL'S HOUSE — Opening Night — Jan 14, 1987." General admission. Stub is the patron's half.
 - Condition: Good. Slight crease from being in coat pocket.
 
 ---
@@ -78,9 +78,37 @@ I am a patrol officer, not an investigator, and I defer to Detective Callahan's 
 
 ---
 
-## Evidence Item 2: Forensic Weather Report
+## Evidence Item 2: Officer Whitfield's Responding Officer Report
 
-[PRODUCTION NOTES: Official National Weather Service format, printed on white paper. Include a small temperature graph showing the overnight conditions.]
+[PRODUCTION NOTES: A shorter, more formal version of Whitfield's observations — the official department report filed alongside the crime scene report. This is the version that went into the official case file, while his personal observations above were attached as a supplement.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT**
+Responding Officer Report
+
+**Case Number:** 87-0114
+**Date:** January 15, 1987
+**Officer:** James Whitfield, Badge #2203
+**Shift:** Morning (0600-1400)
+
+---
+
+**SUMMARY OF RESPONSE:**
+
+At 0654 hours, dispatch relayed a phone report from Robert Kline (220 Birch Lane) regarding a woman's coat found on the east railing of Morrison Creek Bridge. Responded to scene, arriving at 0730. Confirmed presence of coat — navy blue wool peacoat, women's size 8, folded over east rail at approximate midpoint. Coat was dry. Pockets contained one tissue and one theatre ticket stub. No other items found on bridge or approaches.
+
+Secured scene. Contacted detective on call (Callahan). Conducted vehicle search of surrounding area with Unit 12 (Kowalski). Located a 1984 Volvo 240 (silver, OR KFJ-447) in Monarch Theatre parking lot. Keys in ignition. Doors unlocked. Purse on passenger seat. Vehicle registered to Eleanor R. Hargrove, 14 Lakeview Drive.
+
+Notification of spouse (Richard Hargrove) conducted at 0900 hours.
+
+**NOTATION:** Coat placement is atypical for bridge suicide scenes in this officer's experience. Scene appeared staged. This observation has been communicated verbally to Det. Callahan and is documented in the supplemental attachment.
+
+---
+
+## Evidence Item 3: Forensic Weather Report
+
+[PRODUCTION NOTES: Official National Weather Service format. Include temperature data.]
 
 ---
 
@@ -95,8 +123,8 @@ Local Climatological Data
 
 **JANUARY 14, 1987:**
 
-| Time | Temperature (°F) | Wind Speed (mph) | Wind Direction | Precipitation | Conditions |
-|------|------------------|-------------------|----------------|---------------|------------|
+| Time | Temp (F) | Wind (mph) | Direction | Precip | Conditions |
+|------|----------|------------|-----------|--------|------------|
 | 6:00 AM | 28 | 5 | NW | None | Clear |
 | 12:00 PM | 34 | 8 | NW | None | Partly cloudy |
 | 6:00 PM | 31 | 4 | W | None | Clear |
@@ -105,8 +133,8 @@ Local Climatological Data
 
 **JANUARY 15, 1987:**
 
-| Time | Temperature (°F) | Wind Speed (mph) | Wind Direction | Precipitation | Conditions |
-|------|------------------|-------------------|----------------|---------------|------------|
+| Time | Temp (F) | Wind (mph) | Direction | Precip | Conditions |
+|------|----------|------------|-----------|--------|------------|
 | 12:00 AM | 26 | 2 | Calm | None | Clear |
 | 3:00 AM | 25 | 1 | Calm | None | Clear |
 | 6:00 AM | 24 | 2 | N | None | Clear |
@@ -115,41 +143,36 @@ Local Climatological Data
 *Time of coat discovery
 
 **SUMMARY:**
-- No precipitation recorded during the 24-hour period of January 14-15.
-- Overnight low: 24°F (-4.4°C)
-- Wind: calm to light, never exceeding 8 mph
-- Visibility: excellent, 10+ miles
+- No precipitation during the 24-hour period.
+- Overnight low: 24 deg F (-4.4 deg C)
 - Moon phase: Waxing gibbous, 87% illuminated. Moonrise: 3:12 PM (Jan 14). Moonset: 6:48 AM (Jan 15).
-- Conditions at 11:42 PM (last confirmed sighting): approximately 27°F, winds calm, clear skies, bright moonlight.
+- Conditions at 11:42 PM (last confirmed sighting): approximately 27 deg F, winds calm, clear skies, bright moonlight.
 
 ---
 
 **CALLAHAN NOTE (attached):**
 
-*27 degrees. Winds calm. Clear night, bright moon. If Eleanor walked from the theatre to the bridge — 0.6 miles, 12-minute walk — she did it in 27-degree weather. The coat on the bridge was dry. No frost on it despite overnight temps in the mid-20s — which means it was placed AFTER the frost formed on the railings, or it was placed and the frost formed around it.*
+*27 degrees. Winds calm. Clear night, bright moon. If Eleanor walked from the theatre to the bridge — 0.6 miles, 12-minute walk — she did it in 27-degree weather.*
 
-*Actually — wait. The frost was disturbed only where the coat was. If the coat had been there since midnight, frost would have formed on the exposed portions of the railing on both sides but NOT under the coat. The coat itself should have had frost on it if it was there for 6+ hours in those temperatures. Whitfield's report doesn't mention frost on the coat. I need to check the evidence log — was the coat frosted when it was bagged?*
+*The coat on the bridge was dry. No frost on it despite overnight temps in the mid-20s — which means it was placed AFTER the frost formed on the railings, or it was placed and the frost formed around it. Whitfield's report doesn't mention frost on the coat. Evidence log says: "Coat dry, no visible moisture." A coat sitting on a metal railing in 24-degree air for six hours should have frost crystals. Unless it was placed closer to the time of discovery.*
 
-*Evidence log says: "Coat dry, no visible moisture." A coat sitting on a metal railing in 24-degree air for six hours should have frost crystals on the outer surface. Unless it was placed closer to the time of discovery. But Kline says he jogged this route at the same time the previous morning and the coat wasn't there.*
-
-*This doesn't prove anything. But it's another thing that doesn't fit.*
+*Also: 87% moon. Bright enough to see by. Bright enough to be seen by. A person placing a coat on a bridge at 2 or 3 AM would have been visible from a distance on a moonlit night. But there are no witnesses because Creek Road is deserted at that hour. Whoever placed that coat knew the area.*
 
 *— FC*
 
 ---
 
-## Evidence Item 3: Patricia Yoon's Coat Check Notebook
+## Evidence Item 4: Patricia Yoon's Coat Check Notebook (CRITICAL CLUE)
 
-[PRODUCTION NOTES: THIS IS THE CRITICAL CLUE OF THE CASE. Print on a small spiral-bound notebook page — torn from a pocket notebook. Handwritten in neat, young handwriting with a fine-point pen. The page shows a list of coat check items with stub numbers. Highlight or circle entry #47. Include a "EVIDENCE — DO NOT REMOVE" sticker.]
+[PRODUCTION NOTES: THIS IS THE CRITICAL CLUE. Print on small spiral-bound notebook page — torn from a pocket notebook. Handwritten in neat, young handwriting.]
 
 ---
 
 **ASHFORD POLICE DEPARTMENT — EVIDENCE TAG**
 Item #: 24-0301-009
 Description: Personal notebook page, Patricia Yoon, coat check log, Jan 14 1987
-Recovered: March 5, 2024, from Patricia Yoon (née Yoon), now Patricia Yoon-Nakamura, Bend, OR
+Recovered: March 5, 2024, from Patricia Yoon-Nakamura, Bend, OR
 Recovered by: Det. Sarah Chen
-Note: Original 1987 coat check records were destroyed per theatre policy (90-day retention). This personal notebook survived in Ms. Yoon-Nakamura's possession.
 
 ---
 
@@ -170,6 +193,8 @@ Note: Original 1987 coat check records were destroyed per theatre policy (90-day
 | 48 | Black trench coat, men's | Tall man, theater critic? |
 | 49 | Tweed blazer, women's | Professor type |
 | 50 | Puffy blue ski jacket | Teenager, came with parents |
+| 51 | Long tan raincoat, men's | Kept apologizing for how wet it was (it wasn't raining??) |
+| 52 | Burgundy shawl | Older woman, very elegant |
 
 *Total checked: 67 coats
 *Unclaimed at end of night: 11 (including #44 — Mrs. Prescott came back for the mink the next day, thank God)
@@ -184,7 +209,7 @@ Note: Original 1987 coat check records were destroyed per theatre policy (90-day
 
 Patricia Yoon-Nakamura, now 57, was located in Bend, Oregon, where she teaches high school drama. When contacted about the Hargrove case, she immediately recalled keeping a personal notebook during her coat check shifts. She retrieved the notebook from a box of college memorabilia in her attic.
 
-Entry #47 is unambiguous: Eleanor Hargrove checked a **camel wool coat** on the evening of January 14, 1987. This is consistent with the bartender Margaret Ellis's 1987 statement, in which she described Eleanor wearing a "nice tan coat, not her usual blue one."
+Entry #47 is unambiguous: Eleanor Hargrove checked a **camel wool coat** on the evening of January 14, 1987. This is consistent with bartender Margaret Ellis's 1987 statement, in which she described Eleanor wearing a "nice tan coat, not her usual blue one."
 
 The coat recovered from Morrison Creek Bridge on January 15, 1987 — Item #87-0114-001 — is a **navy blue** peacoat.
 
@@ -196,17 +221,15 @@ The implication is significant: the coat on the bridge was not the coat Eleanor 
 
 This is the evidence Detective Callahan suspected existed but could never confirm. In his personal notes, he wrote: "The coat was placed. Deliberately." He was right. And now we can prove it.
 
-The original 1987 investigation never subpoenaed the Monarch Theatre's coat check records. By the time anyone thought to look, the 90-day retention period had passed and the theatre had disposed of its records.
-
-But Patricia Yoon kept her notebook. And that notebook changes everything.
+One line in a college student's practice notebook. That's what broke this case open.
 
 — Det. Sarah Chen
 
 ---
 
-## Evidence Item 4: Dr. Susan Park — Medical Examiner's Memo
+## Evidence Item 5: Dr. Susan Park — Medical Examiner's Memo
 
-[PRODUCTION NOTES: Official Douglas County Medical Examiner letterhead. Formal, clinical tone. This memo was filed but effectively buried — it contradicted the department's preferred conclusion. Stamp at top: "FILED — NOT FOR PUBLIC RELEASE"]
+[PRODUCTION NOTES: Official Douglas County Medical Examiner letterhead. Formal, clinical. Stamped "FILED — NOT FOR PUBLIC RELEASE"]
 
 ---
 
@@ -227,21 +250,17 @@ Chief Briggs,
 
 I am writing to formally document my concerns regarding the proposed finding of "probable suicide" in the matter of Eleanor Hargrove.
 
-As the county medical examiner, it is my professional obligation to note the following:
-
 **1. Absence of remains.** No body has been recovered. Without remains, I cannot perform an autopsy, establish a cause of death, or make any determination regarding manner of death. A finding of "probable suicide" in the absence of a body is, in my professional opinion, premature.
 
 **2. Absence of toxicology.** Without remains, we have no blood work, no toxicology screen, no way to determine whether Mrs. Hargrove was intoxicated, drugged, or under the influence of any substance at the time of her disappearance.
 
 **3. Absence of a suicide note.** While not all suicides leave notes, the absence of one — combined with the absence of a body and the absence of any documented history of suicidal ideation — weakens the basis for a suicide finding.
 
-**4. Inconsistency with drowning statistics.** Of the seven confirmed drowning deaths in Morrison Creek in the past fifteen years, all seven bodies were recovered within 72 hours. Six were recovered within 48 hours. The current of Morrison Creek is moderate and consistent. The failure to recover remains after nineteen days of searching is statistically anomalous and warrants explanation.
+**4. Inconsistency with drowning statistics.** Of the seven confirmed drowning deaths in Morrison Creek in the past fifteen years, all seven bodies were recovered within 72 hours. Six were recovered within 48 hours. The failure to recover remains after nineteen days of searching is statistically anomalous and warrants explanation.
 
-**5. Scene staging concerns.** I have reviewed Officer Whitfield's crime scene report. His observation that the coat was "neatly placed, not thrown" and that the scene was "too clean" is consistent with potential staging. This observation was not, to my knowledge, given significant weight in the investigation.
+**5. Scene staging concerns.** I have reviewed Officer Whitfield's crime scene report. His observation that the coat was "neatly placed, not thrown" and that the scene was "too clean" is consistent with potential staging.
 
-I am not making a determination of foul play. I am stating that the evidence as presented does not support a finding of probable suicide to a reasonable degree of medical certainty. I would recommend the case remain open until such time as remains are recovered or additional evidence is obtained.
-
-I understand the practical constraints the department faces. I am simply asking that my objection be noted in the record.
+I am not making a determination of foul play. I am stating that the evidence does not support a finding of probable suicide to a reasonable degree of medical certainty. I would recommend the case remain open until such time as remains are recovered or additional evidence is obtained.
 
 Respectfully,
 
@@ -250,11 +269,11 @@ Douglas County Medical Examiner
 
 ---
 
-**CALLAHAN NOTE (paper-clipped):**
+**CALLAHAN NOTE:**
 
-*Susan Park is the bravest person in this building. She's the only one who put her objections in writing. She's also the only one they can't intimidate — she doesn't answer to Chief Briggs, she answers to the county.*
+*Susan Park is the bravest person in this building. She put her objections in writing. She's the only one they can't intimidate — she answers to the county, not to Briggs.*
 
-*This memo was filed. It was not discussed. It was not shared with the press. When the case was closed two days later, the chief's statement said the finding was made "after consultation with the medical examiner's office." That's technically true — they consulted her. They just didn't listen.*
+*This memo was filed. It was not discussed. It was not shared with the press. When the case was closed two days later, the chief said the finding was made "after consultation with the medical examiner's office." They consulted her. They just didn't listen.*
 
 *I'm keeping a copy.*
 
@@ -262,9 +281,9 @@ Douglas County Medical Examiner
 
 ---
 
-## Evidence Item 5: Detective Callahan's Notes — The Coat
+## Evidence Item 6: Detective Callahan's Notes — The Coat
 
-[PRODUCTION NOTES: Yellow legal pad, handwritten. Callahan is connecting dots. Underlined words, exclamation points — he's excited and frustrated simultaneously.]
+[PRODUCTION NOTES: Yellow legal pad, handwritten. Underlined words, exclamation points.]
 
 ---
 
@@ -274,27 +293,23 @@ Douglas County Medical Examiner
 
 THE COAT.
 
-I've been thinking about the coat for a week and it finally hit me. I was talking to Margaret Ellis for a follow-up, and she mentioned — offhand, like it was nothing — that Eleanor was wearing a "nice tan coat, not her usual blue one" at the tavern.
+I've been thinking about the coat for a week and it finally hit me. Margaret Ellis mentioned — offhand — that Eleanor was wearing a "nice tan coat, not her usual blue one."
 
 Tan. Not navy.
 
-The coat on the bridge is navy. Eleanor's "everyday coat." But Margaret says she was wearing something different that night — something tan or camel-colored, dressier. Opening night at the theatre. You don't wear your everyday coat to opening night.
+The coat on the bridge is navy. Eleanor's "everyday coat." But Margaret says she was wearing something different — tan or camel-colored. Opening night at the theatre. You don't wear your everyday coat to opening night.
 
-If Eleanor was wearing a different coat that evening, then where did the navy coat come from? It didn't walk to the bridge by itself.
+If Eleanor was wearing a different coat, then where did the navy coat come from? It didn't walk to the bridge by itself.
 
-Someone took that navy coat — from the Hargrove house, from wherever it was — and placed it on the bridge. Someone who had access to Eleanor's wardrobe and wanted to create the appearance of a suicide.
+Someone took that navy coat — from the Hargrove house — and placed it on the bridge. Someone who had access to Eleanor's wardrobe and wanted to create the appearance of a suicide.
 
-I need to verify this. The theatre has a coat check — did Eleanor check a coat? What color was it? I need to talk to the coat check attendant. Patricia something — she's a student, works part-time.
+I need to verify this. The theatre has a coat check — did Eleanor check a coat? What color was it? Patricia Yoon says she might have notes.
 
-UPDATE: Talked to Patricia Yoon on the phone. She says she remembers Eleanor checking a coat but can't recall the color definitively. She thinks she might have notes — she was keeping a personal log. Said she'd look for it. I asked her to call me back.
+UPDATE: Yoon can't find the notebook. Says she thinks it's at her parents' house.
 
-I don't think I have time. Briggs is closing this in ten days.
+UPDATE 2 (01/28): Yoon hasn't found the notebook. Case closes Monday. I asked for an extension. Briggs said no.
 
-UPDATE 2: Yoon called back. She can't find the notebook. Says she thinks it's at her parents' house in Portland. I asked if she could look this weekend. She said she'd try.
-
-UPDATE 3 (01/28): Yoon hasn't found the notebook yet. Case closes Monday. I asked for an extension. Briggs said no.
-
-I know the coat doesn't match. I know it in my gut. Margaret Ellis has no reason to lie about what Eleanor was wearing. But without the coat check record, it's my gut against the official finding.
+I know the coat doesn't match. Margaret Ellis has no reason to lie. But without the coat check record, it's my gut against the official finding.
 
 If that notebook exists, it's the key to everything. But I'm out of time.
 
@@ -304,9 +319,71 @@ God damn it.
 
 ---
 
+## Evidence Item 7: Hand-Drawn Crime Scene Sketch
+
+[PRODUCTION NOTES: A simple line drawing of Morrison Creek Bridge viewed from above, showing the bridge structure, railings, and the position of the coat. Include compass direction, measurements, and annotations. Drawn in black ink on white paper, signed by Officer Whitfield.]
+
+---
+
+**CRIME SCENE SKETCH — Morrison Creek Bridge**
+Case #87-0114 | Officer Whitfield | January 15, 1987
+
+[SKETCH DESCRIPTION FOR PRODUCTION:]
+- Top-down view of bridge (84 ft long, 12 ft wide)
+- North end (downtown side) labeled with arrow pointing to "MAIN STREET — 0.6 mi"
+- South end labeled "CREEK ROAD continues"
+- East and west railings clearly marked
+- "X" marked at midpoint (42 ft from north end) on east railing with label: "COAT LOCATION — Item #001"
+- Arrow pointing to creek below with note: "Creek — 14 ft deep, 40 ft wide, flowing S-SE"
+- Note at bottom: "No footprints. No scuff marks. Frost on railings except where coat placed."
+- Scale bar: "1 inch = 10 feet (approximate)"
+
+**WHITFIELD NOTE:**
+*The coat was at the exact midpoint. The exact midpoint. Not off to one side, not near either end. Dead center. That takes precision. That takes someone who measured, or who at least paused to position the coat deliberately.*
+
+---
+
+## Evidence Item 8: Hargrove Gallery Sales Ledger Page (Case #3 Connection)
+
+[PRODUCTION NOTES: A page from the gallery's sales ledger — a physical record book with columns for date, item, artist, buyer, and price. Eleanor's handwriting. This is a mundane gallery document included in the search of the gallery. One entry — a painting called "Dunmore Point Light" sold to a "C. Marsh" — is a Case #3 Easter egg.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT — EVIDENCE REFERENCE**
+Photocopy of Hargrove Gallery sales ledger, page 47
+Collected during gallery search, 01/21/87
+
+---
+
+**HARGROVE GALLERY — Sales Record**
+*October-November 1986*
+
+| Date | Item | Artist | Buyer | Price | Notes |
+|------|------|--------|-------|-------|-------|
+| 10/02/86 | "Autumn Gorge" oil on canvas | J. Brennan | Portland Art Coll. | $1,200 | Shipped via UPS |
+| 10/08/86 | "Hidden in Plain Sight #3" watercolor | A. Carlisle | Private buyer | $650 | Pickup |
+| 10/15/86 | "Cascade Morning" photograph | L. Thorne | T. Wheeler | $175 | Local — framed |
+| 10/22/86 | "Fog at Gold Beach" oil on canvas | J. Brennan | Crestview Gallery (!) | $800 | Hale bought a BRENNAN? After everything? |
+| **11/03/86** | **"Dunmore Point Light" oil on canvas** | **Unsigned, c. 1960** | **C. Marsh, Dunmore Point, ME** | **$400** | **Lighthouse painting. Buyer saw it in our catalog. Shipped East Coast. Beautiful piece — wish I'd kept it.** |
+| 11/14/86 | "Winter Willows" watercolor | A. Carlisle | Ashford Library | $350 | Donation arrangement |
+| 11/28/86 | "Storm over Heceta Head" oil | R. Pullman | First Pacific Bank | $900 | Lobby installation |
+
+---
+
+**CALLAHAN NOTE:**
+
+*Pulled the gallery sales records as part of the financial background check. Nothing suspicious here — normal gallery transactions, reasonable prices, mix of local and out-of-state buyers. Eleanor's margin notes show she was engaged with the business and had opinions about her competitors (the Crestview/Hale comment is revealing).*
+
+*The gallery appears to be modestly profitable. Nowhere near enough to account for the $170K shortfall in the joint savings.*
+
+*— FC*
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 5 items in evidence envelope
-- Patricia Yoon's notebook page is THE key piece — consider printing it on actual spiral-notebook paper with torn perforation edge
-- Include a small evidence photo placeholder: "CRIME SCENE PHOTO — Morrison Creek Bridge, east railing, 7:30 AM, January 15, 1987" with a description of the coat placement
+- Include all 8 items in evidence envelope
+- Patricia Yoon's notebook page is THE key piece — print on actual spiral-notebook paper with torn edge
+- The crime scene sketch adds visual dimension
+- The gallery ledger contains the Case #3 Easter egg ("Dunmore Point Light" sold to "C. Marsh") — do NOT draw attention to it
 - Insert card: "Packet 6 of 12 — Look at the coat. Look closely. Something doesn't match."
 - This is the packet where attentive subscribers will have their first major breakthrough moment]

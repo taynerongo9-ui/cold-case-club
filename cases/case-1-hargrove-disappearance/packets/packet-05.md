@@ -7,7 +7,7 @@
 
 ## Evidence Item 1: Police Statement — Daniel Cross
 
-[PRODUCTION NOTES: Official APD witness statement form. Typewritten. Daniel Cross's voice is articulate, emotional, and literary — he's a theatre director who speaks in complete, expressive sentences.]
+[PRODUCTION NOTES: Official APD witness statement form. Typewritten. Daniel Cross's voice is articulate, emotional, and literary.]
 
 ---
 
@@ -58,7 +58,7 @@ I don't know if Richard killed her. But I know he's capable of cruelty. I've see
 
 ## Evidence Item 2: Love Letter — Eleanor to Daniel
 
-[PRODUCTION NOTES: Handwritten on personal stationery — cream paper with a small embossed "E" at the top. Written in a flowing, literary hand. Fold marks suggest it was kept in an envelope. Print in a handwriting-style font.]
+[PRODUCTION NOTES: Handwritten on personal stationery — cream paper with embossed "E" at top. Flowing, literary hand.]
 
 ---
 
@@ -91,9 +91,9 @@ P.S. — Burn this letter. I'm serious. Please.
 
 ---
 
-## Evidence Item 3: Love Letter — Daniel to Eleanor
+## Evidence Item 3: Love Letter — Daniel to Eleanor (CONTAINS ACROSTIC)
 
-[PRODUCTION NOTES: Written on plain white paper in a bold, slightly messy hand. Less polished than Eleanor's letter — more emotional, more raw. Print in a different handwriting-style font than Eleanor's.]
+[PRODUCTION NOTES: Written on plain white paper in a bold, slightly messy hand. This letter contains a hidden acrostic — the first letter of each paragraph spells "I FEAR HIM." The acrostic should be organic and not obvious on first read.]
 
 ---
 
@@ -103,11 +103,19 @@ Eleanor,
 
 I don't know what you've found, and I won't push you to tell me. But I need you to know that whatever it is, you don't have to face it alone. I am here. I am not going anywhere.
 
-When you talk about Richard, I hear fear in your voice, and it makes me want to break something. Not because I'm some noble protector — I'm a theatre director from San Francisco who can barely change a tire — but because you are the most extraordinary person I've ever known, and the idea that someone has made you afraid in your own home makes me physically ill.
+Frustration is what I feel most these days. Not at you — never at you — but at this situation. You deserve better than secrets and stolen evenings. You deserve a life where you don't have to whisper on the phone or check over your shoulder when you leave the gallery.
 
-You talk about doing things "the right way." Lawyers, records, proper channels. You're right. That's the smart play. But promise me this: if it ever stops being safe — if he ever gives you reason to think you're in danger — you come to me. Forget the plan. Forget the evidence. Just come to me. We'll figure out the rest.
+Every night after rehearsal I sit in my living room and think about you in that house on Lakeview Drive, and I wonder what he's saying to you, how he's looking at you, whether the shouting has started again. You told me about October — the glass breaking, the morning after when you couldn't look Dorothy in the eye. You told me it was a one-time thing. I don't believe you. And I don't think you believe yourself.
+
+After the confrontation at The Stagecoach, something shifted. Richard knows about us. He said "I know what you are" like he was reading a verdict. His hands on my collar were steady — not shaking with rage, but controlled. Deliberate. That scared me more than anger would have.
+
+Reality is this: we cannot go on pretending everything will resolve itself. You said you have a plan — lawyers, records, proper channels. I trust you. But plans take time, and I'm not sure we have as much time as you think.
+
+Have you considered just leaving? Not the legal route, not the evidence-gathering — just going. Portland. San Francisco. Anywhere that isn't under his roof. Your mother would take you in. I would take you in. The gallery can wait. The money can wait. You can't.
 
 I directed *A Doll's House* because I believe in the story. But Nora walks out alone, and I hate that ending. I hate it because I think about you walking out alone and it terrifies me. You don't have to. You shouldn't have to.
+
+Monday morning, call David Wexler. You have the number. Call him and start the process. If you won't do it for yourself, do it for me, because I cannot stand another week of watching you carry this weight and pretending to smile at gallery openings while your husband shakes hands with the chief of police.
 
 Opening night is in eight days. I've been thinking about what I wrote in the director's note — about the door being there, about being brave enough to open it. I wrote that for you, Eleanor. Everything I've done since I met you has been for you. I'm not ashamed of that.
 
@@ -119,9 +127,25 @@ Daniel
 
 ---
 
+**DET. CHEN NOTE (2024):**
+
+*The first letter of each paragraph in Daniel Cross's letter spells a message:*
+
+*I - F - E - A - R - H - I - M - O - C - I*
+
+*Wait — recounting. The clear sequence in the first eight paragraphs is: I - F - E - A - R - H - I - M.*
+
+*"I FEAR HIM."*
+
+*Whether Cross embedded this deliberately or whether it emerged from the anxiety saturating his words, the message is there. Cross feared Richard Hargrove. And he was right to.*
+
+*— SC*
+
+---
+
 ## Evidence Item 4: Margaret Ellis — Supplemental Statement on the Confrontation
 
-[PRODUCTION NOTES: Shorter supplemental statement, same APD form. Margaret is characteristically direct.]
+[PRODUCTION NOTES: Supplemental statement, same APD form. Margaret is characteristically direct.]
 
 ---
 
@@ -163,9 +187,9 @@ That look scared me, and I don't scare easy.
 
 ---
 
-## Evidence Item 5: Anonymous Threatening Letter to Eleanor
+## Evidence Item 5: Anonymous Threatening Letter to Eleanor (RED HERRING)
 
-[PRODUCTION NOTES: This is a RED HERRING. The letter is from Martin Hale, a rival gallery owner, NOT related to Eleanor's death. Print on cheap white paper, block letters cut from magazines and newspapers — classic ransom-note style. Include in a clear evidence bag sleeve with an APD evidence tag.]
+[PRODUCTION NOTES: Print on cheap white paper, block letters cut from magazines and newspapers. Include in a clear evidence bag sleeve with an APD evidence tag.]
 
 ---
 
@@ -201,7 +225,9 @@ YOU'LL PAY FOR WHAT YOU DID.
 
 *Still — if I were building a case for someone else having a motive to harm Eleanor, these letters would muddy the water nicely. And that might be the point.*
 
-*— FC, 01/22/87*
+*UPDATE (01/25): Contacted Martin Hale by phone. He denied sending the letters, then admitted it after I told him we could match the magazine clippings to his subscription list. He was embarrassed. "I was angry. She took my best artists. But I didn't hurt anyone." I believe him. Petty, not dangerous. Closing this thread.*
+
+*— FC, 01/25/87*
 
 ---
 
@@ -225,9 +251,9 @@ And then there's what Eleanor told Cross: "It's not about you, Daniel. It's abou
 
 I need to look at the finances. But the case is being closed in less than two weeks, and the chief isn't going to authorize a financial deep-dive into the Hargrove family's accounts. Not without more than a gut feeling.
 
-The anonymous letters from the gallery are noise. I'll check into Hale in Crestview, but I'm not spending time on a gallery turf war. That's not what got Eleanor killed — if she was killed.
+The anonymous letters from the gallery are noise. Martin Hale confessed to sending them — sour grapes over lost artists. Not related to the disappearance.
 
-She was killed. I know it. I just can't prove it.
+Eleanor was killed. I know it. I just can't prove it.
 
 What I need is a financial trail. And I need it before they shut me down.
 
@@ -235,9 +261,102 @@ What I need is a financial trail. And I need it before they shut me down.
 
 ---
 
+## Evidence Item 7: Postcard from Daniel to Eleanor
+
+[PRODUCTION NOTES: A postcard with a photograph of the Golden Gate Bridge on the front (or a similar San Francisco landmark). On the back, handwritten message from Daniel. Undated. This is a small, intimate artifact that shows the warmth between them.]
+
+---
+
+**[FRONT: Color photograph — Golden Gate Bridge at sunset]**
+
+**[BACK:]**
+
+E —
+
+Found this at a bookshop in the Haight on my last trip back. Made me think of you — the light on the water, the way the bridge holds itself between two worlds. That's what you do, you know. Hold yourself between the life you have and the life you want, and somehow make both of them beautiful.
+
+Come to San Francisco with me someday. I'll show you the view from the Marin Headlands. You'll never want to go back to Ashford.
+
+(Actually, you'll probably want to go back to Ashford. You love that stupid gallery. But humor me.)
+
+Missing you.
+D.
+
+---
+
+## Evidence Item 8: Monarch Theatre Rehearsal Schedule
+
+[PRODUCTION NOTES: A typed rehearsal schedule posted on the theatre's green room bulletin board. This establishes Daniel Cross's whereabouts throughout January 14 — at the theatre for final preparations, then at the performance, then at the after-party. It's his alibi document.]
+
+---
+
+**MONARCH THEATRE**
+Rehearsal & Performance Schedule — *A Doll's House*
+Week of January 12-18, 1987
+
+| Day | Time | Activity | Location | Notes |
+|-----|------|----------|----------|-------|
+| Mon 1/12 | 6:00-9:00 PM | Final dress rehearsal | Main Stage | Full cast, crew, lights, sound |
+| Tue 1/13 | 10:00 AM - 12:00 PM | Tech check & notes session | Main Stage | Cross + stage manager only |
+| Tue 1/13 | 5:00-6:00 PM | Costume fittings (final) | Dressing rooms | Yoon (Anne-Marie costume adjustment) |
+| **Wed 1/14** | **10:00 AM - 12:00 PM** | **Pre-show notes & warm-up** | **Green Room** | **Full cast** |
+| **Wed 1/14** | **2:00 - 4:00 PM** | **Technical walk-through** | **Main Stage** | **Cross + tech crew** |
+| **Wed 1/14** | **6:00 PM** | **Call time (all cast & crew)** | **Green Room** | **— ** |
+| **Wed 1/14** | **7:00 PM** | **House opens** | **Main Lobby** | **Coat check opens (Yoon)** |
+| **Wed 1/14** | **8:00 PM** | **OPENING NIGHT PERFORMANCE** | **Main Stage** | **Curtain** |
+| **Wed 1/14** | **~10:05 PM** | **Performance ends / curtain call** | **Main Stage** | **— ** |
+| **Wed 1/14** | **10:15 PM - 12:00+ AM** | **Opening night reception / after-party** | **Green Room** | **Cast, crew, donors, friends** |
+| Thu 1/15 | 10:00 AM | Post-opening notes session | Green Room | Full cast |
+
+---
+
+**DET. CALLAHAN NOTE:**
+
+*Cross was at the theatre from 10 AM through midnight on January 14. Multiple witnesses place him at the after-party from ~10:15 PM until at least midnight. Catherine Shaw (lead actress) says Cross was "the last to leave, as always — he locks up." Cross says he left around 12:15 AM and drove home (77 Orchard Lane, ~5 minute drive).*
+
+*His window to have harmed Eleanor is after midnight. But where was Eleanor between 11:42 PM and whenever the coat was placed? Cross says he went straight home. No alibi after 12:15 AM. But no motive either.*
+
+*Cross loved Eleanor. She was going to leave Richard for herself, and Cross was the life she was walking toward. Why would he destroy that?*
+
+*— FC*
+
+---
+
+## Evidence Item 9: Eleanor's Personal Address Book Page
+
+[PRODUCTION NOTES: A single page torn or photocopied from a small personal address book. Eleanor's handwriting — neat cursive. The page shows the "C" section. Daniel Cross's name and number are circled. Other entries provide background color.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT — EVIDENCE REFERENCE**
+Photocopy of address book page, found in Eleanor Hargrove's gallery desk
+Case #87-0114
+
+---
+
+**[Address book page — "C" section, Eleanor's handwriting:]**
+
+Caldwell, Marjorie — (503) 555-0233 (Portland Art Museum, curator)
+Chen, Lillian — (503) 555-0188 (gallery) / (503) 555-0206 (home)
+**Cross, Daniel — (503) 555-0271 (home)** [circled in red ink, with a small star drawn next to it]
+Crestview Fine Art — (503) 555-0344 (DO NOT CALL — Hale is impossible)
+
+---
+
+**CALLAHAN NOTE:**
+
+*The "DO NOT CALL" next to the Crestview gallery is Eleanor's assessment of Martin Hale — the rival gallery owner who sent the anonymous letters. Checks out with what Lillian told me: Hale was difficult, petty, not dangerous.*
+
+*Cross's number is circled and starred. She kept him close. But not close enough to save her.*
+
+*— FC*
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 6 items in evidence envelope
-- The love letters are the emotional centerpiece — print on distinct paper (Eleanor's on cream with embossed E, Daniel's on plain white)
+- Include all 9 items in evidence envelope
+- The love letters are the emotional centerpiece — print on distinct paper
 - The anonymous threatening letter should be in a clear plastic evidence sleeve
-- Insert card: "Packet 5 of 12 — A love affair. A confrontation. Anonymous threats. But what if the real danger was closer to home?"
-- Consider including a small photograph (staged) of a man and woman's hands touching across a table — ambiguous, suggestive of the affair]
+- The postcard from Daniel is a warm, human artifact — include as a loose item
+- The acrostic in Daniel's letter ("I FEAR HIM") should NOT be obvious. Det. Chen's 2024 note is the reveal — but attentive subscribers may spot it themselves.
+- Insert card: "Packet 5 of 12 — A love affair. A confrontation. Anonymous threats. But what if the real danger was closer to home?"]

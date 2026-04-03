@@ -124,7 +124,7 @@ Interview Transcript
 
 **HARGROVE:** I... I think so. I assume so. I didn't pay close attention when she left. She usually wears that coat in winter.
 
-[CALLAHAN MARGIN NOTE: *"I assume so." He doesn't actually know.*]
+[CALLAHAN MARGIN NOTE: *"I assume so." He doesn't actually know. Because he wasn't there when she left? Or because he picked the wrong coat?*]
 
 **CALLAHAN:** Thank you, Mr. Hargrove. We may need to speak again.
 
@@ -136,7 +136,7 @@ Interview Transcript
 
 ## Evidence Item 2: Marriage Certificate
 
-[PRODUCTION NOTES: Reproduction of an Oregon state marriage certificate on heavy parchment-style paper. Ornate border, state seal. Slightly faded to suggest age. Include embossed seal effect if possible.]
+[PRODUCTION NOTES: Reproduction of an Oregon state marriage certificate on heavy parchment-style paper. Ornate border, state seal. Slightly faded to suggest age.]
 
 ---
 
@@ -157,7 +157,7 @@ Birthplace: Ashford, Oregon
 Residence: Ashford, Oregon
 Occupation: Real Estate Developer
 Father: Arthur William Hargrove
-Mother: Catherine Hargrove (née Donnelly)
+Mother: Catherine Hargrove (nee Donnelly)
 
 **BRIDE:**
 Name: Eleanor Ruth Addams
@@ -167,7 +167,7 @@ Birthplace: Portland, Oregon
 Residence: Portland, Oregon
 Occupation: Art Gallery Curator
 Father: Harold James Addams (deceased)
-Mother: Ruth Addams (née Porter)
+Mother: Ruth Addams (nee Porter)
 
 **CEREMONY:**
 Location: St. Andrew's Episcopal Church, Ashford, Oregon
@@ -243,6 +243,8 @@ One last thing. I've noticed a silver pickup truck — not Richard's Ford Bronco
 
 *3. The silver pickup truck. Richard drives a '86 Ford Bronco, dark blue. Eleanor drives the Volvo. Who owns a silver pickup? Need to check — could be Victor Hargrove's vehicle. Or a contractor. Or someone else entirely.*
 
+*UPDATE: Confirmed — Victor Hargrove drives a 1985 Chevy Silverado, silver. What was Victor doing at his brother's house after midnight on multiple occasions?*
+
 *— FC*
 
 ---
@@ -281,9 +283,160 @@ I'm going to pull phone records tomorrow. If Richard made calls from that office
 
 ---
 
+## Evidence Item 5: Eleanor's Library Checkout Records
+
+[PRODUCTION NOTES: A library checkout card — the kind with columns for borrower name and date due, stamped by the librarian. This is from the Ashford Public Library and shows what Eleanor was reading in the months before her disappearance. The card itself is a mundane document, but it reveals Eleanor's intellectual preoccupations AND contains a hidden cipher: numbers written faintly in pencil in the margin that decode (A=1, B=2) to "HELP ME".]
+
+---
+
+**ASHFORD PUBLIC LIBRARY**
+Borrower Checkout Record
+
+**Borrower:** Eleanor Hargrove
+**Library Card #:** A-4471
+
+---
+
+| Date Out | Title / Author | Date Due | Date Returned |
+|----------|---------------|----------|---------------|
+| 09/14/86 | *The Handmaid's Tale* — Margaret Atwood | 10/12/86 | 10/10/86 |
+| 10/02/86 | *Burning Chrome* — William Gibson | 10/30/86 | 10/28/86 |
+| 10/15/86 | *The Codes of Love* — R. Alderman | 11/12/86 | 11/10/86 |
+| 11/03/86 | *A Doll's House and Other Plays* — Henrik Ibsen | 12/01/86 | RENEWED 12/01 |
+| 11/18/86 | *The Codebreakers* — David Kahn | 12/16/86 | 12/14/86 |
+| 12/05/86 | *A Doll's House and Other Plays* (renewed) | 01/02/87 | 01/02/87 |
+| 12/22/86 | *Presumed Innocent* — Scott Turow | 01/19/87 | NOT RETURNED |
+| 01/05/87 | *The Art of War* — Sun Tzu | 02/02/87 | NOT RETURNED |
+
+---
+
+**[Margin notation — faint pencil, Eleanor's handwriting:]**
+
+*8 - 5 - 12 - 16  13 - 5*
+
+---
+
+**DET. CALLAHAN NOTE:**
+
+*Pulled Eleanor's library records. Interesting reading list. Two books on codes/ciphers in October and November — *The Codes of Love* by R. Alderman (her college professor? Need to check) and *The Codebreakers* by David Kahn (the definitive history of cryptography). She was studying codes. Why?*
+
+*She checked out Ibsen's *A Doll's House* in November and kept it for two months. She knew the play before she went to see it. She wasn't just attending opening night — she was making a statement.*
+
+*Last two books never returned: *Presumed Innocent* (legal thriller about a prosecutor accused of murder — ironic) and *The Art of War* (strategy, tactics, knowing your enemy). These were the books Eleanor was reading in the final days before her disappearance. A woman reading Sun Tzu is not a woman planning to die. She's planning to fight.*
+
+*There's also something written in pencil in the margin of the card — numbers. Probably nothing. Library cards get scribbled on all the time.*
+
+*— FC*
+
+**DET. CHEN NOTE (2024):**
+
+*The numbers in the margin are not random. Using a simple A=1, B=2, C=3 substitution cipher:*
+
+*8=H, 5=E, 12=L, 16=P, 13=M, 5=E*
+
+*"HELP ME"*
+
+*Eleanor wrote this. In cipher. On her library card. A cry for help hidden in plain sight — in the exact kind of code she had been studying. Whether she intended anyone to find it or whether it was an unconscious expression of fear, it's heartbreaking either way.*
+
+*— SC*
+
+---
+
+## Evidence Item 6: Business Card — Hargrove Development Corporation
+
+[PRODUCTION NOTES: A standard business card (3.5 x 2 inches), printed on heavy white stock. Professional, understated. Include as a loose artifact in the evidence envelope — the kind of card Richard would hand out at Rotary meetings and church events.]
+
+---
+
+**HARGROVE DEVELOPMENT CORPORATION**
+
+Richard A. Hargrove
+*President*
+
+12 Commerce Street
+Ashford, Oregon 97201
+Tel: (503) 555-0162
+Fax: (503) 555-0163
+
+*Building Ashford's Future Since 1952*
+
+---
+
+## Evidence Item 7: Church Bulletin — First Presbyterian Church of Ashford
+
+[PRODUCTION NOTES: A folded church bulletin (half-sheet, printed on cream stock). This is the Sunday bulletin from January 11, 1987 — three days before Eleanor's disappearance. It shows Richard's public persona as an active church member and community leader. Include as a period document that establishes the world Eleanor lived in.]
+
+---
+
+**FIRST PRESBYTERIAN CHURCH OF ASHFORD**
+*Rev. William T. Donovan, Pastor*
+127 Church Street, Ashford, Oregon
+
+**Sunday, January 11, 1987**
+**Order of Worship — 10:00 AM**
+
+---
+
+**WELCOME & ANNOUNCEMENTS**
+
+Good morning and welcome to worship. A few announcements:
+
+- **Annual Congregational Meeting** — Sunday, January 25, following worship. All members encouraged to attend. Budget review and elder elections.
+
+- **Youth Group Ski Trip** — February 7-8 at Mt. Bachelor. Permission slips due January 25. Contact Coach Richard Hargrove (555-0162) for carpooling.
+
+- **Community Prayer Requests** — Please keep the Henderson family in your prayers as Jim recovers from surgery. Also praying for our community as we enter the new year with hope and gratitude.
+
+- **Usher Team This Month:** Richard Hargrove (captain), Victor Hargrove, Tom Wheeler, Dave Broughton
+
+---
+
+**THIS WEEK AT FIRST PRESBYTERIAN:**
+- Monday 7:00 PM — Bible Study (Fellowship Hall)
+- Wednesday 6:30 PM — Choir Practice
+- Thursday 12:00 PM — Women's Circle Luncheon
+- Saturday 9:00 AM — Men's Breakfast (speaker: Richard Hargrove on "Stewardship and Community Service")
+
+---
+
+**CALLAHAN NOTE:**
+
+*Found this in the Hargroves' kitchen drawer during the consensual search of the residence (01/16). Richard Hargrove: usher captain, youth group ski trip coordinator, men's breakfast speaker. The man is everywhere in this town. Every board, every committee, every volunteer list. Either he's the most dedicated citizen in Douglas County, or he's building the kind of public profile that makes people say "He couldn't possibly" when the question comes up.*
+
+*Also note: Victor Hargrove is on the usher team. The brothers are side by side in every aspect of life — church, business, and apparently whatever they were doing at 14 Lakeview Drive after midnight.*
+
+*— FC*
+
+---
+
+## Evidence Item 8: Polaroid Photo Description — The Hargrove Residence
+
+[PRODUCTION NOTES: This is not an actual photograph but a detailed written description of one, formatted as a crime scene reference photo log entry. It's designed to be vivid enough for subscribers to visualize the scene AND for an illustrator to eventually create the image. Include as a printed document with an evidence tag.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT — CRIME SCENE PHOTOGRAPHY LOG**
+Case #87-0114
+Photographer: Ofc. R. Dominguez
+Date: January 16, 1987
+
+**Photo #87-0114-CS-024: Exterior, Hargrove Residence, 14 Lakeview Drive**
+
+*Description:* Front view of a two-story Colonial-style home. White clapboard siding, black shutters, brick chimney on the east side. The front porch has two columns and a hanging light fixture (brass, colonial style). The front door is dark green with a brass knocker. A brick walkway leads from the sidewalk to the porch steps. The lawn is dormant (winter brown) but well-maintained. A large oak tree stands in the front yard, bare of leaves. The driveway is to the right of the house, leading to an attached two-car garage (doors closed). No vehicles visible in the driveway at time of photograph.
+
+*Notable details:* The house is the largest on Lakeview Drive. The neighboring home at #12 (Dorothy Marsh's residence) is visible on the left — a smaller Cape Cod style, closer to the street. The distance between the two homes is approximately 40 feet. From Marsh's bedroom window (second floor, facing east), the Hargrove driveway and garage would be clearly visible.
+
+A Christmas wreath is still on the front door (January 16). The porch light is off. Curtains are drawn on all visible windows. The house has a locked, sealed quality — as if someone has pulled it in on itself.
+
+*Investigative relevance:* This is the home Eleanor left at 6:30 PM on January 14 and never returned to. Richard claims he arrived home from his office around midnight and went to bed without checking on Eleanor. The garage is attached — a person entering through the garage would not need to walk past the front of the house and would not be visible from the street. The guest bedroom (where Richard claims he assumed Eleanor was sleeping) is on the second floor, east side — the window facing away from Marsh's house.
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 4 items in evidence envelope
+- Include all 8 items in evidence envelope
 - Marriage certificate should be on heavier stock, distinct from police documents
-- The interview transcript is the centerpiece — consider printing it on slightly different paper (white vs. cream) to distinguish it from witness statements
+- The interview transcript is the centerpiece
+- Library checkout card with cipher is a subtle puzzle — most subscribers won't catch it on first read, but when Det. Chen's 2024 note decodes it, it will be a revelation
+- Business card and church bulletin are world-building — they show who Richard is in public, which makes who he is in private more chilling
 - Insert card: "Packet 3 of 12 — The husband says all the right things. But listen to what he doesn't say."
 - Consider including a small "PERSON OF INTEREST" stamp or label as a loose artifact]

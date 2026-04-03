@@ -7,7 +7,7 @@
 
 ## Evidence Item 1: Daily Herald — January 16, 1987
 
-[PRODUCTION NOTES: Printed on newsprint-weight paper in a columnar newspaper layout. Daily Herald masthead at top — small-town newspaper design, est. 1921. Black and white. Include a placeholder box marked "PHOTO: Eleanor Hargrove, from gallery opening 1986" — use an appropriately styled stock photo or illustration in final production.]
+[PRODUCTION NOTES: Printed on newsprint-weight paper in a columnar newspaper layout. Daily Herald masthead at top — small-town newspaper design, est. 1921. Black and white.]
 
 ---
 
@@ -42,6 +42,8 @@ Friends and family have expressed shock at the disappearance. Lillian Chen, Elea
 
 "Eleanor is strong, intelligent, and full of life," Chen said, her voice breaking. "I refuse to believe the worst. Something happened to her, and I want answers."
 
+Ruth Addams, Eleanor's mother, has traveled from Portland to Ashford to assist in the search. "My daughter would not do this," Addams told the Herald outside the police station. "I know my child. Something is very wrong."
+
 Morrison Creek Bridge, a wooden pedestrian and vehicle bridge on Creek Road, has been the site of at least four suicides in the past decade, according to county records. However, police emphasized that no determination has been made regarding the circumstances of Hargrove's disappearance.
 
 Anyone with information is asked to contact the Ashford Police Department at (503) 555-0147.
@@ -52,9 +54,9 @@ Anyone with information is asked to contact the Ashford Police Department at (50
 
 ---
 
-## Evidence Item 2: Daily Herald — January 22, 1987
+## Evidence Item 2: Daily Herald — January 22, 1987 (with Classified Section)
 
-[PRODUCTION NOTES: Same newspaper format. Headline is larger, more urgent. Include a small sidebar.]
+[PRODUCTION NOTES: Same newspaper format. Headline is larger, more urgent. Includes the Ashford Commons sidebar AND a classified section on the reverse. The classified section contains the Belmont Hotel job listing — a Case #2 cross-reference.]
 
 ---
 
@@ -105,9 +107,46 @@ Richard Hargrove was not available for comment on the project. A company spokesp
 
 ---
 
+**[REVERSE SIDE — CLASSIFIED ADS SECTION]**
+
+**THE ASHFORD DAILY HERALD — CLASSIFIED ADVERTISEMENTS**
+**January 22, 1987**
+
+**HELP WANTED**
+
+COOK — Ashford Diner, experienced short-order. Mornings, M-F. $5.50/hr + tips. Apply in person, 44 Main St.
+
+RANCH HAND — Seasonal, March-Oct. Douglas County cattle operation. Room & board + $800/mo. Call (503) 555-0288.
+
+RECEPTIONIST — Pacific Northwest Mutual Insurance, Ashford office. Typing 60 WPM, phone manner. $6.75/hr. Send resume: PO Box 117, Ashford OR 97201.
+
+**BELMONT HOTEL, CHARLESTON — Now hiring experienced hospitality staff. Night manager position available. Competitive salary + housing allowance. Beautiful waterfront property, year-round position. Contact R. Hicks, General Manager, (843) 555-0244.**
+
+CASHIER — Ashford Hardware, part-time, weekends. $4.50/hr. See Bob Whitfield (no relation to the officer).
+
+TEACHER'S AIDE — Ashford Elementary, K-2. Experience w/ children required. $5.25/hr. Contact Superintendent's office, (503) 555-0100.
+
+**FOR SALE**
+
+1983 Ford F-150, 4WD, 62K miles, runs good, some rust. $4,200 OBO. (503) 555-0319.
+
+FIREWOOD — Seasoned oak, $80/cord delivered. (503) 555-0277.
+
+ENCYCLOPEDIA BRITANNICA — Complete set, 1979 edition, good condition. $50. Call Dorothy, (503) 555-0144.
+
+---
+
+**DET. CALLAHAN NOTE (on classified page, circled in red):**
+
+*Dorothy Marsh is selling the encyclopedias Eleanor gave her. This made me sad. Also noticed the Belmont Hotel ad from Charleston — Tom Brewer mentioned his cousin works at a hotel somewhere down south. Small world.*
+
+*— FC*
+
+---
+
 ## Evidence Item 3: Daily Herald — February 3, 1987
 
-[PRODUCTION NOTES: Same newspaper format. Tone is more subdued, almost resigned. Smaller headline than previous articles.]
+[PRODUCTION NOTES: Same newspaper format. Tone is more subdued, almost resigned.]
 
 ---
 
@@ -154,7 +193,7 @@ Lillian Chen, Eleanor's business partner, said she intends to keep the Hargrove 
 
 ## Evidence Item 4: Daily Herald — November 3, 1987
 
-[PRODUCTION NOTES: Same newspaper format. This is a smaller article, buried on page 5 — not front page news anymore. The story has faded from public attention. Include the page number "Page 5" at the top.]
+[PRODUCTION NOTES: Same newspaper format. Smaller article, page 5. The story has faded.]
 
 ---
 
@@ -181,7 +220,7 @@ Her husband, real estate developer Richard Hargrove, remains a "person of intere
 
 Ruth Addams, Eleanor's mother, continues to advocate for the case to be reopened. In a letter to the Herald published last month, Addams wrote: "I will never accept that my daughter chose to end her life. The Ashford Police Department failed Eleanor, and they know it."
 
-The Hargrove Gallery on Main Street continues to operate under the management of Lillian Chen. The Monarch Theatre's current season is underway under a new artistic director.
+The Hargrove Gallery on Main Street continues to operate under the management of Lillian Chen. The Monarch Theatre's current season is underway under a new artistic director; Daniel Cross departed Ashford in March.
 
 Richard Hargrove's Ashford Commons development, on the east side of town, is nearing completion and is expected to open for occupancy in early 1988.
 
@@ -189,7 +228,7 @@ Richard Hargrove's Ashford Commons development, on the east side of town, is nea
 
 ## Evidence Item 5: Letters to the Editor — Ruth Addams
 
-[PRODUCTION NOTES: Two letters, printed as newspaper clippings cut from the Letters to the Editor section. Different dates, showing Ruth's sustained campaign. Slightly yellowed newsprint.]
+[PRODUCTION NOTES: Two letters, printed as newspaper clippings.]
 
 ---
 
@@ -243,7 +282,7 @@ Portland, Oregon
 
 ## Evidence Item 6: Detective Callahan's Notes — The Closing
 
-[PRODUCTION NOTES: Yellow legal pad, handwritten, blue ballpoint. This entry is more emotional than previous notes — Callahan is angry and conflicted.]
+[PRODUCTION NOTES: Yellow legal pad, handwritten, blue ballpoint. This entry is emotional — Callahan is angry and conflicted.]
 
 ---
 
@@ -279,10 +318,104 @@ I've been a cop for twenty-two years. This is the first case I'm ashamed of.
 
 ---
 
+## Evidence Item 7: Community Board Posting — Memorial Vigil
+
+[PRODUCTION NOTES: A hand-typed flyer on white paper, the kind that would be posted on a community bulletin board at the library, grocery store, or post office. Simple, community-organized, with tear-off phone number tabs at the bottom. This shows the community's response to Eleanor's disappearance.]
+
+---
+
+**CANDLELIGHT VIGIL FOR ELEANOR HARGROVE**
+
+**Saturday, January 25, 1987 — 6:00 PM**
+Morrison Creek Bridge, Creek Road
+
+The community of Ashford is invited to gather at Morrison Creek Bridge for a candlelight vigil in remembrance of Eleanor Hargrove, who has been missing since January 14.
+
+Please bring a candle. Lillian Chen of the Hargrove Gallery will offer remarks. Rev. William Donovan of First Presbyterian Church will lead a prayer.
+
+*All are welcome. Rain or shine.*
+
+---
+
+Organized by: Friends of Eleanor Hargrove Committee
+Contact: Lillian Chen, Hargrove Gallery — (503) 555-0188
+
+---
+
+**CALLAHAN NOTE (on back):**
+
+*Attended the vigil. About 80 people showed up. Lillian Chen spoke — short, fierce, controlled. She didn't cry. She said Eleanor's name six times and she looked at the bridge like she wanted to burn it down.*
+
+*Richard Hargrove attended. Stood in the back row with Victor. Wore a black overcoat and held a candle. When Rev. Donovan asked for a moment of silence, Richard bowed his head and closed his eyes.*
+
+*I watched him the entire time. His candle never flickered. His hand was perfectly steady.*
+
+*— FC*
+
+---
+
+## Evidence Item 8: Radio Dispatch Transcript — January 15, 1987
+
+[PRODUCTION NOTES: Typed transcript of police radio communications, formatted as a dispatch log. Time-stamped entries. This covers the initial discovery of the coat and the first response. Print on white paper with "ASHFORD POLICE DEPARTMENT — COMMUNICATIONS LOG" header.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT**
+Communications Division — Radio Dispatch Log
+**Date:** January 15, 1987
+
+| Time | Unit | Transmission |
+|------|------|-------------|
+| 06:54 | DISPATCH | All units. Phone report of a woman's coat found on Morrison Creek Bridge by a jogger. Reporting party is Robert Kline, called from Creek Road gas station payphone. RP states coat is on the east railing, no person in sight. Possible 5150 scene. |
+| 06:56 | UNIT 7 (Whitfield) | Copy dispatch. Unit 7 en route to Morrison Creek Bridge from Municipal. ETA 8 minutes. |
+| 06:57 | DISPATCH | Copy Unit 7. Be advised, RP will wait at the bridge. RP states coat is "folded, not thrown." RP concerned about possible jumper. |
+| 07:01 | UNIT 12 (Kowalski) | Dispatch, Unit 12 monitoring. Want me to swing by Creek Road? I'm at the diner on Main. |
+| 07:02 | DISPATCH | Negative Unit 12, hold position. Unit 7 is primary. |
+| 07:30 | UNIT 7 (Whitfield) | Dispatch, Unit 7 on scene at Morrison Creek Bridge. I have a visual on the coat. Confirming — women's navy blue peacoat, folded over the east railing at approximately midpoint of the bridge. No person visible. No additional items on the bridge. Water is dark, moving. No visible disturbance in the water surface. |
+| 07:32 | DISPATCH | Copy Unit 7. Do you need dive team? |
+| 07:33 | UNIT 7 (Whitfield) | Affirmative. Request dive team and notification of detective on call. Also requesting vehicle check of surrounding area — I want to know if there are any cars parked within a half mile that shouldn't be there. |
+| 07:35 | DISPATCH | Copy. Dive team notified, ETA 45 minutes. Detective Callahan notified at home, en route. Unit 12, can you do a vehicle canvas of Creek Road and the Monarch Theatre area? |
+| 07:36 | UNIT 12 (Kowalski) | Copy dispatch. Heading to Monarch Theatre lot now. |
+| 07:42 | UNIT 12 (Kowalski) | Dispatch, Unit 12. I've got a vehicle in the Monarch Theatre parking lot. Silver Volvo, Oregon plates Kilo-Foxtrot-Juliet-Four-Four-Seven. Only vehicle in the lot. Keys are in the ignition, doors unlocked. Purse visible on the passenger seat. Running the plate now. |
+| 07:44 | DISPATCH | Copy Unit 12. Stand by for registration. |
+| 07:45 | DISPATCH | Unit 12, plate comes back to a 1984 Volvo 240 registered to Eleanor R. Hargrove, 14 Lakeview Drive, Ashford. |
+| 07:46 | UNIT 7 (Whitfield) | Dispatch, Unit 7 copies. Hargrove — that's the gallery owner on Main Street, right? This just got complicated. Request notification of the husband, Richard Hargrove, same address. |
+| 07:47 | DISPATCH | Copy. Will attempt notification at 14 Lakeview. |
+| 08:10 | DET. CALLAHAN | Dispatch, Callahan on scene at Morrison Creek Bridge. Assuming primary. Secure the scene — I don't want anyone on this bridge except me and Whitfield until crime scene is processed. |
+
+---
+
+## Evidence Item 9: Detective Callahan's Notes — The Public Story
+
+[PRODUCTION NOTES: Yellow legal pad, handwritten. Short, bitter.]
+
+---
+
+**Personal Case Notes — Det. F. Callahan**
+**Case #87-0114 — Hargrove**
+**January 22, 1987**
+
+George Preston from the Daily Herald called me today for a quote. I gave him the standard line. He asked if Richard Hargrove was a suspect. I said "person of interest." He asked what the difference was. I said, "About fifty thousand dollars in attorney fees."
+
+Preston laughed. I didn't.
+
+The paper is doing its job — reporting what we tell them. But what we're telling them is the sanitized version. The public story is: missing woman, coat on bridge, husband cooperating, search continues. The real story is: embezzled money, staged evidence, a brother's truck at the house at midnight, and a department that doesn't want to look too hard at the family that built this town.
+
+I notice the Herald ran the Ashford Commons construction permit story as a sidebar to the main Hargrove article. "In an unrelated development." Unrelated. Six days after his wife disappears, the man files construction permits. The reporter doesn't see the connection. Why would he? Nobody's told him to look.
+
+Ruth Addams is writing letters. She'll keep writing them. She's the only person in this story who isn't afraid of the Hargrove name.
+
+I wish I could say the same about myself.
+
+— FC
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 6 items in evidence envelope
-- Newspaper clippings should be printed on actual newsprint-weight paper, cut to look like real clippings (irregular edges)
-- Ruth Addams's letters are the emotional core — consider printing them on slightly different paper to distinguish from the news articles
-- Callahan's closing notes should feel heavy and personal
-- Insert card: "Packet 4 of 12 — The story the town wanted to believe. But one woman never stopped asking questions."
-- Consider including a small "CASE CLOSED" rubber stamp impression on a separate card as a loose artifact]
+- Include all 9 items in evidence envelope
+- Newspaper clippings should be printed on actual newsprint-weight paper, cut to look like real clippings
+- Ruth Addams's letters are the emotional core
+- The classified ads section contains a Belmont Hotel reference (Case #2 Easter egg) — do NOT draw attention to it. Let observant subscribers find it.
+- Radio dispatch transcript adds procedural texture — shows the case unfolding in real time
+- Community vigil flyer shows this is a real town with real people affected
+- Insert card: "Packet 4 of 12 — The story the town wanted to believe. But one woman never stopped asking questions."]

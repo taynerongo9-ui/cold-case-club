@@ -7,7 +7,7 @@
 
 ## Evidence Item 1: Victor Hargrove's Alibi Statement
 
-[PRODUCTION NOTES: Official APD witness statement form from 1987. Victor's voice is nervous, overly precise — he's rehearsed this. Shorter sentences than Richard, more pauses. Print on aged cream paper.]
+[PRODUCTION NOTES: Official APD form, 1987. Victor is nervous, overly precise — rehearsed.]
 
 ---
 
@@ -16,274 +16,184 @@ Witness Statement
 
 **Case Number:** 87-0114
 **Date:** January 22, 1987
-**Time:** 3:00 PM
-**Interviewing Officer:** Det. Frank Callahan
 **Witness:** Victor Anthony Hargrove
-**DOB:** 03/29/1947
-**Address:** 440 NW Lovejoy Street, Apt. 8C, Portland, OR
-**Occupation:** Vice President, Hargrove Development Corporation
-**Attorney Present:** William Crane, Esq. (joint counsel with Richard Hargrove)
+**Attorney Present:** William Crane, Esq.
 
 ---
 
 **STATEMENT:**
 
-I'll answer your questions, Detective, but I want to say upfront that I was not in Ashford on the night of January 14.
+I was not in Ashford on the night of January 14. I was in Portland. I had meetings on January 13 and 14 related to a Pearl District property. I stayed at the Heathman Hotel.
 
-I was in Portland. I had meetings in the city on January 13 and 14 related to a commercial property we're evaluating in the Pearl District. I stayed at the Heathman Hotel — I stay there when I'm in the city, they know me.
+On the evening of January 14, I had dinner at Jake's Famous Crawfish with Peter Drummond from Pacific Realty Partners. We finished around 9 PM. I was in my room by 9:30 PM and did not leave.
 
-On the evening of January 14, I had dinner at Jake's Famous Crawfish on SW Stark with a business associate — Peter Drummond from Pacific Realty Partners. We finished around 9 PM. I walked back to the hotel. I was in my room by 9:30 PM and did not leave the hotel that evening.
+I checked out January 15 around 10 AM and drove to Ashford when Richard called about Eleanor.
 
-I checked out of the Heathman the following morning — January 15 — around 10 AM. I drove back to Ashford when Richard called me to tell me about Eleanor. I arrived in Ashford around noon.
+Richard and I spoke on the phone January 14 at approximately 4 PM. Routine business — Ashford Commons permits, contractor bids. Maybe fifteen minutes.
 
-Richard and I spoke on the phone on January 14 at approximately 4 PM. He called my room at the Heathman. We discussed the Ashford Commons project — permits, contractor bids, that sort of thing. It was a routine business call. Maybe fifteen minutes.
+Regarding Cascade Holdings LLC: I registered it at Richard's request as a holding company for a Pearl District acquisition that fell through. The wire transfers were authorized by Richard to fund that acquisition. I was an administrative placeholder, nothing more.
 
-I want to address something. I understand that my name appears on the business registration for Cascade Holdings LLC. I registered that entity in July 1986 at Richard's request. It was intended as a holding company for a land acquisition in the Pearl District that ultimately fell through. The wire transfers from the joint account were authorized by Richard to fund that acquisition. When the deal collapsed, the money was — to my understanding — reinvested through other channels. I did not personally benefit from any of those transfers. I was an administrative placeholder, nothing more.
+I loved Eleanor. She was my sister-in-law and a wonderful woman. But I wasn't there.
 
-If there's a financial dispute between Richard and Eleanor, that's a family matter. I'm not involved.
-
-I loved Eleanor. She was my sister-in-law and she was a wonderful woman. I hope you find out what happened to her. But I wasn't there.
-
-[Signed] Victor A. Hargrove
-[Date] 01/22/87
+[Signed] Victor A. Hargrove, 01/22/87
 
 ---
 
 **DET. CALLAHAN NOTE:**
 
-*Three problems with Victor's statement:*
+*Three problems:*
+*1. Brewer's log shows Victor's truck at the LAKE HOUSE at 3:45 PM on Jan 14. If Victor was at the lake house, he wasn't at the Heathman.*
+*2. Cascade Holdings explanation is paper-thin. $340K and no property to show for it.*
+*3. "Administrative placeholder" — that's Crane's language, not Victor's.*
 
-*1. He says he was in Portland the "evening of January 14." But Brewer's log shows Victor's silver Chevy at the LAKE HOUSE at 3:45 PM on January 14, and he left at 4:30 PM. The lake house is 40 minutes from Ashford, and Ashford is about 3 hours from Portland. If Victor was at the lake house at 3:45 PM, he was NOT at the Heathman Hotel when Richard allegedly called at 4 PM.*
-
-*2. His explanation for Cascade Holdings is paper-thin. A "land acquisition that fell through" — but $340,000 was transferred and there's no property to show for it. "Reinvested through other channels" — what channels? He doesn't say. And his lawyer (Crane — who also represents Richard) didn't let me follow up.*
-
-*3. "I was an administrative placeholder." That's lawyer language, not Victor language. Crane fed him that line.*
-
-*I need the hotel records. Checkout time specifically. And I need to verify his dinner with Drummond — what time did it start, what time did it end, and did Drummond actually see Victor AFTER dinner?*
-
-*— FC*
+*I need the hotel records. Checkout time specifically. — FC*
 
 ---
 
-## Evidence Item 2: Phone Records — Victor and Richard Hargrove
+## Evidence Item 2: Phone Records — Victor and Richard
 
-[PRODUCTION NOTES: Telephone company records — Pacific Bell format, dot-matrix printing on perforated paper. Highlighted entries show the calls between the brothers.]
+[PRODUCTION NOTES: Pacific Bell format, dot-matrix.]
 
 ---
 
 **PACIFIC BELL TELEPHONE**
-Toll Record Detail — Subpoena Response
+Toll Record Detail
 
-**Account Holder:** Hargrove Development Corporation
-**Service Address:** 12 Commerce Street, Ashford, OR
-**Phone Number:** (503) 555-0162
-**Period:** January 14, 1987
+**Hargrove Development Corp. — (503) 555-0162 — January 14, 1987:**
 
-| Time | Number Dialed | Duration | Location Called |
-|------|--------------|----------|----------------|
-| 9:07 AM | (503) 555-0188 | 3 min | Hargrove Gallery, Ashford |
-| 11:22 AM | (503) 555-4400 | 8 min | Douglas County Permits Office |
-| 4:12 PM | (503) 555-0291 | 14 min | Heathman Hotel, Portland (Room 412 — V. Hargrove) |
+| Time | Number | Duration | Destination |
+|------|--------|----------|-------------|
+| 9:07 AM | 555-0188 | 3 min | Hargrove Gallery |
+| 11:22 AM | 555-4400 | 8 min | County Permits |
+| 4:12 PM | 555-0291 | 14 min | Heathman Hotel, Rm 412 |
 
-*No further outgoing calls recorded after 4:12 PM.*
+**Heathman Hotel, Room 412 (V. Hargrove) — January 13-15:**
 
----
-
-**Account Holder:** Victor A. Hargrove (personal line)
-**Phone Number:** (503) 555-0341 (Portland apartment)
-**Period:** January 14, 1987
-
-*No calls recorded — line inactive (subscriber not at home address)*
+| Date | Time | Number | Duration | Destination |
+|------|------|--------|----------|-------------|
+| 01/13 | 8:15 PM | 555-0162 | 6 min | Hargrove Dev, Ashford |
+| 01/14 | 8:30 PM | 555-0162 | 4 min | Hargrove Dev, Ashford |
+| 01/14 | 11:55 PM | 555-0162 | 2 min | Hargrove Dev, Ashford |
 
 ---
 
-**Account Holder:** Heathman Hotel, Room 412 (V. Hargrove)
-**Phone Number:** Guest room extension
-**Period:** January 13-15, 1987
+**DET. CHEN ANNOTATION (2024):**
 
-| Date | Time | Number Dialed | Duration | Location Called |
-|------|------|--------------|----------|----------------|
-| 01/13 | 8:15 PM | (503) 555-0162 | 6 min | Hargrove Dev Corp, Ashford |
-| 01/14 | 8:30 PM | (503) 555-0162 | 4 min | Hargrove Dev Corp, Ashford |
-| 01/14 | 11:55 PM | (503) 555-0162 | 2 min | Hargrove Dev Corp, Ashford |
+*The 8:30 PM call from Victor to Richard's office — Victor didn't mention this. The 11:55 PM call — 2 minutes, possibly to voicemail. Richard claimed to be at his office until midnight, but his phone records show zero outgoing calls after 4:12 PM. Was the 11:55 call Victor confirming the plan to an empty office?*
 
----
+*Peter Drummond (2024): confirms dinner with Victor on Jan 14, but says they met at 7:00 PM (not when Victor implied), Victor arrived "late and flustered," and they parted at ~8:15 PM — not 9:00 PM.*
 
-**DET. SARAH CHEN — ANNOTATION (2024):**
+*The Heathman's records show Victor checked out at 2:00 PM on Jan 14. He checked back in at 6:45 PM. That's a round trip to Ashford.*
 
-*The phone records reveal three calls between Victor and Richard on January 14, 1987:*
-
-*1. 4:12 PM — Richard calls Victor at the Heathman Hotel from his office. 14 minutes. (Victor's statement confirms this call as "routine business.")*
-
-*2. 8:30 PM — Victor calls Richard's office from the Heathman Hotel. 4 minutes. (Victor did not mention this call in his statement.)*
-
-*3. 11:55 PM — Victor calls Richard's office from the Heathman Hotel. 2 minutes. (Victor did not mention this call either.)*
-
-*Critical observations:*
-
-*A. Richard told police he was at the office until midnight. The 11:55 PM call from Victor to the office WOULD support Richard's alibi — IF Richard answered it. But we don't know that. The call was placed to the office line and lasted 2 minutes. It could have gone to voicemail or an answering machine. Victor may have been calling to confirm the plan, not to speak with Richard.*
-
-*B. Victor said he was in his hotel room by 9:30 PM and "did not leave." But Brewer saw Victor's truck at the lake house at 3:45 PM that afternoon. The lake house is ~3.5 hours from Portland. If Victor was at the lake house at 3:45 and left at 4:30, the EARLIEST he could have been back in Portland is ~8:00 PM. His dinner with Drummond was supposedly over by 9 PM.*
-
-*C. We contacted Peter Drummond in 2024. He is now 74 and retired. He confirms having dinner with Victor Hargrove on January 14, 1987, but says they met at 7:00 PM, not at the time Victor implied. Drummond says Victor arrived "late and flustered" and seemed distracted throughout the meal. They parted at approximately 8:15 PM — not 9:00 PM as Victor stated.*
-
-*D. The Heathman Hotel's records confirm Victor checked in on January 13 at 4:00 PM and checked out on January 15 at... 10:00 AM? No. Correction: **Victor checked out at 2:00 PM on January 14.** He checked back in at 6:45 PM the same day.*
-
-*He checked out, drove to Ashford (arriving at the lake house by 3:45 PM), left the lake house at 4:30 PM, drove back to Portland (arriving ~8:00 PM), checked back into the hotel, had a quick dinner, and was back in his room by 9:30 PM.*
-
-*Victor lied about being in Portland all day. He made a round trip to Ashford on the day Eleanor disappeared. He was at the lake house — the probable murder scene — eight hours before Brewer heard the argument.*
-
-*What was he doing there?*
+*Victor lied about being in Portland all day. He was at the lake house eight hours before Brewer heard the argument.*
 
 *— SC*
 
 ---
 
-## Evidence Item 3: Heathman Hotel Records
+## Evidence Item 3: Heathman Hotel Guest Folio
 
-[PRODUCTION NOTES: Hotel folio — printed in the style of a 1987 hotel bill. The Heathman Hotel is a real Portland landmark; use a simplified version of their style.]
+[PRODUCTION NOTES: 1987 hotel bill format.]
 
 ---
 
 **THE HEATHMAN HOTEL**
-1001 SW Broadway, Portland, Oregon 97205
+1001 SW Broadway, Portland, OR 97205
 
-**GUEST FOLIO**
+**GUEST FOLIO — STAY 1**
+Guest: Victor A. Hargrove | Room: 412
+Check-in: Jan 13, 4:00 PM | Check-out: **Jan 14, 2:00 PM**
+Total: $129.38 | Payment: Cash
 
-**Guest:** Victor A. Hargrove
-**Room:** 412
-**Check-in:** January 13, 1987, 4:00 PM
-**Check-out:** January 14, 1987, 2:00 PM
-
-**Charges:**
-| Date | Description | Amount |
-|------|-------------|--------|
-| 01/13 | Room 412 — Standard King | $89.00 |
-| 01/13 | Room Service — Club Sandwich, Coffee | $14.50 |
-| 01/13 | Telephone — Long Distance (1 call) | $3.20 |
-| 01/14 | Breakfast — Hotel Restaurant | $12.00 |
-| | **SUBTOTAL** | **$118.70** |
-| | Tax (9%) | $10.68 |
-| | **TOTAL** | **$129.38** |
-
-**Payment:** Cash
-**Check-out:** 01/14/87, 2:00 PM
+**GUEST FOLIO — STAY 2**
+Check-in: **Jan 14, 6:45 PM** | Check-out: Jan 15, 10:00 AM
+Total: $103.33 | Payment: Cash
 
 ---
 
-**SECOND STAY:**
+**DET. CHEN NOTE:**
 
-**Check-in:** January 14, 1987, 6:45 PM
-**Check-out:** January 15, 1987, 10:00 AM
+*Victor paid cash both times — no credit card trail. The gap: checkout at 2:00 PM, re-check-in at 6:45 PM. That's 4 hours 45 minutes. Brewer saw Victor at the lake house at 3:45 PM — 1 hour 45 minutes after checkout. Victor must have been already en route when he checked out.*
 
-**Charges:**
-| Date | Description | Amount |
-|------|-------------|--------|
-| 01/14 | Room 412 — Standard King | $89.00 |
-| 01/14 | Telephone — Long Distance (2 calls) | $5.80 |
-| | **SUBTOTAL** | **$94.80** |
-| | Tax (9%) | $8.53 |
-| | **TOTAL** | **$103.33** |
+*He checked out, drove to Ashford (lake house by 3:45), left at 4:30, drove back, checked in at 6:45, had dinner with Drummond at 7:00. The timeline works — barely.*
 
-**Payment:** Cash
-**Check-out:** 01/15/87, 10:00 AM
-
----
-
-**DET. SARAH CHEN — NOTE:**
-
-*Victor paid cash both times. In 1987, this wouldn't have raised flags — many hotel guests paid cash. But it means there's no credit card trail. Victor was covering his tracks.*
-
-*The gap: Victor checked out at 2:00 PM on January 14. He checked back in at 6:45 PM. That's 4 hours and 45 minutes. Round trip to Ashford's lake house is approximately 7 hours of driving. But Brewer saw Victor at the lake house at 3:45 PM — that's 1 hour 45 minutes after checkout. Portland to the lake house is ~3.5 hours.*
-
-*The math doesn't work for driving from Portland. Victor must have already been en route when he checked out — or he went somewhere closer first and then to the lake house. OR — and I think this is most likely — Victor did not drive all the way back to Portland between the lake house visit and his hotel check-in. He may have driven to a location closer to Ashford, waited, and then returned to Portland in the late afternoon.*
-
-*Regardless: Victor was NOT in Portland all day as he claimed. He was at the lake house at 3:45 PM. He lied under oath in his 1987 statement.*
+*Victor was NOT in Portland all day. He lied.*
 
 *— SC*
 
 ---
 
-## Evidence Item 4: Construction Permit — Ashford Commons
+## Evidence Item 4: Construction Permit — Ashford Commons (CRITICAL CLUE)
 
-[PRODUCTION NOTES: THIS IS A CRITICAL CLUE. Official Douglas County construction permit. Government form, typewritten. The filing date — January 20, 1987, six days after Eleanor's disappearance — is the key detail. Print on official-looking government paper with county seal.]
+[PRODUCTION NOTES: Official Douglas County permit. Government paper with county seal.]
 
 ---
 
 **DOUGLAS COUNTY DEPARTMENT OF PLANNING AND BUILDING**
 Construction Permit Application
 
----
-
 **Permit Number:** 87-BLD-0042
 **Date Filed:** January 20, 1987
 **Date Approved:** January 23, 1987
 
----
+**Applicant:** Hargrove Development Corporation — Richard A. Hargrove, President
+**Project:** Ashford Commons
+**Site:** 1987 Millbrook Road, Ashford, OR 97201
+**Scope:** New construction — mixed-use. 12 residential units, 4 retail spaces. Three-story over concrete foundation. 42,200 sq. ft.
+**General Contractor:** Hargrove Development Corporation (self-performing)
 
-**APPLICANT INFORMATION:**
-
-Applicant: Hargrove Development Corporation
-Contact: Richard A. Hargrove, President
-Address: 12 Commerce Street, Ashford, OR 97201
-Phone: (503) 555-0162
-
-**PROJECT INFORMATION:**
-
-Project Name: Ashford Commons
-Site Address: 1987 Millbrook Road, Ashford, OR 97201
-Parcel Number: 27-05-33-410
-Lot Size: 2.3 acres
-Zoning: C-2 (Commercial Mixed Use)
-
-**SCOPE OF WORK:**
-
-New construction — mixed-use development. Twelve (12) residential units (second and third floors), four (4) ground-floor retail spaces. Three-story wood-frame construction over concrete foundation. Total building footprint: 18,400 sq. ft. Total gross area: 42,200 sq. ft.
-
-**CONSTRUCTION TIMELINE (proposed):**
-
-| Phase | Description | Start Date | End Date |
-|-------|-------------|-----------|---------|
+**Construction Timeline:**
+| Phase | Description | Start | End |
+|-------|-------------|-------|-----|
 | 1 | Site preparation & grading | Jan 25, 1987 | Feb 1, 1987 |
 | 2 | Foundation excavation | Feb 2, 1987 | Feb 8, 1987 |
 | 3 | Foundation pour | Feb 9, 1987 | Feb 15, 1987 |
 | 4 | Framing | Feb 16, 1987 | Apr 30, 1987 |
-| 5 | MEP rough-in | May 1, 1987 | Jun 30, 1987 |
-| 6 | Finishing & inspection | Jul 1, 1987 | Nov 30, 1987 |
-
-**Estimated Project Cost:** $1,200,000
-**General Contractor:** Hargrove Development Corporation (self-performing)
 
 ---
 
-**DET. SARAH CHEN — ANALYSIS (2024):**
+**DET. CHEN ANALYSIS:**
 
-*The timeline of this permit is extraordinary.*
+*January 14: Eleanor disappears.*
+*January 20: Richard files construction permits — SIX DAYS LATER.*
+*January 25: Site prep begins — ELEVEN DAYS after disappearance.*
+*February 9-15: Foundation poured — over Eleanor's remains.*
 
-*January 14, 1987: Eleanor Hargrove disappears.*
-*January 20, 1987: Richard Hargrove files construction permits for Ashford Commons — SIX DAYS LATER.*
-*January 25, 1987: Site preparation begins — ELEVEN DAYS after the disappearance.*
-*February 9-15, 1987: Foundation is poured.*
+*Self-performing contractor = no independent oversight. No one outside Hargrove Development controlled the construction site.*
 
-*Richard Hargrove filed for a construction permit less than a week after his wife vanished. The project was self-performed — meaning Hargrove Development controlled its own construction site, with no independent general contractor to supervise or question unusual activity. Site preparation began on January 25, five days after the permit was filed.*
+*Eleanor is under that building. The foundation was poured while the town mourned. By February 15, she was sealed beneath concrete. The case was closed on February 2 — before the pour was even complete.*
 
-*According to Thomas Brewer's statement, Richard removed "a box" from the lake house on January 16. What if what was buried at the lake house initially was moved to the Ashford Commons site before the foundation was poured?*
-
-*Actually — re-examining the evidence — I believe Eleanor was buried at the Ashford Commons site from the beginning. The timeline works: she was killed at the lake house around 1:15 AM on January 15. Richard and Victor had the rest of the night — and the following days — to transport her body. The Ashford Commons site was an undeveloped parcel on the east side of town. In January, at night, it would have been deserted. A pre-dug trench on a construction site attracts no attention.*
-
-*The construction permit had been "in planning for several months" according to a company spokesperson (Daily Herald, January 22). If Richard had been planning both the development AND the disposal location, the site would have been prepared in advance.*
-
-*The foundation pour — the permanent entombing of Eleanor's remains under concrete — happened between February 9 and 15. By the time the case was officially closed on February 2, the foundation work was already scheduled. By February 15, Eleanor was sealed beneath the building forever.*
-
-*Or so Richard thought. Thirty-seven years later, the building came down.*
+*Thirty-seven years later, the building came down. And Eleanor came out.*
 
 *— SC*
 
 ---
 
-## Evidence Item 5: Detective Callahan's Notes — Putting It Together
+## Evidence Item 5: Ashford Commons Site Plan
 
-[PRODUCTION NOTES: Yellow legal pad. These are the final notes Callahan wrote before the case was closed. They read like a man building a case he'll never get to prosecute.]
+[PRODUCTION NOTES: A blueprint-style site plan showing the building footprint, foundation layout, and the location where remains were found (marked in 2024). Include compass directions and scale.]
+
+---
+
+**ASHFORD COMMONS — SITE PLAN**
+1987 Millbrook Road, Ashford, OR
+Hargrove Development Corporation
+Scale: 1" = 20'
+
+[DESCRIPTION FOR PRODUCTION:]
+- Rectangular building footprint (roughly 90 x 200 feet)
+- Oriented north-south on a 2.3-acre parcel
+- Loading dock on east side
+- Parking lot on west side
+- Foundation outline with sections marked
+- **2024 ANNOTATION (red ink):** Circle in east corner, near loading dock, labeled "REMAINS FOUND HERE — 3.5 ft below foundation surface"
+- Note: "Pre-dug trench for retaining wall test — existed before Jan 14, 1987"
+
+---
+
+## Evidence Item 6: Detective Callahan's Notes — Putting It Together
+
+[PRODUCTION NOTES: Yellow legal pad. Final comprehensive theory.]
 
 ---
 
@@ -291,31 +201,29 @@ New construction — mixed-use development. Twelve (12) residential units (secon
 **Case #87-0114 — Hargrove**
 **January 23, 1987**
 
-I'm running out of days, so I'm going to put it all down. Everything I think happened, based on everything I've seen. Maybe someday someone will read this and finish what I couldn't.
+I'm running out of days. Here's everything.
 
 **THE THEORY:**
 
-Richard Hargrove was embezzling from his joint accounts. His brother Victor ran the shell company. Eleanor found out. She was building evidence and preparing to go to a lawyer.
+Richard embezzled $340K through Cascade Holdings. Eleanor found out. She was gathering evidence and planning to go to a lawyer.
 
-Richard discovered that Eleanor knew. On January 14, he coordinated with Victor — phone call at 4:12 PM. Victor drove to the lake house to prepare. Richard left his office sometime after the phone call (no more calls from the office line, meaning he wasn't there).
+Richard discovered she knew. Jan 14: he called Victor at 4:12 PM. Victor drove to the lake house. Richard left his office (no calls after 4:12).
 
-Eleanor attended the play, went to the tavern, came back for her coat. Richard intercepted her in the parking lot. Convinced her to go to the lake house to "talk." Victor was waiting.
+Eleanor attended the play, went to the tavern, came back for her coat. Richard intercepted her in the parking lot. Took her to the lake house. Victor was waiting.
 
-Between 12:45 and 1:15 AM, Eleanor was killed at the lake house. Brewer heard the tail end of it.
+Between 12:45 and 1:15 AM, Eleanor was killed. Brewer heard it.
 
-Richard staged the suicide. Took Eleanor's everyday navy coat from their home and placed it on Morrison Creek Bridge. Drove Eleanor's Volvo back to the theatre lot. Walked home.
+Richard staged the suicide. Navy coat from home on the bridge. Volvo to the theatre. Walked home.
 
-The navy coat was a mistake. Eleanor was wearing her camel coat that night. Someone who knew Eleanor's wardrobe — but didn't know what she'd worn to the theatre — grabbed the wrong coat. The everyday coat. The one everyone associated with her.
+The navy coat was a mistake. Eleanor wore her camel coat that night. Richard grabbed the wrong one.
 
-Within six days, Richard filed permits for Ashford Commons. The foundation was poured within a month. Eleanor is under that building. I'd bet my pension on it.
+Within six days, he filed permits for Ashford Commons. The foundation was poured within a month. Eleanor is under that building.
 
 **WHAT I CAN'T PROVE:**
 
-All of it. I can prove the embezzlement happened. I can prove Victor lied about his whereabouts. I can prove Richard's phone alibi doesn't hold up. I can prove the coat on the bridge doesn't match what Eleanor wore that night.
+All of it. Without a body, I can't prove murder. And without murder, the chief won't let me prove anything else.
 
-But without a body, I can't prove murder. And without murder, the chief won't let me prove anything else.
-
-So I'm putting these notes in a box, and I'm putting the box in my garage, and I'm going to carry this case with me until I die or until someone reopens it.
+So I'm putting these notes in a box. Maybe someday they'll matter.
 
 Eleanor Hargrove was murdered by her husband and his brother. They buried her under a building. They got away with it.
 
@@ -325,10 +233,142 @@ Not forever. Please God, not forever.
 
 ---
 
+## Evidence Item 7: Peter Drummond's 2024 Statement
+
+[PRODUCTION NOTES: Modern statement from the business associate who had dinner with Victor. Brief, confirming the timeline discrepancies.]
+
+---
+
+**ASHFORD POLICE DEPARTMENT**
+Witness Statement (Telephone Interview)
+
+**Case Number:** 24-0301
+**Date:** March 10, 2024
+**Witness:** Peter Drummond, age 74, retired (formerly Pacific Realty Partners)
+
+---
+
+**STATEMENT:**
+
+Yes, I remember having dinner with Victor Hargrove on January 14, 1987. We met at Jake's Famous Crawfish on SW Stark. I recall it because of what happened the next day — his sister-in-law going missing.
+
+Victor was late. We had agreed on 6:30 but he didn't arrive until close to 7:00. He seemed flustered — out of breath, like he'd been rushing. He apologized and said something about "traffic from the coast." I thought that was odd because it was a Tuesday evening and traffic wouldn't have been bad.
+
+We ate quickly. He wasn't himself — distracted, checking his watch. We talked about a property in the Pearl District, but his heart wasn't in it. We parted around 8:15. Not 9:00 — I'm certain of that because I got home in time for the 8:30 news.
+
+When I heard about Eleanor, I called Victor. He didn't answer for three days. When he finally called back, he sounded terrible. I asked if there was anything I could do. He said no. He said, "Some things can't be undone."
+
+I thought he was talking about Eleanor's death. Now I realize he was talking about something else entirely.
+
+---
+
+## Evidence Item 8: Heathman Hotel Guest Registry Excerpt (Case #2 Connection)
+
+[PRODUCTION NOTES: A page from the Heathman Hotel guest registry for January 14, 1987. Shows Victor in Room 412. The Easter egg: Room 414 shows "M. Webb" — Marcus Webb from Case #2.]
+
+---
+
+**THE HEATHMAN HOTEL — Guest Registry**
+January 14, 1987 (Partial)
+
+| Room | Guest | Check-in | Check-out | Notes |
+|------|-------|----------|-----------|-------|
+| 410 | Johnson, T. & L. | 01/13 | 01/16 | Anniversary weekend |
+| 411 | Vacant | — | — | — |
+| 412 | Hargrove, V. | 01/14 6:45 PM | 01/15 10:00 AM | Return guest. Cash. |
+| 413 | Okafor, B. | 01/14 | 01/15 | Business |
+| 414 | Webb, M. | 01/12 | 01/16 | Extended stay. Portland meetings. |
+| 415 | Chen, L. | — | — | Reservation canceled 01/13 |
+
+---
+
+**DET. CHEN NOTE:**
+*Room 415 — a canceled reservation under "L. Chen." Lillian Chen? She mentioned nothing about a Portland hotel stay. Checked with Lillian — she had planned to visit Portland on Jan 14-15 for a gallery supply run but canceled when Eleanor called her on the 13th sounding frightened. "I stayed in Ashford in case she needed me." Another detail that didn't matter — until it did.*
+
+*— SC*
+
+---
+
+## Evidence Item 9: Hargrove Family Trust Excerpt (Will/Trust Document)
+
+[PRODUCTION NOTES: A legal document — excerpt from the Hargrove Family Trust, showing Richard and Victor as co-beneficiaries. Establishes their financial interdependence.]
+
+---
+
+**HARGROVE FAMILY TRUST**
+Established by Arthur W. Hargrove and Catherine Hargrove, 1968
+Amended 1975
+
+**Article IV — Beneficiaries and Distribution**
+
+*Section 4.1:* Upon the death of both Grantors, the Trust corpus shall be distributed equally between:
+(a) Richard Arthur Hargrove (50%)
+(b) Victor Anthony Hargrove (50%)
+
+*Section 4.2:* Each beneficiary shall receive his distribution in quarterly installments until the Trust corpus is fully distributed, estimated at a period of fifteen (15) years.
+
+*Section 4.3:* In the event either beneficiary is convicted of a felony, his share shall be held in trust for his lawful descendants. If no descendants exist, the share shall revert to the remaining beneficiary.
+
+---
+
+**DET. CHEN NOTE:**
+
+*Section 4.3 is critical. If either brother was convicted of a felony, his trust share reverted to the other. Richard's arrest and conviction for Eleanor's murder means his 50% share of the family trust — estimated at approximately $2.1 million in current value — would revert to Victor's descendants (his daughter Sarah and her children).*
+
+*The irony: Victor's confession, which enabled Richard's arrest, also triggered the trust provision that benefits Victor's family. Whether Victor intended this or not, his final act of conscience also secured his daughter's financial future.*
+
+*— SC*
+
+---
+
+## Evidence Item 10: Callahan's Complete Theory Reconstruction
+
+[PRODUCTION NOTES: Yellow legal pad. Callahan's definitive narrative — written for a future audience.]
+
+---
+
+**Personal Case Notes — Det. F. Callahan**
+**Case #87-0114 — Hargrove**
+**January 28, 1987**
+
+This is my last entry before they close the case. I'm writing for whoever reads this next. Maybe it's another detective. Maybe it's a journalist. Maybe it's Ruth Addams, God bless her. Maybe it's nobody.
+
+Here is what happened to Eleanor Hargrove:
+
+1. Richard Hargrove embezzled $340,000 from his wife's accounts to cover a failed development project. His brother Victor ran the shell company.
+
+2. Eleanor discovered the embezzlement in December 1986. She told Lillian Chen. She started gathering evidence. She opened a safe deposit box. She kept a coded diary.
+
+3. Richard found out Eleanor knew. On January 14, 1987, he and Victor coordinated by phone at 4:12 PM.
+
+4. That evening, Eleanor attended a play and then went to a bar to meet her lover, who never showed. She returned to the theatre at 11:42 PM for her coat. Richard intercepted her in the parking lot.
+
+5. He took her to the family lake house. Victor was waiting. Between 12:45 and 1:15 AM, Eleanor was killed. The groundskeeper heard the argument.
+
+6. They buried her at a construction site Richard controlled. He filed permits six days later. The foundation was poured within a month.
+
+7. Richard planted Eleanor's everyday navy coat on Morrison Creek Bridge to stage a suicide. He didn't know she'd worn a different coat to the theatre. The bartender at The Stagecoach noticed. I noticed. Nobody else cared.
+
+8. The case was closed as suicide after 19 days. The medical examiner objected. The responding officer objected. I objected. We were all overruled.
+
+That's the story. I can't prove it. Not without a body, and the body is under a building that won't come down in my lifetime.
+
+But this box of notes will outlive me. And someday, if there's any justice in the world, someone will open it.
+
+To whoever you are: the evidence is here. The coat is the key. Find the coat check record — Patricia Yoon's notebook — and you can prove the suicide was staged. Find the body under Ashford Commons and you can prove it was murder. Everything else falls into place from there.
+
+Don't let them get away with it. I couldn't stop them. You can.
+
+— Frank Callahan
+January 28, 1987
+
+---
+
 [PRODUCTION NOTES FOR FULL PACKET ASSEMBLY:
-- Include all 5 items in evidence envelope
-- The construction permit is the bombshell — print on official government-weight paper
-- Hotel records should look like a genuine hotel bill
-- Phone records should be on perforated computer paper
-- Insert card: "Packet 10 of 12 — Six days. He filed construction permits six days after she disappeared. Think about that."
-- Consider including a small site plan sketch of Ashford Commons as a loose artifact — showing the building footprint and foundation layout]
+- Include all 10 items in evidence envelope
+- Construction permit is the bombshell — print on government-weight paper
+- Hotel records and phone records should look like genuine 1987 documents
+- Callahan's theory reconstruction is his last testament — give it weight
+- The guest registry contains the Case #2 Easter egg ("M. Webb" in Room 414)
+- The trust document adds legal dimension — felony conviction triggers redistribution
+- Insert card: "Packet 10 of 12 — Six days. He filed construction permits six days after she disappeared. Think about that."]
