@@ -11,9 +11,9 @@ const CONFIG = {
   stripePublishableKey: 'pk_live_51QWkuFBqMJOjhNMU5SgPClhsfBa7E8WlVGAxcnvqNoLwI0ZVbW6LGVyNPnJvyRd64x8tlqWd4rRpMk2e6OFBMvGj00WycD7AUY',
 
   // Fallback: Payment Links (used if embedded checkout fails)
-  stripeMonthly: 'https://buy.stripe.com/bJefZhgEg6ep8J5790eME00',
-  stripePrepaid: 'https://buy.stripe.com/6oU6oHafSbyJ0cz8d4eME01',
-  stripeGift:    'https://buy.stripe.com/bJe8wPew86epe3p790eME02',
+  stripeMonthly: 'https://buy.stripe.com/5kQbJ1afS1Y96AX50SeME03',
+  stripePrepaid: 'https://buy.stripe.com/00wbJ173G8mx5wTgJAeME04',
+  stripeGift:    'https://buy.stripe.com/7sY9AT0FibyJ8J50KCeME05',
 
   // Self-hosted email collection API (Vercel serverless function)
   emailEndpoint: '/api/subscribe',
