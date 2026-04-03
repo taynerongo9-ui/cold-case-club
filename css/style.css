@@ -1667,10 +1667,53 @@ h3 { font-size: 1.3rem; }
 @media (max-width: 900px) {
   .blog-grid { grid-template-columns: 1fr; }
   .about-values { grid-template-columns: 1fr; }
+
+  /* Cases page mobile */
   .case-card { padding: 2rem 1.5rem; }
   .case-card-grid,
   .case-card-grid-reverse { grid-template-columns: 1fr; }
   .case-details { grid-template-columns: 1fr; }
   .case-card-actions { flex-direction: column; }
   .case-card-actions .btn { width: 100%; }
+  .case-card-badge { left: 1.5rem; }
+  .case-meta-row { gap: .4rem; }
+
+  /* Comparison tables — horizontal scroll on mobile */
+  .comparison-table { font-size: .8rem; }
+  .comparison-table th,
+  .comparison-table td { padding: .6rem .7rem; white-space: nowrap; }
+
+  /* Animations — reduce intensity on mobile */
+  .shimmer-gold { animation: none; background: none; -webkit-text-fill-color: var(--gold); }
+  .grain-overlay { display: none; }
+  .scroll-progress { height: 1.5px; }
+
+  /* Touch targets — minimum 44px */
+  .btn { min-height: 44px; }
+  .faq-question { min-height: 48px; }
+  .nav-toggle { min-width: 44px; min-height: 44px; }
+
+  /* Blog card border trace — disable on mobile (no hover) */
+  .blog-card::before { display: none; }
+
+  /* Nav link underlines — disable on mobile (no hover) */
+  .nav-links a:not(.btn)::after { display: none; }
+}
+
+@media (max-width: 600px) {
+  /* Case cards extra small */
+  .case-card { padding: 1.5rem 1rem; margin-bottom: 2rem; }
+  .case-card-stack .evidence-card { padding: 1.2rem; }
+  .case-card-stack .evidence-card-text { font-size: .7rem; }
+  .case-meta-tag { font-size: .55rem; padding: .2rem .5rem; }
+
+  /* Section labels */
+  .section-label { font-size: .65rem; padding: .25rem .7rem; }
+
+  /* Blog hero tighter on mobile */
+  .blog-hero { padding: 6rem 0 2rem; }
+  .blog-hero h1 { font-size: 1.6rem; }
+
+  /* Footer links wrap */
+  .footer-links { flex-wrap: wrap; gap: 1rem; }
 }

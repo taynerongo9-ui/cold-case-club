@@ -143,8 +143,22 @@
       column-count: 2;
       column-gap: 2rem;
     }
+    @media (max-width: 900px) {
+      .evidence-piece { padding: 1.5rem 1.2rem; }
+      .evidence-piece h3 { font-size: 1.1rem; }
+      .evidence-body { font-size: .82rem; }
+      .newspaper-headline { font-size: 1.2rem; }
+      .newspaper-title { font-size: 1.3rem; }
+      .coded-message { font-size: .9rem; letter-spacing: .15em; padding: 1.2rem; }
+      .evidence-count { gap: 1.2rem; flex-wrap: wrap; }
+      .sample-cta { padding: 2rem 1.5rem; }
+    }
     @media (max-width: 600px) {
       .newspaper-body { column-count: 1; }
+      .coded-message { font-size: .8rem; letter-spacing: .1em; padding: 1rem; }
+      .evidence-piece-header { flex-direction: column; align-items: flex-start; gap: .3rem; }
+      .newspaper-headline { font-size: 1rem; }
+      .newspaper-title { font-size: 1.1rem; letter-spacing: .05em; }
     }
     .coded-message {
       background: var(--bg);
